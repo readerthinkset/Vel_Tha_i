@@ -766,6 +766,42 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
     img = create_impressive_background(category_english)
     draw = ImageDraw.Draw(img)
 
+    NOTO_THAI_FONT_URL = "https://github.com/google/fonts/raw/main/ofl/notosansthai/NotoSansThai%5Bwdth%2Cwght%5D.ttf"
+    FONTS_DIR = BASE_DIR / "fonts"
+
+    def ensure_thai_font():
+        """Use local NotoSansThai font if available, otherwise download"""
+        font_file = FONTS_DIR / "NotoSansThai-Bold.ttf"
+        if font_file.exists():
+            print(f"[font] Using local: {font_file}")
+            return str(font_file)
+        
+        font_file_var = FONTS_DIR / "NotoSansThai[wdth,wght].ttf"
+        if font_file_var.exists():
+            print(f"[font] Using local variable font: {font_file_var}")
+            return str(font_file_var)
+        
+        FONTS_DIR.mkdir(exist_ok=True)
+        
+        try:
+            import urllib.request
+            print("[font] Downloading NotoSansThai font...")
+            urllib.request.urlretrieve(NOTO_THAI_FONT_URL, str(font_file))
+            print(f"[font] Downloaded: {font_file}")
+            return str(font_file)
+        except Exception as e:
+            print(f"[font] Download failed: {e}")
+            alt_url = "https://raw.githubusercontent.com/notofonts/noto-fonts/main/hinted/ttf/NotoSansThai/NotoSansThai-Bold.ttf"
+            try:
+                urllib.request.urlretrieve(alt_url, str(font_file))
+                print(f"[font] Downloaded from alternate: {font_file}")
+                return str(font_file)
+            except Exception as e2:
+                print(f"[font] Alternate download also failed: {e2}")
+                return None
+
+    downloaded_font = ensure_thai_font()
+
     # โหลดฟอนต์ภาษาอังกฤษ
     english_font_paths = [
         "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
@@ -785,6 +821,9 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
         "C:/Windows/Fonts/angsana.ttc",
         "C:/Windows/Fonts/cordia.ttc",
     ]
+
+    if downloaded_font:
+        thai_font_paths.insert(0, downloaded_font)
 
     def load_font(font_paths, size):
         for font_path in font_paths:
