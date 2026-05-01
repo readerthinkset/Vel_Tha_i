@@ -279,7 +279,42 @@
       "transliteration": "Sawatdee peuan, pen ngai bang?",
       "category": "Greetings",
       "generated_at": "2026-05-01T16:42:13.072720"
+    },
+    {
+      "english": "Tomorrow, will be better.",
+      "thai": "พรุ่งนี้, จะดีกว่าเดิม.",
+      "transliteration": "Prung nee, ja dee gwa derm.",
+      "category": "Hope",
+      "generated_at": "2026-05-01T20:14:03.018152"
+    },
+    {
+      "english": "Keep going, don't stop.",
+      "thai": "สู้ต่อนะ, อย่าหยุด.",
+      "transliteration": "Soo dton na, ya yoot.",
+      "category": "Hope",
+      "generated_at": "2026-05-01T20:14:03.018163"
+    },
+    {
+      "english": "Believe in yourself, always.",
+      "thai": "เชื่อมั่นในตัวเอง, เสมอ.",
+      "transliteration": "Cheua man nai dtua eng, samer.",
+      "category": "Hope",
+      "generated_at": "2026-05-01T20:14:03.018165"
+    },
+    {
+      "english": "A new day, new chances.",
+      "thai": "วันใหม่, โอกาสใหม่.",
+      "transliteration": "Wan mai, oh-gaht mai.",
+      "category": "Hope",
+      "generated_at": "2026-05-01T20:14:03.018166"
+    },
+    {
+      "english": "Stay strong, my friend.",
+      "thai": "เข้มแข็งไว้นะ, เพื่อน.",
+      "transliteration": "Khem khaeng wai na, peuan.",
+      "category": "Hope",
+      "generated_at": "2026-05-01T20:14:03.018168"
     }
   ],
-  "last_updated": "2026-05-01T16:42:13.072722"
+  "last_updated": "2026-05-01T20:14:03.018169"
 }
