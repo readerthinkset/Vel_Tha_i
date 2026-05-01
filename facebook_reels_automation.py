@@ -46,12 +46,14 @@ def ensure_thai_font():
     if font_file.exists() and font_file.stat().st_size > 100000:
         print(f"[font] Using local: {font_file} ({font_file.stat().st_size/1024:.1f} KB)")
         return str(font_file)
+    # Corrupted font detected or missing - download proper one
     FONTS_DIR.mkdir(exist_ok=True)
     try:
         import urllib.request
-        print("[font] Downloading NotoSansThai font...")
+        print("[font] Downloading NotoSansThai font from Google Fonts...")
         urllib.request.urlretrieve(NOTO_THAI_FONT_URL, str(font_file))
-        print(f"[font] Downloaded: {font_file}")
+        size = font_file.stat().st_size
+        print(f"[font] ✓ Downloaded: {font_file} ({size/1024:.1f} KB)")
         return str(font_file)
     except Exception as e:
         print(f"[font] Download failed: {e}")
@@ -70,7 +72,7 @@ def _find_thai_font_file():
         "C:/Windows/Fonts/tahoma.ttf",
     ]
     for path in candidates:
-        if Path(path).exists() and Path(path).stat().st_size > 30000:
+        if Path(path).exists() and Path(path).stat().st_size > 100000:
             return path
     for search_dir in ["/usr/share/fonts", "/usr/local/share/fonts", "C:/Windows/Fonts"]:
         if not Path(search_dir).exists():
@@ -80,7 +82,7 @@ def _find_thai_font_file():
                 fl = fname.lower()
                 if any(t in fl for t in ["notosansthai", "garuda", "tahoma", "angsana", "cordia"]):
                     fpath = str(Path(root) / fname)
-                    if Path(fpath).stat().st_size > 30000:
+                    if Path(fpath).stat().st_size > 100000:
                         return fpath
     return None
 
@@ -919,8 +921,9 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
     img = create_impressive_background(category_english)
     draw = ImageDraw.Draw(img)
 
-    if not _find_thai_font_file():
-        ensure_thai_font()
+    downloaded = ensure_thai_font()
+    if not downloaded:
+        print("[font] Local font missing, will search system fonts...")
 
     english_font_paths = [
         "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
