@@ -69,7 +69,42 @@
       "transliteration": "Pen chuang wayla tee mee kwam suk.",
       "category": "Happiness",
       "generated_at": "2026-05-01T05:39:59.936467"
+    },
+    {
+      "english": "Speak slowly, I'm learning.",
+      "thai": "พูดช้าๆ, ฉันกำลังเรียน.",
+      "transliteration": "Poot chaa chaa, chan gamlang rian.",
+      "category": "Confidence",
+      "generated_at": "2026-05-01T05:56:19.838955"
+    },
+    {
+      "english": "This is a good start.",
+      "thai": "นี่คือจุดเริ่มต้นที่ดี.",
+      "transliteration": "Nee keu joot rerm ton tee dee.",
+      "category": "Confidence",
+      "generated_at": "2026-05-01T05:56:19.838964"
+    },
+    {
+      "english": "I can do this, yes.",
+      "thai": "ฉันทำได้, ใช่.",
+      "transliteration": "Chan tam dai, chai.",
+      "category": "Confidence",
+      "generated_at": "2026-05-01T05:56:19.838965"
+    },
+    {
+      "english": "Every little bit helps.",
+      "thai": "ทุกอย่างเล็กๆ น้อยๆ ช่วยได้.",
+      "transliteration": "Took yaang lek lek noy noy chuay dai.",
+      "category": "Confidence",
+      "generated_at": "2026-05-01T05:56:19.838967"
+    },
+    {
+      "english": "Keep practicing, you will.",
+      "thai": "ฝึกฝนต่อไป, คุณจะทำได้.",
+      "transliteration": "Feuk fon dtor bpai, khun ja tam dai.",
+      "category": "Confidence",
+      "generated_at": "2026-05-01T05:56:19.838968"
     }
   ],
-  "last_updated": "2026-05-01T05:39:59.936469"
+  "last_updated": "2026-05-01T05:56:19.838969"
 }
