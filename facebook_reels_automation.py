@@ -37,6 +37,159 @@ HISTORY_DIR = OUTPUT_DIR / "history"
 for d in [OUTPUT_DIR, IMAGES_DIR, AUDIO_DIR, VIDEO_DIR, HISTORY_DIR]:
     d.mkdir(exist_ok=True)
 
+FONTS_DIR = BASE_DIR / "fonts"
+NOTO_THAI_FONT_URL = "https://github.com/google/fonts/raw/main/ofl/notosansthai/NotoSansThai%5Bwdth%2Cwght%5D.ttf"
+
+
+def ensure_thai_font():
+    font_file = FONTS_DIR / "NotoSansThai-Bold.ttf"
+    if font_file.exists() and font_file.stat().st_size > 100000:
+        print(f"[font] Using local: {font_file} ({font_file.stat().st_size/1024:.1f} KB)")
+        return str(font_file)
+    FONTS_DIR.mkdir(exist_ok=True)
+    try:
+        import urllib.request
+        print("[font] Downloading NotoSansThai font...")
+        urllib.request.urlretrieve(NOTO_THAI_FONT_URL, str(font_file))
+        print(f"[font] Downloaded: {font_file}")
+        return str(font_file)
+    except Exception as e:
+        print(f"[font] Download failed: {e}")
+    return None
+
+
+def _find_thai_font_file():
+    candidates = [
+        str(FONTS_DIR / "NotoSansThai-Bold.ttf"),
+        str(FONTS_DIR / "NotoSansThai-Regular.ttf"),
+        "/usr/share/fonts/truetype/noto/NotoSansThai-Bold.ttf",
+        "/usr/share/fonts/opentype/noto/NotoSansThai-Bold.ttf",
+        "/usr/share/fonts/truetype/noto/NotoSansThai-Regular.ttf",
+        "/usr/share/fonts/truetype/thai/Garuda-Bold.ttf",
+        "/usr/share/fonts/truetype/thai/Garuda.ttf",
+        "C:/Windows/Fonts/tahoma.ttf",
+    ]
+    for path in candidates:
+        if Path(path).exists() and Path(path).stat().st_size > 30000:
+            return path
+    for search_dir in ["/usr/share/fonts", "/usr/local/share/fonts", "C:/Windows/Fonts"]:
+        if not Path(search_dir).exists():
+            continue
+        for root, dirs, files in os.walk(search_dir):
+            for fname in files:
+                fl = fname.lower()
+                if any(t in fl for t in ["notosansthai", "garuda", "tahoma", "angsana", "cordia"]):
+                    fpath = str(Path(root) / fname)
+                    if Path(fpath).stat().st_size > 30000:
+                        return fpath
+    return None
+
+
+def _render_text_harfbuzz(text, font_path, font_size, fill_color, stroke_color=None, stroke_width=0):
+    import uharfbuzz as hb
+    import freetype as ft
+    from PIL import Image, ImageDraw, ImageChops
+
+    blob = hb.Blob.from_file_path(font_path)
+    hb_face = hb.Face(blob)
+    hb_font = hb.Font(hb_face)
+    hb_font.scale = (font_size * 64, font_size * 64)
+
+    buffer = hb.Buffer()
+    buffer.add_str(text)
+    buffer.guess_segment_properties()
+    hb.shape(hb_font, buffer)
+
+    infos = buffer.glyph_infos
+    positions = buffer.glyph_positions
+
+    ft_face = ft.Face(font_path)
+    ft_face.set_char_size(font_size * 64)
+
+    min_x = float('inf')
+    min_y = float('inf')
+    max_x = float('-inf')
+    max_y = float('-inf')
+
+    x_cursor = 0.0
+    y_cursor = 0.0
+    glyph_metrics = []
+
+    for info, pos in zip(infos, positions):
+        ft_face.load_glyph(info.codepoint)
+        bitmap = ft_face.glyph.bitmap
+        bitmap_left = ft_face.glyph.bitmap_left
+        bitmap_top = ft_face.glyph.bitmap_top
+        x_off = pos.x_offset / 64.0
+        y_off = pos.y_offset / 64.0
+        x_adv = pos.x_advance / 64.0
+
+        px = x_cursor + x_off + bitmap_left
+        py = y_cursor + y_off - bitmap_top
+
+        if bitmap.width > 0 and bitmap.rows > 0:
+            min_x = min(min_x, px - stroke_width)
+            min_y = min(min_y, py - stroke_width)
+            max_x = max(max_x, px + bitmap.width + stroke_width)
+            max_y = max(max_y, py + bitmap.rows + stroke_width)
+
+        glyph_metrics.append({
+            'codepoint': info.codepoint,
+            'x': px, 'y': py,
+            'width': bitmap.width, 'height': bitmap.rows,
+            'x_advance': x_adv,
+        })
+        x_cursor += x_adv
+
+    if min_x == float('inf'):
+        total_width = max(x_cursor, 50)
+        total_height = int(font_size * 1.5)
+        min_x = 0
+        min_y = 0
+    else:
+        total_width = max(max_x - min_x + stroke_width * 2, x_cursor + stroke_width * 2)
+        total_height = max_y - min_y + stroke_width * 2
+
+    total_width = int(total_width) + stroke_width * 2 + 4
+    total_height = int(total_height) + stroke_width * 2 + 4
+
+    img = Image.new('RGBA', (total_width, total_height), (0, 0, 0, 0))
+
+    def _draw_glyphs(target_img, color):
+        for gm in glyph_metrics:
+            ft_face.load_glyph(gm['codepoint'])
+            bitmap = ft_face.glyph.bitmap
+            if bitmap.width > 0 and bitmap.rows > 0:
+                glyph_img = Image.frombytes('L', (bitmap.width, bitmap.rows), bytes(bitmap.buffer))
+                paste_x = int(gm['x'] - min_x + stroke_width)
+                paste_y = int(gm['y'] - min_y + stroke_width)
+                if color[-1] == 255:
+                    colored_glyph = Image.new('RGBA', glyph_img.size, color)
+                    colored_glyph.putalpha(glyph_img)
+                    target_img.paste(colored_glyph, (paste_x, paste_y), glyph_img)
+                else:
+                    blended = Image.new('RGBA', glyph_img.size, color)
+                    mask = glyph_img.point(lambda p: min(255, int(p * color[-1] / 255)))
+                    blended.putalpha(mask)
+                    target_img.paste(blended, (paste_x, paste_y), blended)
+
+    if stroke_width > 0 and stroke_color:
+        stroke_img = Image.new('RGBA', (total_width, total_height), (0, 0, 0, 0))
+        for dx in range(-stroke_width, stroke_width + 1):
+            for dy in range(-stroke_width, stroke_width + 1):
+                if dx * dx + dy * dy <= stroke_width * stroke_width + 1:
+                    shifted = Image.new('RGBA', (total_width, total_height), (0, 0, 0, 0))
+                    _draw_glyphs(shifted, stroke_color)
+                    stroke_img = Image.alpha_composite(stroke_img, ImageChops.offset(shifted, dx, dy))
+        img = Image.alpha_composite(img, stroke_img)
+
+    fill_img = Image.new('RGBA', (total_width, total_height), (0, 0, 0, 0))
+    _draw_glyphs(fill_img, fill_color)
+    img = Image.alpha_composite(img, fill_img)
+
+    return img, int(x_cursor)
+
+
 VIDEO_WIDTH = 1080
 VIDEO_HEIGHT = 1920
 FPS = 30
@@ -766,43 +919,9 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
     img = create_impressive_background(category_english)
     draw = ImageDraw.Draw(img)
 
-    NOTO_THAI_FONT_URL = "https://github.com/google/fonts/raw/main/ofl/notosansthai/NotoSansThai%5Bwdth%2Cwght%5D.ttf"
-    FONTS_DIR = BASE_DIR / "fonts"
+    if not _find_thai_font_file():
+        ensure_thai_font()
 
-    def ensure_thai_font():
-        """Use local NotoSansThai font if available, otherwise download"""
-        font_file = FONTS_DIR / "NotoSansThai-Bold.ttf"
-        if font_file.exists():
-            print(f"[font] Using local: {font_file}")
-            return str(font_file)
-        
-        font_file_var = FONTS_DIR / "NotoSansThai[wdth,wght].ttf"
-        if font_file_var.exists():
-            print(f"[font] Using local variable font: {font_file_var}")
-            return str(font_file_var)
-        
-        FONTS_DIR.mkdir(exist_ok=True)
-        
-        try:
-            import urllib.request
-            print("[font] Downloading NotoSansThai font...")
-            urllib.request.urlretrieve(NOTO_THAI_FONT_URL, str(font_file))
-            print(f"[font] Downloaded: {font_file}")
-            return str(font_file)
-        except Exception as e:
-            print(f"[font] Download failed: {e}")
-            alt_url = "https://raw.githubusercontent.com/notofonts/noto-fonts/main/hinted/ttf/NotoSansThai/NotoSansThai-Bold.ttf"
-            try:
-                urllib.request.urlretrieve(alt_url, str(font_file))
-                print(f"[font] Downloaded from alternate: {font_file}")
-                return str(font_file)
-            except Exception as e2:
-                print(f"[font] Alternate download also failed: {e2}")
-                return None
-
-    downloaded_font = ensure_thai_font()
-
-    # โหลดฟอนต์ภาษาอังกฤษ
     english_font_paths = [
         "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
         "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
@@ -821,9 +940,6 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
         "C:/Windows/Fonts/angsana.ttc",
         "C:/Windows/Fonts/cordia.ttc",
     ]
-
-    if downloaded_font:
-        thai_font_paths.insert(0, downloaded_font)
 
     def load_font(font_paths, size):
         for font_path in font_paths:
@@ -919,28 +1035,84 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
             stroke_fill=(0, 0, 0)
         )
 
-    # ข้อความภาษาไทย
+    # ข้อความภาษาไทย - ใช้ HarfBuzz สำหรับการเรนเดอร์ที่ถูกต้อง
     thai_y = english_y + total_height + 110
-    thai_lines = wrap_text(thai, font_thai, VIDEO_WIDTH - 200)
-    total_height = len(thai_lines) * 75
+    thai_font_path = _find_thai_font_file()
+    use_harfbuzz = thai_font_path is not None
 
-    thai_padding = 60
-    draw.rectangle(
-        [(50, thai_y - thai_padding), (VIDEO_WIDTH - 50, thai_y + total_height + thai_padding - 10)],
-        fill=(80, 30, 30, 220)
-    )
+    if use_harfbuzz:
+        try:
+            import uharfbuzz as hb
+            import freetype as ft
+        except ImportError:
+            use_harfbuzz = False
+            print("  [WARNING] uharfbuzz/freetype not available, falling back to Pillow")
 
-    for i, line in enumerate(thai_lines):
-        y_pos = thai_y + (i * 75)
-        draw.text(
-            (VIDEO_WIDTH // 2, y_pos),
-            line,
-            fill=(255, 255, 0),
-            font=font_thai,
-            anchor="mm",
-            stroke_width=3,
-            stroke_fill=(0, 0, 0)
+    if use_harfbuzz:
+        max_thai_width = VIDEO_WIDTH - 200
+        thai_words = thai.split(' ')
+        thai_lines = []
+        current_line_words = []
+
+        for word in thai_words:
+            test_line = ' '.join(current_line_words + [word]) if current_line_words else word
+            _, test_w = _render_text_harfbuzz(
+                test_line, thai_font_path, 65,
+                fill_color=(255, 255, 0, 255)
+            )
+
+            if test_w <= max_thai_width or not current_line_words:
+                current_line_words.append(word)
+            else:
+                thai_lines.append(' '.join(current_line_words))
+                current_line_words = [word]
+
+        if current_line_words:
+            thai_lines.append(' '.join(current_line_words))
+
+        if not thai_lines:
+            thai_lines = [thai]
+
+        line_spacing = 85
+        total_height = len(thai_lines) * line_spacing
+
+        thai_padding = 60
+        draw.rectangle(
+            [(50, thai_y - thai_padding), (VIDEO_WIDTH - 50, thai_y + total_height + thai_padding - 10)],
+            fill=(80, 30, 30, 220)
         )
+
+        for i, line in enumerate(thai_lines):
+            rendered, text_w = _render_text_harfbuzz(
+                line, thai_font_path, 65,
+                fill_color=(255, 255, 0, 255),
+                stroke_color=(0, 0, 0, 255),
+                stroke_width=2
+            )
+            x_pos = (VIDEO_WIDTH - rendered.width) // 2
+            y_pos = thai_y + (i * line_spacing) - rendered.height // 2
+            img.paste(rendered, (x_pos, y_pos), rendered)
+    else:
+        thai_lines = wrap_text(thai, font_thai, VIDEO_WIDTH - 200)
+        total_height = len(thai_lines) * 75
+
+        thai_padding = 60
+        draw.rectangle(
+            [(50, thai_y - thai_padding), (VIDEO_WIDTH - 50, thai_y + total_height + thai_padding - 10)],
+            fill=(80, 30, 30, 220)
+        )
+
+        for i, line in enumerate(thai_lines):
+            y_pos = thai_y + (i * 75)
+            draw.text(
+                (VIDEO_WIDTH // 2, y_pos),
+                line,
+                fill=(255, 255, 0),
+                font=font_thai,
+                anchor="mm",
+                stroke_width=3,
+                stroke_fill=(0, 0, 0)
+            )
 
     # การถอดเสียงภาษาไทยเป็นอักษรโรมัน (ในกล่องสี่เหลี่ยม)
     transliteration_y = thai_y + total_height + 90
