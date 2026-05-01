@@ -104,7 +104,42 @@
       "transliteration": "Feuk fon dtor bpai, khun ja tam dai.",
       "category": "Confidence",
       "generated_at": "2026-05-01T05:56:19.838968"
+    },
+    {
+      "english": "Be brave, try new things.",
+      "thai": "กล้าหน่อย, ลองทำสิ่งใหม่ๆ.",
+      "transliteration": "Gla noi, long tam sing mai mai.",
+      "category": "Courage",
+      "generated_at": "2026-05-01T06:25:36.083309"
+    },
+    {
+      "english": "Face your fears, stand tall.",
+      "thai": "เผชิญหน้าความกลัว, ยืนหยัด.",
+      "transliteration": "Pachern na kwam glua, yeun yat.",
+      "category": "Courage",
+      "generated_at": "2026-05-01T06:25:36.083317"
+    },
+    {
+      "english": "Have heart, keep going.",
+      "thai": "มีใจสู้, เดินหน้าต่อ.",
+      "transliteration": "Mee jai soo, dern na tor.",
+      "category": "Courage",
+      "generated_at": "2026-05-01T06:25:36.083319"
+    },
+    {
+      "english": "Step out, be bold.",
+      "thai": "ก้าวออกมา, จงกล้าหาญ.",
+      "transliteration": "Gao ok ma, jong gla han.",
+      "category": "Courage",
+      "generated_at": "2026-05-01T06:25:36.083320"
+    },
+    {
+      "english": "Inner strength, shines bright.",
+      "thai": "พลังใจ, ส่องประกาย.",
+      "transliteration": "Palang jai, song pra kai.",
+      "category": "Courage",
+      "generated_at": "2026-05-01T06:25:36.083322"
     }
   ],
-  "last_updated": "2026-05-01T05:56:19.838969"
+  "last_updated": "2026-05-01T06:25:36.083323"
 }
