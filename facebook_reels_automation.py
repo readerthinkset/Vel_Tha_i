@@ -115,6 +115,8 @@ def _render_text_harfbuzz(text, font_path, font_size, fill_color, stroke_color=N
     hb_face = hb.Face(blob)
     hb_font = hb.Font(hb_face)
     hb_font.scale = (font_size * 64, font_size * 64)
+    # Set variable font axes for Bold weight (NotoSansThai[wdth,wght])
+    hb_font.set_variations({'wdth': 100, 'wght': 700})
 
     buffer = hb.Buffer()
     buffer.add_str(text)
@@ -126,6 +128,10 @@ def _render_text_harfbuzz(text, font_path, font_size, fill_color, stroke_color=N
 
     ft_face = ft.Face(font_path)
     ft_face.set_char_size(font_size * 64)
+    try:
+        ft_face.set_var_design_coords([700, 100])
+    except Exception:
+        pass
 
     min_x = float('inf')
     min_y = float('inf')
