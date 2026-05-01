@@ -244,7 +244,42 @@
       "transliteration": "kwam keup na lek noi, sà-som pai.",
       "category": "Growth",
       "generated_at": "2026-05-01T15:35:47.436084"
+    },
+    {
+      "english": "Hello there, how are you?",
+      "thai": "สวัสดีครับ, สบายดีไหมครับ?",
+      "transliteration": "Sawatdee krub, sabai dee mai krub?",
+      "category": "Greetings",
+      "generated_at": "2026-05-01T16:42:13.072708"
+    },
+    {
+      "english": "Good morning, nice to meet you.",
+      "thai": "อรุณสวัสดิ์ครับ, ยินดีที่ได้รู้จักครับ",
+      "transliteration": "Arun sawat krub, yindee tee dai roo jak krub",
+      "category": "Greetings",
+      "generated_at": "2026-05-01T16:42:13.072716"
+    },
+    {
+      "english": "Hi everyone, hope you're well.",
+      "thai": "สวัสดีทุกคนครับ, หวังว่าคุณสบายดี",
+      "transliteration": "Sawatdee took kon krub, wang wa khun sabai dee",
+      "category": "Greetings",
+      "generated_at": "2026-05-01T16:42:13.072718"
+    },
+    {
+      "english": "Welcome, please come in.",
+      "thai": "ยินดีต้อนรับครับ, เชิญเข้ามาได้เลย",
+      "transliteration": "Yindee ton rap krub, chern khao ma dai loey",
+      "category": "Greetings",
+      "generated_at": "2026-05-01T16:42:13.072719"
+    },
+    {
+      "english": "Hello friend, how's it going?",
+      "thai": "สวัสดีเพื่อน, เป็นไงบ้าง?",
+      "transliteration": "Sawatdee peuan, pen ngai bang?",
+      "category": "Greetings",
+      "generated_at": "2026-05-01T16:42:13.072720"
     }
   ],
-  "last_updated": "2026-05-01T15:35:47.436086"
+  "last_updated": "2026-05-01T16:42:13.072722"
 }
