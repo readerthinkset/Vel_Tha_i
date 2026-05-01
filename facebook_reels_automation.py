@@ -43,21 +43,40 @@ NOTO_THAI_FONT_URL = "https://github.com/google/fonts/raw/main/ofl/notosansthai/
 
 def ensure_thai_font():
     font_file = FONTS_DIR / "NotoSansThai-Bold.ttf"
-    if font_file.exists() and font_file.stat().st_size > 100000:
+    if font_file.exists() and _is_valid_font_file(font_file):
         print(f"[font] Using local: {font_file} ({font_file.stat().st_size/1024:.1f} KB)")
         return str(font_file)
-    # Corrupted font detected or missing - download proper one
     FONTS_DIR.mkdir(exist_ok=True)
-    try:
-        import urllib.request
-        print("[font] Downloading NotoSansThai font from Google Fonts...")
-        urllib.request.urlretrieve(NOTO_THAI_FONT_URL, str(font_file))
-        size = font_file.stat().st_size
-        print(f"[font] ✓ Downloaded: {font_file} ({size/1024:.1f} KB)")
-        return str(font_file)
-    except Exception as e:
-        print(f"[font] Download failed: {e}")
+    for url in [NOTO_THAI_FONT_URL,
+                "https://github.com/google/fonts/raw/main/ofl/notosansthai/NotoSansThai%5Bwdth%2Cwght%5D.ttf",
+                "https://raw.githubusercontent.com/notofonts/noto-fonts/main/hinted/ttf/NotoSansThai/NotoSansThai-Bold.ttf",
+                "https://raw.githubusercontent.com/notofonts/noto-fonts/main/hinted/ttf/NotoSansThai/NotoSansThai-Regular.ttf"]:
+        try:
+            import urllib.request
+            print(f"[font] Downloading from: {url}")
+            urllib.request.urlretrieve(url, str(font_file))
+            if font_file.exists() and _is_valid_font_file(font_file):
+                print(f"[font] ✓ Valid font: {font_file} ({font_file.stat().st_size/1024:.1f} KB)")
+                return str(font_file)
+            else:
+                print(f"[font] ✗ Downloaded file is not a valid font, trying next URL...")
+        except Exception as e:
+            print(f"[font] Download failed: {e}")
     return None
+
+
+def _is_valid_font_file(path):
+    """Check if file is a valid TrueType/OpenType font by examining header"""
+    if not path.exists() or path.stat().st_size < 50000:
+        return False
+    try:
+        with open(path, 'rb') as f:
+            header = f.read(4)
+        # TrueType: 0x00010000, OpenType: 'OTTO', Apple TrueType: 'true' or 'ttcf'
+        valid_headers = [b'\x00\x01\x00\x00', b'OTTO', b'true', b'ttcf']
+        return header in valid_headers
+    except Exception:
+        return False
 
 
 def _find_thai_font_file():
@@ -72,7 +91,7 @@ def _find_thai_font_file():
         "C:/Windows/Fonts/tahoma.ttf",
     ]
     for path in candidates:
-        if Path(path).exists() and Path(path).stat().st_size > 100000:
+        if _is_valid_font_file(Path(path)):
             return path
     for search_dir in ["/usr/share/fonts", "/usr/local/share/fonts", "C:/Windows/Fonts"]:
         if not Path(search_dir).exists():
@@ -81,9 +100,9 @@ def _find_thai_font_file():
             for fname in files:
                 fl = fname.lower()
                 if any(t in fl for t in ["notosansthai", "garuda", "tahoma", "angsana", "cordia"]):
-                    fpath = str(Path(root) / fname)
-                    if Path(fpath).stat().st_size > 100000:
-                        return fpath
+                    fpath = Path(root) / fname
+                    if _is_valid_font_file(fpath):
+                        return str(fpath)
     return None
 
 
@@ -1052,50 +1071,55 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
             print("  [WARNING] uharfbuzz/freetype not available, falling back to Pillow")
 
     if use_harfbuzz:
-        max_thai_width = VIDEO_WIDTH - 200
-        thai_words = thai.split(' ')
-        thai_lines = []
-        current_line_words = []
+        try:
+            max_thai_width = VIDEO_WIDTH - 200
+            thai_words = thai.split(' ')
+            thai_lines = []
+            current_line_words = []
 
-        for word in thai_words:
-            test_line = ' '.join(current_line_words + [word]) if current_line_words else word
-            _, test_w = _render_text_harfbuzz(
-                test_line, thai_font_path, 65,
-                fill_color=(255, 255, 0, 255)
-            )
+            for word in thai_words:
+                test_line = ' '.join(current_line_words + [word]) if current_line_words else word
+                _, test_w = _render_text_harfbuzz(
+                    test_line, thai_font_path, 65,
+                    fill_color=(255, 255, 0, 255)
+                )
 
-            if test_w <= max_thai_width or not current_line_words:
-                current_line_words.append(word)
-            else:
+                if test_w <= max_thai_width or not current_line_words:
+                    current_line_words.append(word)
+                else:
+                    thai_lines.append(' '.join(current_line_words))
+                    current_line_words = [word]
+
+            if current_line_words:
                 thai_lines.append(' '.join(current_line_words))
-                current_line_words = [word]
 
-        if current_line_words:
-            thai_lines.append(' '.join(current_line_words))
+            if not thai_lines:
+                thai_lines = [thai]
 
-        if not thai_lines:
-            thai_lines = [thai]
+            line_spacing = 85
+            total_height = len(thai_lines) * line_spacing
 
-        line_spacing = 85
-        total_height = len(thai_lines) * line_spacing
-
-        thai_padding = 60
-        draw.rectangle(
-            [(50, thai_y - thai_padding), (VIDEO_WIDTH - 50, thai_y + total_height + thai_padding - 10)],
-            fill=(80, 30, 30, 220)
-        )
-
-        for i, line in enumerate(thai_lines):
-            rendered, text_w = _render_text_harfbuzz(
-                line, thai_font_path, 65,
-                fill_color=(255, 255, 0, 255),
-                stroke_color=(0, 0, 0, 255),
-                stroke_width=2
+            thai_padding = 60
+            draw.rectangle(
+                [(50, thai_y - thai_padding), (VIDEO_WIDTH - 50, thai_y + total_height + thai_padding - 10)],
+                fill=(80, 30, 30, 220)
             )
-            x_pos = (VIDEO_WIDTH - rendered.width) // 2
-            y_pos = thai_y + (i * line_spacing) - rendered.height // 2
-            img.paste(rendered, (x_pos, y_pos), rendered)
-    else:
+
+            for i, line in enumerate(thai_lines):
+                rendered, text_w = _render_text_harfbuzz(
+                    line, thai_font_path, 65,
+                    fill_color=(255, 255, 0, 255),
+                    stroke_color=(0, 0, 0, 255),
+                    stroke_width=2
+                )
+                x_pos = (VIDEO_WIDTH - rendered.width) // 2
+                y_pos = thai_y + (i * line_spacing) - rendered.height // 2
+                img.paste(rendered, (x_pos, y_pos), rendered)
+        except Exception as e:
+            print(f"  [WARNING] HarfBuzz rendering failed ({e}), falling back to Pillow")
+            use_harfbuzz = False
+
+    if not use_harfbuzz:
         thai_lines = wrap_text(thai, font_thai, VIDEO_WIDTH - 200)
         total_height = len(thai_lines) * 75
 
