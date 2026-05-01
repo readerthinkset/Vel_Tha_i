@@ -838,8 +838,8 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
     font_large = load_font(english_font_paths, 85)
     font_branding = load_font(english_font_paths, 52)
 
-    # ฟอนต์ภาษาไทย (รองรับอักขระไทย) - เพิ่มขนาดให้ใหญ่ขึ้น
-    font_thai = load_font(thai_font_paths, 85)
+    # ฟอนต์ภาษาไทย (รองรับอักขระไทย) - เพิ่มขนาดให้ใหญ่ขึ้นมาก
+    font_thai = load_font(thai_font_paths, 120)
 
     # ฟอนต์การถอดเสียงภาษาไทยเป็นอักษรโรมัน
     font_transliteration = load_font(english_font_paths, 55)
