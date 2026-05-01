@@ -139,7 +139,42 @@
       "transliteration": "Palang jai, song pra kai.",
       "category": "Courage",
       "generated_at": "2026-05-01T06:25:36.083322"
+    },
+    {
+      "english": "Help! Please help me.",
+      "thai": "ช่วยด้วย! โปรดช่วยฉันด้วย",
+      "transliteration": "Chuay duay! Proht chuay chan duay",
+      "category": "Emergency Thai",
+      "generated_at": "2026-05-01T07:38:33.509882"
+    },
+    {
+      "english": "I need a doctor, please.",
+      "thai": "ฉันต้องการหมอ, กรุณา",
+      "transliteration": "Chan tong karn mor, garuna",
+      "category": "Emergency Thai",
+      "generated_at": "2026-05-01T07:38:33.509891"
+    },
+    {
+      "english": "Where is the hospital?",
+      "thai": "โรงพยาบาลอยู่ที่ไหน?",
+      "transliteration": "Rohng payabaan yoo tee nai?",
+      "category": "Emergency Thai",
+      "generated_at": "2026-05-01T07:38:33.509892"
+    },
+    {
+      "english": "Call the police, please.",
+      "thai": "เรียกตำรวจ, กรุณา",
+      "transliteration": "Reeak dtum-ruat, garuna",
+      "category": "Emergency Thai",
+      "generated_at": "2026-05-01T07:38:33.509894"
+    },
+    {
+      "english": "I am lost, please.",
+      "thai": "ฉันหลงทาง, กรุณา",
+      "transliteration": "Chan long taang, garuna",
+      "category": "Emergency Thai",
+      "generated_at": "2026-05-01T07:38:33.509895"
     }
   ],
-  "last_updated": "2026-05-01T06:25:36.083323"
+  "last_updated": "2026-05-01T07:38:33.509897"
 }
