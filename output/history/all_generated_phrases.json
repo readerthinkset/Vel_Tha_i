@@ -419,7 +419,42 @@
       "transliteration": "Mee sa-ma-tee, gap pao-mai.",
       "category": "Self Improvement",
       "generated_at": "2026-05-02T14:39:15.400772"
+    },
+    {
+      "english": "I'm sorry, please forgive me.",
+      "thai": "ขอโทษครับ, ยกโทษให้ผมด้วย",
+      "transliteration": "Kor toht krub, yok toht hai pom duay",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-02T16:32:48.450737"
+    },
+    {
+      "english": "It was my mistake, I apologize.",
+      "thai": "ผมผิดเอง, ผมขอโทษครับ",
+      "transliteration": "Pom phit eng, pom kor toht krub",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-02T16:32:48.450746"
+    },
+    {
+      "english": "Can you please let it go?",
+      "thai": "คุณปล่อยมันไปได้ไหมครับ",
+      "transliteration": "Khun ploi man pai dai mai krub",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-02T16:32:48.450748"
+    },
+    {
+      "english": "I hope you can forgive me.",
+      "thai": "หวังว่าคุณจะยกโทษให้ผมนะครับ",
+      "transliteration": "Wang wa khun ja yok toht hai pom na krub",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-02T16:32:48.450749"
+    },
+    {
+      "english": "My apologies, I didn't mean to.",
+      "thai": "ขออภัยครับ, ผมไม่ได้ตั้งใจ",
+      "transliteration": "Kor apai krub, pom mai dai tang jai",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-02T16:32:48.450750"
     }
   ],
-  "last_updated": "2026-05-02T14:39:15.400774"
+  "last_updated": "2026-05-02T16:32:48.450752"
 }
