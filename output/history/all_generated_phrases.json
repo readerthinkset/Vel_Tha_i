@@ -454,7 +454,42 @@
       "transliteration": "Kor apai krub, pom mai dai tang jai",
       "category": "Forgiveness",
       "generated_at": "2026-05-02T16:32:48.450750"
+    },
+    {
+      "english": "My mom, she's very kind.",
+      "thai": "แม่ของฉัน, ใจดีมากครับ/ค่ะ",
+      "transliteration": "Mae kong chan, jai dee mak krub/ka",
+      "category": "Family Terms",
+      "generated_at": "2026-05-02T19:58:12.365858"
+    },
+    {
+      "english": "My dad, works hard.",
+      "thai": "พ่อของฉัน, ทำงานหนัก",
+      "transliteration": "Por kong chan, tam ngan nak",
+      "category": "Family Terms",
+      "generated_at": "2026-05-02T19:58:12.365868"
+    },
+    {
+      "english": "My older sister, is pretty.",
+      "thai": "พี่สาวฉัน, สวยดีนะ",
+      "transliteration": "Pee sao chan, suay dee na",
+      "category": "Family Terms",
+      "generated_at": "2026-05-02T19:58:12.365869"
+    },
+    {
+      "english": "My younger brother, plays a lot.",
+      "thai": "น้องชายผม, เล่นเยอะเลย",
+      "transliteration": "Nong chai pom, len yuh loei",
+      "category": "Family Terms",
+      "generated_at": "2026-05-02T19:58:12.365871"
+    },
+    {
+      "english": "My grandma, tells good stories.",
+      "thai": "ยายของฉัน, เล่าเรื่องเก่ง",
+      "transliteration": "Yai kong chan, lao reuang geng",
+      "category": "Family Terms",
+      "generated_at": "2026-05-02T19:58:12.365872"
     }
   ],
-  "last_updated": "2026-05-02T16:32:48.450752"
+  "last_updated": "2026-05-02T19:58:12.365875"
 }
