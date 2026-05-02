@@ -349,7 +349,42 @@
       "transliteration": "khun tam hai, chan mee kwam sook",
       "category": "Love",
       "generated_at": "2026-05-01T22:37:55.709432"
+    },
+    {
+      "english": "Hello, how are you?",
+      "thai": "สวัสดีครับ, สบายดีไหมครับ?",
+      "transliteration": "Sawatdee krub, sabai dee mai krub?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-02T06:32:21.151432"
+    },
+    {
+      "english": "Thank you, very much.",
+      "thai": "ขอบคุณครับ, มากๆ ครับ.",
+      "transliteration": "Khop khun krub, mak mak krub.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-02T06:32:21.151443"
+    },
+    {
+      "english": "Excuse me, please.",
+      "thai": "ขอโทษครับ, กรุณาครับ.",
+      "transliteration": "Kho tod krub, ga-ru-naa krub.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-02T06:32:21.151445"
+    },
+    {
+      "english": "I don't understand.",
+      "thai": "ผมไม่เข้าใจครับ.",
+      "transliteration": "Phom mai khao jai krub.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-02T06:32:21.151447"
+    },
+    {
+      "english": "Can you help me?",
+      "thai": "ช่วยผมหน่อยได้ไหมครับ?",
+      "transliteration": "Chuay phom noi dai mai krub?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-02T06:32:21.151448"
     }
   ],
-  "last_updated": "2026-05-01T22:37:55.709433"
+  "last_updated": "2026-05-02T06:32:21.151449"
 }
