@@ -629,7 +629,42 @@
       "transliteration": "Kit teung na, peuan.",
       "category": "Friendship",
       "generated_at": "2026-05-03T16:12:52.062548"
+    },
+    {
+      "english": "Hello, can I see, the menu please?",
+      "thai": "สวัสดีครับ, ขอดูเมนูหน่อยครับ",
+      "transliteration": "Sawatdee krub, kor doo menu noi krub",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-03T19:58:42.596315"
+    },
+    {
+      "english": "What is this?, can you tell me?",
+      "thai": "อันนี้คืออะไรครับ, บอกได้ไหมครับ",
+      "transliteration": "An nee keu arai krub, bok dai mai krub",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-03T19:58:42.596323"
+    },
+    {
+      "english": "I want to order, this dish please.",
+      "thai": "ฉันอยากสั่ง, จานนี้ครับ",
+      "transliteration": "Chan yak sang, jan nee krub",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-03T19:58:42.596325"
+    },
+    {
+      "english": "Is it spicy?, not too much please.",
+      "thai": "เผ็ดไหมครับ, ไม่เผ็ดมากนะครับ",
+      "transliteration": "Pet mai krub, mai pet mak na krub",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-03T19:58:42.596326"
+    },
+    {
+      "english": "Can I have water?, with ice please.",
+      "thai": "ขอน้ำหน่อยครับ, ใส่น้ำแข็งครับ",
+      "transliteration": "Kor nam noi krub, sai nam khaeng krub",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-03T19:58:42.596327"
     }
   ],
-  "last_updated": "2026-05-03T16:12:52.062550"
+  "last_updated": "2026-05-03T19:58:42.596333"
 }
