@@ -594,7 +594,42 @@
       "transliteration": "Nit noi eng.",
       "category": "Common Expressions",
       "generated_at": "2026-05-03T14:39:26.845114"
+    },
+    {
+      "english": "You are a good friend, truly.",
+      "thai": "เธอเป็นเพื่อนที่ดี, จริงๆ.",
+      "transliteration": "Ter pen peuan tee dee, jing jing.",
+      "category": "Friendship",
+      "generated_at": "2026-05-03T16:12:52.062532"
+    },
+    {
+      "english": "Let's hang out, soon.",
+      "thai": "ไปเที่ยวกัน, เร็วๆ นี้.",
+      "transliteration": "Pai tiew gan, rew rew nee.",
+      "category": "Friendship",
+      "generated_at": "2026-05-03T16:12:52.062544"
+    },
+    {
+      "english": "Thanks for being there.",
+      "thai": "ขอบคุณนะ, ที่อยู่ตรงนี้.",
+      "transliteration": "Khop khun na, tee yoo dtrong nee.",
+      "category": "Friendship",
+      "generated_at": "2026-05-03T16:12:52.062546"
+    },
+    {
+      "english": "We have fun together.",
+      "thai": "เราสนุกกัน, มากๆ.",
+      "transliteration": "Rao sanook gan, maak maak.",
+      "category": "Friendship",
+      "generated_at": "2026-05-03T16:12:52.062547"
+    },
+    {
+      "english": "Miss you, my friend.",
+      "thai": "คิดถึงนะ, เพื่อน.",
+      "transliteration": "Kit teung na, peuan.",
+      "category": "Friendship",
+      "generated_at": "2026-05-03T16:12:52.062548"
     }
   ],
-  "last_updated": "2026-05-03T14:39:26.845115"
+  "last_updated": "2026-05-03T16:12:52.062550"
 }
