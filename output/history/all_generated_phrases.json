@@ -524,7 +524,42 @@
       "transliteration": "peua sang cheewit tee dee gwah",
       "category": "Purpose",
       "generated_at": "2026-05-02T22:07:24.095599"
+    },
+    {
+      "english": "Where is, the toilet?",
+      "thai": "ห้องน้ำ, อยู่ที่ไหนครับ/คะ?",
+      "transliteration": "hong nam, yoo tee nai krub/ka?",
+      "category": "Travel Thai",
+      "generated_at": "2026-05-03T07:30:41.391740"
+    },
+    {
+      "english": "How much, is this?",
+      "thai": "อันนี้, ราคาเท่าไหร่ครับ/คะ?",
+      "transliteration": "an nee, ra-ka tao rai krub/ka?",
+      "category": "Travel Thai",
+      "generated_at": "2026-05-03T07:30:41.391749"
+    },
+    {
+      "english": "Can you, help me?",
+      "thai": "ช่วยฉัน, หน่อยได้ไหมครับ/คะ?",
+      "transliteration": "chuay chan, noi dai mai krub/ka?",
+      "category": "Travel Thai",
+      "generated_at": "2026-05-03T07:30:41.391751"
+    },
+    {
+      "english": "I want, to eat this.",
+      "thai": "ฉันอยาก, กินอันนี้ครับ/คะ.",
+      "transliteration": "chan yak, gin an nee krub/ka.",
+      "category": "Travel Thai",
+      "generated_at": "2026-05-03T07:30:41.391752"
+    },
+    {
+      "english": "Delicious, thank you.",
+      "thai": "อร่อย, ขอบคุณครับ/ค่ะ.",
+      "transliteration": "a-roi, kob kun krub/ka.",
+      "category": "Travel Thai",
+      "generated_at": "2026-05-03T07:30:41.391753"
     }
   ],
-  "last_updated": "2026-05-02T22:07:24.095601"
+  "last_updated": "2026-05-03T07:30:41.391754"
 }
