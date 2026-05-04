@@ -699,7 +699,42 @@
       "transliteration": "tee neung, tee song, tee sam.",
       "category": "Numbers Thai",
       "generated_at": "2026-05-04T08:45:06.550964"
+    },
+    {
+      "english": "Little by little, win.",
+      "thai": "ทีละนิด, ชนะ.",
+      "transliteration": "Tee la nit, cha na.",
+      "category": "Success",
+      "generated_at": "2026-05-04T17:18:40.115407"
+    },
+    {
+      "english": "Focus now, achieve later.",
+      "thai": "ตั้งใจตอนนี้, สำเร็จทีหลัง.",
+      "transliteration": "Tang jai ton nee, sam ret tee lang.",
+      "category": "Success",
+      "generated_at": "2026-05-04T17:18:40.115417"
+    },
+    {
+      "english": "Keep trying, don't stop.",
+      "thai": "พยายามไว้, อย่าหยุด.",
+      "transliteration": "Pa ya yam wai, ya yut.",
+      "category": "Success",
+      "generated_at": "2026-05-04T17:18:40.115419"
+    },
+    {
+      "english": "Small steps, big future.",
+      "thai": "ก้าวเล็กๆ, อนาคตใหญ่.",
+      "transliteration": "Gao lek lek, a na kot yai.",
+      "category": "Success",
+      "generated_at": "2026-05-04T17:18:40.115420"
+    },
+    {
+      "english": "Believe yourself, you can.",
+      "thai": "เชื่อมั่นตัวเอง, คุณทำได้.",
+      "transliteration": "Cheua man tua eng, khun tam dai.",
+      "category": "Success",
+      "generated_at": "2026-05-04T17:18:40.115421"
     }
   ],
-  "last_updated": "2026-05-04T08:45:06.550965"
+  "last_updated": "2026-05-04T17:18:40.115423"
 }
