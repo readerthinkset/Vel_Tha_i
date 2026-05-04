@@ -664,7 +664,42 @@
       "transliteration": "Kor nam noi krub, sai nam khaeng krub",
       "category": "Restaurant Thai",
       "generated_at": "2026-05-03T19:58:42.596327"
+    },
+    {
+      "english": "One, two, three, go!",
+      "thai": "หนึ่ง, สอง, สาม, ไป!",
+      "transliteration": "neung, song, sam, pai!",
+      "category": "Numbers Thai",
+      "generated_at": "2026-05-04T08:45:06.550948"
+    },
+    {
+      "english": "Four, five, six, easy.",
+      "thai": "สี่, ห้า, หก, ง่าย.",
+      "transliteration": "see, ha, hok, ngai.",
+      "category": "Numbers Thai",
+      "generated_at": "2026-05-04T08:45:06.550960"
+    },
+    {
+      "english": "Seven, eight, nine, good.",
+      "thai": "เจ็ด, แปด, เก้า, ดี.",
+      "transliteration": "jet, paet, kao, dee.",
+      "category": "Numbers Thai",
+      "generated_at": "2026-05-04T08:45:06.550962"
+    },
+    {
+      "english": "Ten, a perfect score.",
+      "thai": "สิบ, คะแนนเต็ม.",
+      "transliteration": "sip, ka-naen tem.",
+      "category": "Numbers Thai",
+      "generated_at": "2026-05-04T08:45:06.550963"
+    },
+    {
+      "english": "First, second, third place.",
+      "thai": "ที่หนึ่ง, ที่สอง, ที่สาม.",
+      "transliteration": "tee neung, tee song, tee sam.",
+      "category": "Numbers Thai",
+      "generated_at": "2026-05-04T08:45:06.550964"
     }
   ],
-  "last_updated": "2026-05-03T19:58:42.596333"
+  "last_updated": "2026-05-04T08:45:06.550965"
 }
