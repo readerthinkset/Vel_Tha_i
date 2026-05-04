@@ -804,7 +804,42 @@
       "transliteration": "suk tae, jing jing!",
       "category": "Joy",
       "generated_at": "2026-05-04T20:54:37.364275"
+    },
+    {
+      "english": "How much is this, please?",
+      "thai": "อันนี้เท่าไหร่คะ/ครับ?",
+      "transliteration": "An nee tao rai ka/krub?",
+      "category": "Shopping Thai",
+      "generated_at": "2026-05-04T23:14:03.493160"
+    },
+    {
+      "english": "I'm just looking, thank you.",
+      "thai": "ดูก่อนค่ะ/ครับ, ขอบคุณค่ะ/ครับ.",
+      "transliteration": "Doo gon ka/krub, kob kun ka/krub.",
+      "category": "Shopping Thai",
+      "generated_at": "2026-05-04T23:14:03.493168"
+    },
+    {
+      "english": "Can I try this on?",
+      "thai": "ลองอันนี้ได้ไหมคะ/ครับ?",
+      "transliteration": "Long an nee dai mai ka/krub?",
+      "category": "Shopping Thai",
+      "generated_at": "2026-05-04T23:14:03.493170"
+    },
+    {
+      "english": "Do you have a smaller size?",
+      "thai": "มีไซส์เล็กกว่านี้ไหมคะ/ครับ?",
+      "transliteration": "Mee size lek gwa nee mai ka/krub?",
+      "category": "Shopping Thai",
+      "generated_at": "2026-05-04T23:14:03.493171"
+    },
+    {
+      "english": "I'll take this one.",
+      "thai": "เอาอันนี้ค่ะ/ครับ.",
+      "transliteration": "Ao an nee ka/krub.",
+      "category": "Shopping Thai",
+      "generated_at": "2026-05-04T23:14:03.493172"
     }
   ],
-  "last_updated": "2026-05-04T20:54:37.364277"
+  "last_updated": "2026-05-04T23:14:03.493174"
 }
