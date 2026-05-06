@@ -1049,7 +1049,42 @@
       "transliteration": "Tee la kham.",
       "category": "Confidence",
       "generated_at": "2026-05-06T19:14:45.156603"
+    },
+    {
+      "english": "Smiling big, feeling great.",
+      "thai": "ยิ้มกว้าง, รู้สึกดีเยี่ยม.",
+      "transliteration": "Yim kwang, roo seuk dee yiam.",
+      "category": "Happiness",
+      "generated_at": "2026-05-06T21:01:15.266574"
+    },
+    {
+      "english": "Life is beautiful now.",
+      "thai": "ชีวิตสวยงามตอนนี้.",
+      "transliteration": "Chee wit suay ngam ton nee.",
+      "category": "Happiness",
+      "generated_at": "2026-05-06T21:01:15.266583"
+    },
+    {
+      "english": "Content and at peace.",
+      "thai": "พอใจและสงบสุข.",
+      "transliteration": "Por jai lae sa ngop suk.",
+      "category": "Happiness",
+      "generated_at": "2026-05-06T21:01:15.266585"
+    },
+    {
+      "english": "So much to be happy for.",
+      "thai": "มีเรื่องให้ดีใจเยอะแยะ.",
+      "transliteration": "Mee reuang hai dee jai yer yae.",
+      "category": "Happiness",
+      "generated_at": "2026-05-06T21:01:15.266586"
+    },
+    {
+      "english": "This feeling is wonderful.",
+      "thai": "ความรู้สึกนี้ยอดเยี่ยม.",
+      "transliteration": "Kwam roo seuk nee yord yiam.",
+      "category": "Happiness",
+      "generated_at": "2026-05-06T21:01:15.266596"
     }
   ],
-  "last_updated": "2026-05-06T19:14:45.156605"
+  "last_updated": "2026-05-06T21:01:15.266598"
 }
