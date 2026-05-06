@@ -1014,7 +1014,42 @@
       "transliteration": "tao nee por, wan nee",
       "category": "Mindfulness",
       "generated_at": "2026-05-06T17:17:50.544531"
+    },
+    {
+      "english": "I understand a little.",
+      "thai": "ฉันเข้าใจนิดหน่อย.",
+      "transliteration": "Chan khao jai nit noy.",
+      "category": "Confidence",
+      "generated_at": "2026-05-06T19:14:45.156586"
+    },
+    {
+      "english": "Don't be afraid to try.",
+      "thai": "อย่ากลัวที่จะลอง.",
+      "transliteration": "Yaa glua tee ja long.",
+      "category": "Confidence",
+      "generated_at": "2026-05-06T19:14:45.156599"
+    },
+    {
+      "english": "I'm getting better, see?",
+      "thai": "ฉันดีขึ้นนะ, เห็นไหม?",
+      "transliteration": "Chan dee keun na, hen mai?",
+      "category": "Confidence",
+      "generated_at": "2026-05-06T19:14:45.156600"
+    },
+    {
+      "english": "Mistakes are okay, learn.",
+      "thai": "ผิดพลาดไม่เป็นไร, เรียนรู้.",
+      "transliteration": "Pidt plaht mai bpen rai, rian roo.",
+      "category": "Confidence",
+      "generated_at": "2026-05-06T19:14:45.156601"
+    },
+    {
+      "english": "One word at a time.",
+      "thai": "ทีละคำ.",
+      "transliteration": "Tee la kham.",
+      "category": "Confidence",
+      "generated_at": "2026-05-06T19:14:45.156603"
     }
   ],
-  "last_updated": "2026-05-06T17:17:50.544533"
+  "last_updated": "2026-05-06T19:14:45.156605"
 }
