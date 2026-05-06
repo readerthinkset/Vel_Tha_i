@@ -979,7 +979,42 @@
       "transliteration": "cha-cha, tae nae-non",
       "category": "Motivation",
       "generated_at": "2026-05-05T20:46:23.689627"
+    },
+    {
+      "english": "Breathe in, breathe out.",
+      "thai": "หายใจเข้า, หายใจออก.",
+      "transliteration": "hai jai khao, hai jai ok",
+      "category": "Mindfulness",
+      "generated_at": "2026-05-06T17:17:50.544517"
+    },
+    {
+      "english": "Feel the moment, now.",
+      "thai": "รู้สึกตอนนี้, ตอนนี้.",
+      "transliteration": "roo seuk dton nee, dton nee",
+      "category": "Mindfulness",
+      "generated_at": "2026-05-06T17:17:50.544527"
+    },
+    {
+      "english": "Let go, be calm.",
+      "thai": "ปล่อยไป, สงบใจ.",
+      "transliteration": "ploi bpai, sa-ngop jai",
+      "category": "Mindfulness",
+      "generated_at": "2026-05-06T17:17:50.544529"
+    },
+    {
+      "english": "Observe thoughts, gently.",
+      "thai": "สังเกตความคิด, เบาๆ.",
+      "transliteration": "sang-get kwaam kit, bao bao",
+      "category": "Mindfulness",
+      "generated_at": "2026-05-06T17:17:50.544530"
+    },
+    {
+      "english": "This is enough, today.",
+      "thai": "เท่านี้พอ, วันนี้.",
+      "transliteration": "tao nee por, wan nee",
+      "category": "Mindfulness",
+      "generated_at": "2026-05-06T17:17:50.544531"
     }
   ],
-  "last_updated": "2026-05-05T20:46:23.689629"
+  "last_updated": "2026-05-06T17:17:50.544533"
 }
