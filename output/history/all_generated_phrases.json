@@ -1084,7 +1084,42 @@
       "transliteration": "Kwam roo seuk nee yord yiam.",
       "category": "Happiness",
       "generated_at": "2026-05-06T21:01:15.266596"
+    },
+    {
+      "english": "Please accept my apology.",
+      "thai": "โปรดยอมรับคำขอโทษของผม",
+      "transliteration": "Prode yom rap kam kor toht kong pom",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-06T22:37:33.454143"
+    },
+    {
+      "english": "I regret what happened, truly.",
+      "thai": "ผมเสียใจกับสิ่งที่เกิดขึ้นจริงๆ",
+      "transliteration": "Pom sia jai kap sing tee koet kuen jing jing",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-06T22:37:33.454152"
+    },
+    {
+      "english": "Forgive my carelessness, please.",
+      "thai": "ยกโทษให้ความสะเพร่าของผมด้วยครับ",
+      "transliteration": "Yok toht hai kwam sa-prao kong pom duay krub",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-06T22:37:33.454154"
+    },
+    {
+      "english": "I messed up, sorry about that.",
+      "thai": "ผมทำพลาดไป, ขอโทษด้วยนะ",
+      "transliteration": "Pom tam phlat pai, kor toht duay na",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-06T22:37:33.454155"
+    },
+    {
+      "english": "Can we move past this?",
+      "thai": "เราจะก้าวผ่านเรื่องนี้ไปได้ไหม",
+      "transliteration": "Rao ja gao phan rueang nee pai dai mai",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-06T22:37:33.454156"
     }
   ],
-  "last_updated": "2026-05-06T21:01:15.266598"
+  "last_updated": "2026-05-06T22:37:33.454157"
 }
