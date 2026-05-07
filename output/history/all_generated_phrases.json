@@ -1189,7 +1189,42 @@
       "transliteration": "Laew jer gan krub.",
       "category": "Basic Phrases",
       "generated_at": "2026-05-07T18:01:08.412158"
+    },
+    {
+      "english": "Good things, take time.",
+      "thai": "สิ่งดีๆ, ต้องใช้เวลา.",
+      "transliteration": "Sing dee dee, dtong chai way-la.",
+      "category": "Hope",
+      "generated_at": "2026-05-07T19:20:33.424746"
+    },
+    {
+      "english": "Never give up, try again.",
+      "thai": "อย่าท้อ, ลองอีกครั้ง.",
+      "transliteration": "Ya tor, long eek krang.",
+      "category": "Hope",
+      "generated_at": "2026-05-07T19:20:33.424754"
+    },
+    {
+      "english": "Future is bright, I think.",
+      "thai": "อนาคตสดใส, ฉันว่า.",
+      "transliteration": "A-na-kot sod sai, chan wa.",
+      "category": "Hope",
+      "generated_at": "2026-05-07T19:20:33.424755"
+    },
+    {
+      "english": "We can do it, together.",
+      "thai": "เราทำได้, ด้วยกัน.",
+      "transliteration": "Rao tam dai, duay gan.",
+      "category": "Hope",
+      "generated_at": "2026-05-07T19:20:33.424757"
+    },
+    {
+      "english": "Just breathe, it's okay.",
+      "thai": "แค่หายใจ, ไม่เป็นไร.",
+      "transliteration": "Kae hai jai, mai pen rai.",
+      "category": "Hope",
+      "generated_at": "2026-05-07T19:20:33.424758"
     }
   ],
-  "last_updated": "2026-05-07T18:01:08.412159"
+  "last_updated": "2026-05-07T19:20:33.424759"
 }
