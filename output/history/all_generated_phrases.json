@@ -1119,7 +1119,42 @@
       "transliteration": "Rao ja gao phan rueang nee pai dai mai",
       "category": "Forgiveness",
       "generated_at": "2026-05-06T22:37:33.454156"
+    },
+    {
+      "english": "Not spicy, please.",
+      "thai": "ไม่เผ็ด, นะครับ/คะ.",
+      "transliteration": "mai phet, na krub/ka.",
+      "category": "Travel Thai",
+      "generated_at": "2026-05-07T09:45:55.020257"
+    },
+    {
+      "english": "One ticket, to Bangkok.",
+      "thai": "ตั๋ว, หนึ่งใบไปกรุงเทพฯ ครับ/ค่ะ.",
+      "transliteration": "tua, neung bai bpai grung tep krub/ka.",
+      "category": "Travel Thai",
+      "generated_at": "2026-05-07T09:45:55.020273"
+    },
+    {
+      "english": "Excuse me, where?",
+      "thai": "ขอโทษครับ/ค่ะ, ที่ไหน?",
+      "transliteration": "kor toht krub/ka, tee nai?",
+      "category": "Travel Thai",
+      "generated_at": "2026-05-07T09:45:55.020276"
+    },
+    {
+      "english": "It's beautiful, wow!",
+      "thai": "สวยจัง, เลย!",
+      "transliteration": "suay jang, loey!",
+      "category": "Travel Thai",
+      "generated_at": "2026-05-07T09:45:55.020279"
+    },
+    {
+      "english": "I don't understand, sorry.",
+      "thai": "ฉันไม่เข้าใจ, ครับ/ค่ะ.",
+      "transliteration": "chan mai kao jai, krub/ka.",
+      "category": "Travel Thai",
+      "generated_at": "2026-05-07T09:45:55.020281"
     }
   ],
-  "last_updated": "2026-05-06T22:37:33.454157"
+  "last_updated": "2026-05-07T09:45:55.020284"
 }
