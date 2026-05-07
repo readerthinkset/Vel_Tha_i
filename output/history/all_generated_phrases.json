@@ -1154,7 +1154,42 @@
       "transliteration": "chan mai kao jai, krub/ka.",
       "category": "Travel Thai",
       "generated_at": "2026-05-07T09:45:55.020281"
+    },
+    {
+      "english": "Where is the bathroom?",
+      "thai": "ห้องน้ำอยู่ที่ไหนครับ?",
+      "transliteration": "Hong nam yoo tee nai krub?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-07T18:01:08.412145"
+    },
+    {
+      "english": "How much is this?",
+      "thai": "อันนี้ราคาเท่าไหร่ครับ?",
+      "transliteration": "An nee raa kaa thao rai krub?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-07T18:01:08.412154"
+    },
+    {
+      "english": "Yes, it is.",
+      "thai": "ใช่ครับ, เป็นอย่างนั้นครับ.",
+      "transliteration": "Chai krub, pen yang nan krub.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-07T18:01:08.412156"
+    },
+    {
+      "english": "No, it's not.",
+      "thai": "ไม่ใช่ครับ, ไม่ใช่ครับ.",
+      "transliteration": "Mai chai krub, mai chai krub.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-07T18:01:08.412157"
+    },
+    {
+      "english": "See you later.",
+      "thai": "แล้วเจอกันครับ.",
+      "transliteration": "Laew jer gan krub.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-07T18:01:08.412158"
     }
   ],
-  "last_updated": "2026-05-07T09:45:55.020284"
+  "last_updated": "2026-05-07T18:01:08.412159"
 }
