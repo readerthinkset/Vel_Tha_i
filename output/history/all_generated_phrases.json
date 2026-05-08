@@ -1294,7 +1294,42 @@
       "transliteration": "peua samruat, lae kon pob",
       "category": "Purpose",
       "generated_at": "2026-05-07T23:15:40.086388"
+    },
+    {
+      "english": "My grandpa, is funny.",
+      "thai": "ปู่ของผม, ตลกดี",
+      "transliteration": "Poo kong pom, talok dee",
+      "category": "Family Terms",
+      "generated_at": "2026-05-08T06:19:20.587833"
+    },
+    {
+      "english": "My uncle, is tall.",
+      "thai": "ลุงของฉัน, ตัวสูง",
+      "transliteration": "Lung kong chan, dtua soong",
+      "category": "Family Terms",
+      "generated_at": "2026-05-08T06:19:20.587842"
+    },
+    {
+      "english": "My aunt, cooks well.",
+      "thai": "ป้าของฉัน, ทำอาหารอร่อย",
+      "transliteration": "Paa kong chan, tam ahan aroi",
+      "category": "Family Terms",
+      "generated_at": "2026-05-08T06:19:20.587844"
+    },
+    {
+      "english": "My cousin, is a student.",
+      "thai": "ลูกพี่ลูกน้อง, เป็นนักเรียน",
+      "transliteration": "Look pee look nong, pen nak rian",
+      "category": "Family Terms",
+      "generated_at": "2026-05-08T06:19:20.587845"
+    },
+    {
+      "english": "Our family, loves to travel.",
+      "thai": "ครอบครัวเรา, ชอบเที่ยว",
+      "transliteration": "Krop krua rao, chob tiao",
+      "category": "Family Terms",
+      "generated_at": "2026-05-08T06:19:20.587846"
     }
   ],
-  "last_updated": "2026-05-07T23:15:40.086390"
+  "last_updated": "2026-05-08T06:19:20.587848"
 }
