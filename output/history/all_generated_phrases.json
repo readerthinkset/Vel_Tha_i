@@ -1329,7 +1329,42 @@
       "transliteration": "Krop krua rao, chob tiao",
       "category": "Family Terms",
       "generated_at": "2026-05-08T06:19:20.587846"
+    },
+    {
+      "english": "Is anyone there?",
+      "thai": "มีใครอยู่ไหม?",
+      "transliteration": "Mee krai yoo mai?",
+      "category": "Emergency Thai",
+      "generated_at": "2026-05-08T16:54:02.911119"
+    },
+    {
+      "english": "I feel sick, very sick.",
+      "thai": "ฉันรู้สึกป่วย, ป่วยมาก",
+      "transliteration": "Chan roo-seuk puay, puay maak",
+      "category": "Emergency Thai",
+      "generated_at": "2026-05-08T16:54:02.911129"
+    },
+    {
+      "english": "Fire! Fire is burning!",
+      "thai": "ไฟไหม้! ไฟกำลังไหม้!",
+      "transliteration": "Fai mai! Fai gam-lang mai!",
+      "category": "Emergency Thai",
+      "generated_at": "2026-05-08T16:54:02.911131"
+    },
+    {
+      "english": "I need an ambulance.",
+      "thai": "ฉันต้องการรถพยาบาล",
+      "transliteration": "Chan tong karn rot payabaan",
+      "category": "Emergency Thai",
+      "generated_at": "2026-05-08T16:54:02.911132"
+    },
+    {
+      "english": "Please show me the way.",
+      "thai": "กรุณาบอกทางฉันหน่อย",
+      "transliteration": "Garuna bok taang chan noi",
+      "category": "Emergency Thai",
+      "generated_at": "2026-05-08T16:54:02.911133"
     }
   ],
-  "last_updated": "2026-05-08T06:19:20.587848"
+  "last_updated": "2026-05-08T16:54:02.911137"
 }
