@@ -1504,7 +1504,42 @@
       "transliteration": "Sawatdee krub, hai chuay arai mai krub?",
       "category": "Greetings",
       "generated_at": "2026-05-09T07:23:10.515784"
+    },
+    {
+      "english": "I appreciate, this.",
+      "thai": "ผม/ดิฉัน ซาบซึ้ง, ครับ/ค่ะ",
+      "transliteration": "Phom/Dichan sab seung krub/kha",
+      "category": "Gratitude",
+      "generated_at": "2026-05-09T14:42:04.036293"
+    },
+    {
+      "english": "You are, so kind.",
+      "thai": "คุณ ใจดี, จัง ครับ/ค่ะ",
+      "transliteration": "Khun jai dee jang krub/kha",
+      "category": "Gratitude",
+      "generated_at": "2026-05-09T14:42:04.036304"
+    },
+    {
+      "english": "This is, wonderful.",
+      "thai": "นี่ วิเศษ, มาก ครับ/ค่ะ",
+      "transliteration": "Nee wiset mak krub/kha",
+      "category": "Gratitude",
+      "generated_at": "2026-05-09T14:42:04.036306"
+    },
+    {
+      "english": "I'm grateful, truly.",
+      "thai": "ผม/ดิฉัน รู้สึก, ขอบคุณ ครับ/ค่ะ",
+      "transliteration": "Phom/Dichan roo seuk khop khun krub/kha",
+      "category": "Gratitude",
+      "generated_at": "2026-05-09T14:42:04.036307"
+    },
+    {
+      "english": "So helpful, thank you.",
+      "thai": "มีประโยชน์, มาก ขอบคุณ ครับ/ค่ะ",
+      "transliteration": "Mee prayot mak khop khun krub/kha",
+      "category": "Gratitude",
+      "generated_at": "2026-05-09T14:42:04.036308"
     }
   ],
-  "last_updated": "2026-05-09T07:23:10.515792"
+  "last_updated": "2026-05-09T14:42:04.036310"
 }
