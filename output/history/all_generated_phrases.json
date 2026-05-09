@@ -1469,7 +1469,42 @@
       "transliteration": "Dtung jai dtrong nee, roo seuk peun.",
       "category": "Balance",
       "generated_at": "2026-05-08T23:15:08.477914"
+    },
+    {
+      "english": "Hey, good to see you.",
+      "thai": "เฮ้, ดีใจที่ได้เจอคุณ",
+      "transliteration": "Hey, dee jai tee dai jer khun",
+      "category": "Greetings",
+      "generated_at": "2026-05-09T07:23:10.515762"
+    },
+    {
+      "english": "How do you do, sir?",
+      "thai": "สบายดีไหมครับ ท่าน?",
+      "transliteration": "Sabai dee mai krub, tan?",
+      "category": "Greetings",
+      "generated_at": "2026-05-09T07:23:10.515776"
+    },
+    {
+      "english": "Hello, what's your name?",
+      "thai": "สวัสดีครับ, ชื่ออะไรครับ?",
+      "transliteration": "Sawatdee krub, cheu arai krub?",
+      "category": "Greetings",
+      "generated_at": "2026-05-09T07:23:10.515779"
+    },
+    {
+      "english": "Good day, hope you're having fun.",
+      "thai": "สวัสดีครับ, ขอให้สนุกนะครับ",
+      "transliteration": "Sawatdee krub, kor hai sanook na krub",
+      "category": "Greetings",
+      "generated_at": "2026-05-09T07:23:10.515781"
+    },
+    {
+      "english": "Greetings, may I help you?",
+      "thai": "สวัสดีครับ, ให้ช่วยอะไรไหมครับ?",
+      "transliteration": "Sawatdee krub, hai chuay arai mai krub?",
+      "category": "Greetings",
+      "generated_at": "2026-05-09T07:23:10.515784"
     }
   ],
-  "last_updated": "2026-05-08T23:15:08.477916"
+  "last_updated": "2026-05-09T07:23:10.515792"
 }
