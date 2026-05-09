@@ -1539,7 +1539,42 @@
       "transliteration": "Mee prayot mak khop khun krub/kha",
       "category": "Gratitude",
       "generated_at": "2026-05-09T14:42:04.036308"
+    },
+    {
+      "english": "Where is the fitting room?",
+      "thai": "ห้องลองอยู่ตรงไหนคะ/ครับ?",
+      "transliteration": "Hong long yoo dtrong nai ka/krub?",
+      "category": "Shopping Thai",
+      "generated_at": "2026-05-09T16:37:35.677999"
+    },
+    {
+      "english": "Can I pay by card?",
+      "thai": "จ่ายด้วยบัตรเครดิตได้ไหมคะ/ครับ?",
+      "transliteration": "Jai duay bart credit dai mai ka/krub?",
+      "category": "Shopping Thai",
+      "generated_at": "2026-05-09T16:37:35.678011"
+    },
+    {
+      "english": "Is this on sale?",
+      "thai": "อันนี้ลดราคาไหมคะ/ครับ?",
+      "transliteration": "An nee lot ra ka mai ka/krub?",
+      "category": "Shopping Thai",
+      "generated_at": "2026-05-09T16:37:35.678013"
+    },
+    {
+      "english": "I want to buy this.",
+      "thai": "ฉันต้องการซื้ออันนี้ค่ะ/ครับ.",
+      "transliteration": "Chan dtong gan seu an nee ka/krub.",
+      "category": "Shopping Thai",
+      "generated_at": "2026-05-09T16:37:35.678014"
+    },
+    {
+      "english": "Thank you for your help.",
+      "thai": "ขอบคุณสำหรับความช่วยเหลือค่ะ/ครับ.",
+      "transliteration": "Kob kun sam rap kwam chuay leua ka/krub.",
+      "category": "Shopping Thai",
+      "generated_at": "2026-05-09T16:37:35.678015"
     }
   ],
-  "last_updated": "2026-05-09T14:42:04.036310"
+  "last_updated": "2026-05-09T16:37:35.678017"
 }
