@@ -1574,7 +1574,42 @@
       "transliteration": "Kob kun sam rap kwam chuay leua ka/krub.",
       "category": "Shopping Thai",
       "generated_at": "2026-05-09T16:37:35.678015"
+    },
+    {
+      "english": "Take care, bye!",
+      "thai": "ดูแลตัวเองนะ, บาย!",
+      "transliteration": "Doo-lae dtua eng na, bye!",
+      "category": "Common Expressions",
+      "generated_at": "2026-05-10T07:49:29.442992"
+    },
+    {
+      "english": "Is that right, hmm?",
+      "thai": "อย่างนั้นใช่ไหม, หืม?",
+      "transliteration": "Yahng nan chai mai, huem?",
+      "category": "Common Expressions",
+      "generated_at": "2026-05-10T07:49:29.443001"
+    },
+    {
+      "english": "Not really, sorry.",
+      "thai": "ไม่ค่อย, ขอโทษที.",
+      "transliteration": "Mai koi, kor toht tee.",
+      "category": "Common Expressions",
+      "generated_at": "2026-05-10T07:49:29.443002"
+    },
+    {
+      "english": "Let's go now, come!",
+      "thai": "ไปกันเลย, มา!",
+      "transliteration": "Pai gan loey, maa!",
+      "category": "Common Expressions",
+      "generated_at": "2026-05-10T07:49:29.443004"
+    },
+    {
+      "english": "Hang in there, you can.",
+      "thai": "สู้ๆ นะ, ทำได้.",
+      "transliteration": "Soo soo na, tam dai.",
+      "category": "Common Expressions",
+      "generated_at": "2026-05-10T07:49:29.443005"
     }
   ],
-  "last_updated": "2026-05-09T16:37:35.678017"
+  "last_updated": "2026-05-10T07:49:29.443006"
 }
