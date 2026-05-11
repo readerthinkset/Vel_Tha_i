@@ -1749,7 +1749,42 @@
       "transliteration": "Took kwam pa yaa yam mee kaa, long reuay reuay.",
       "category": "Perseverance",
       "generated_at": "2026-05-11T11:47:50.220301"
+    },
+    {
+      "english": "This is delicious!, thank you very much.",
+      "thai": "อร่อยมากครับ, ขอบคุณมากครับ",
+      "transliteration": "Aroi mak krub, kob kun mak krub",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-11T20:24:04.926347"
+    },
+    {
+      "english": "Check please, how much is it?",
+      "thai": "เช็คบิลครับ, ราคาเท่าไหร่ครับ",
+      "transliteration": "Check bill krub, ra ka tao rai krub",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-11T20:24:04.926355"
+    },
+    {
+      "english": "Do you have vegetarian?, options please?",
+      "thai": "มีอาหารมังสวิรัติไหมครับ, ขอหน่อยครับ",
+      "transliteration": "Mee ahan mangsawirat mai krub, kor noi krub",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-11T20:24:04.926357"
+    },
+    {
+      "english": "Excuse me, can I get a napkin?",
+      "thai": "ขอโทษครับ, ขอกระดาษทิชชูหน่อย",
+      "transliteration": "Kor tot krub, kor kradaat tissue noi",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-11T20:24:04.926358"
+    },
+    {
+      "english": "Can I have the bill?, at the table?",
+      "thai": "ขอใบเสร็จ, ที่โต๊ะได้ไหมครับ",
+      "transliteration": "Kor bai set, tee toh dai mai krub",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-11T20:24:04.926360"
     }
   ],
-  "last_updated": "2026-05-11T11:47:50.220302"
+  "last_updated": "2026-05-11T20:24:04.926361"
 }
