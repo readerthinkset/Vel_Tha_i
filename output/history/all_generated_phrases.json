@@ -1924,7 +1924,42 @@
       "transliteration": "Jai dee wai, baeng pan sing dee.",
       "category": "Wisdom",
       "generated_at": "2026-05-15T17:16:46.240140"
+    },
+    {
+      "english": "Half past one.",
+      "thai": "บ่ายโมงครึ่ง.",
+      "transliteration": "bai mong kreung.",
+      "category": "Numbers Thai",
+      "generated_at": "2026-05-16T22:30:55.554342"
+    },
+    {
+      "english": "Two days, two nights.",
+      "thai": "สองวัน, สองคืน.",
+      "transliteration": "song wan, song keun.",
+      "category": "Numbers Thai",
+      "generated_at": "2026-05-16T22:30:55.554353"
+    },
+    {
+      "english": "Three times, a charm.",
+      "thai": "สามครั้ง, เป็นเสน่ห์.",
+      "transliteration": "sam krang, pen sa-nay.",
+      "category": "Numbers Thai",
+      "generated_at": "2026-05-16T22:30:55.554355"
+    },
+    {
+      "english": "Four wheels, going fast.",
+      "thai": "สี่ล้อ, ไปเร็ว.",
+      "transliteration": "see lor, pai rew.",
+      "category": "Numbers Thai",
+      "generated_at": "2026-05-16T22:30:55.554356"
+    },
+    {
+      "english": "Five fingers, touch gently.",
+      "thai": "ห้านิ้ว, สัมผัสเบาๆ.",
+      "transliteration": "ha niw, sam-pat bao bao.",
+      "category": "Numbers Thai",
+      "generated_at": "2026-05-16T22:30:55.554360"
     }
   ],
-  "last_updated": "2026-05-15T17:16:46.240142"
+  "last_updated": "2026-05-16T22:30:55.554362"
 }
