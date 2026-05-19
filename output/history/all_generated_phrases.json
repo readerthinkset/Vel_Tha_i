@@ -2029,7 +2029,42 @@
       "transliteration": "mee kwarm suk mak ton nee!",
       "category": "Joy",
       "generated_at": "2026-05-18T19:18:32.499146"
+    },
+    {
+      "english": "What time is it, now?",
+      "thai": "กี่โมงแล้วครับ",
+      "transliteration": "gee mong laew krub",
+      "category": "Time Thai",
+      "generated_at": "2026-05-19T23:45:49.798888"
+    },
+    {
+      "english": "It's almost noon.",
+      "thai": "ใกล้เที่ยงแล้วครับ",
+      "transliteration": "glai tiang laew krub",
+      "category": "Time Thai",
+      "generated_at": "2026-05-19T23:45:49.798897"
+    },
+    {
+      "english": "Let's meet later.",
+      "thai": "เจอกันทีหลังนะ",
+      "transliteration": "jer gan tee lang na",
+      "category": "Time Thai",
+      "generated_at": "2026-05-19T23:45:49.798899"
+    },
+    {
+      "english": "See you tomorrow.",
+      "thai": "เจอกันพรุ่งนี้",
+      "transliteration": "jer gan prung nee",
+      "category": "Time Thai",
+      "generated_at": "2026-05-19T23:45:49.798900"
+    },
+    {
+      "english": "What day is today?",
+      "thai": "วันนี้วันอะไร",
+      "transliteration": "wan nee wan arai",
+      "category": "Time Thai",
+      "generated_at": "2026-05-19T23:45:49.798901"
     }
   ],
-  "last_updated": "2026-05-18T19:18:32.499150"
+  "last_updated": "2026-05-19T23:45:49.798903"
 }
