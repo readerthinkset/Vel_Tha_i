@@ -2134,7 +2134,42 @@
       "transliteration": "Kho hai wan nee pen wan tee dee krub.",
       "category": "Basic Phrases",
       "generated_at": "2026-05-21T18:28:08.526235"
+    },
+    {
+      "english": "Keep going, you're doing great.",
+      "thai": "สู้ต่อไปนะ, เก่งมากเลย.",
+      "transliteration": "Soo tor pai na, geng mak loey.",
+      "category": "Success",
+      "generated_at": "2026-05-21T20:26:52.145330"
+    },
+    {
+      "english": "Little by little, progress is made.",
+      "thai": "ทีละน้อย, ความก้าวหน้าก็เกิดขึ้น.",
+      "transliteration": "Tee la noi, kwarm gao na gor gerd keun.",
+      "category": "Success",
+      "generated_at": "2026-05-21T20:26:52.145341"
+    },
+    {
+      "english": "Believe in yourself, you can do it.",
+      "thai": "เชื่อมั่นในตัวเอง, ทำได้แน่นอน.",
+      "transliteration": "Cheua mun nai dtua eng, tam dai nae non.",
+      "category": "Success",
+      "generated_at": "2026-05-21T20:26:52.145343"
+    },
+    {
+      "english": "Every step counts, don't give up.",
+      "thai": "ทุกก้าวมีความหมาย, อย่าท้อนะ.",
+      "transliteration": "Took gao mee kwarm mai, ya tor na.",
+      "category": "Success",
+      "generated_at": "2026-05-21T20:26:52.145344"
+    },
+    {
+      "english": "You've come so far, keep it up.",
+      "thai": "มาไกลแล้วนะ, รักษามาตรฐานไว้.",
+      "transliteration": "Maa glai laew na, ruksa mai dtra tan wai.",
+      "category": "Success",
+      "generated_at": "2026-05-21T20:26:52.145345"
     }
   ],
-  "last_updated": "2026-05-21T18:28:08.526237"
+  "last_updated": "2026-05-21T20:26:52.145347"
 }
