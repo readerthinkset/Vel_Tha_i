@@ -2169,7 +2169,42 @@
       "transliteration": "Maa glai laew na, ruksa mai dtra tan wai.",
       "category": "Success",
       "generated_at": "2026-05-21T20:26:52.145345"
+    },
+    {
+      "english": "Speak Thai, with courage.",
+      "thai": "พูดไทย, ด้วยความกล้า.",
+      "transliteration": "Poot tai, duay kwam glaa.",
+      "category": "Confidence",
+      "generated_at": "2026-05-21T22:06:37.011054"
+    },
+    {
+      "english": "Every word, is progress.",
+      "thai": "ทุกคำ, คือความก้าวหน้า.",
+      "transliteration": "Took kum, keu kwam gao naa.",
+      "category": "Confidence",
+      "generated_at": "2026-05-21T22:06:37.011064"
+    },
+    {
+      "english": "Don't be shy, just try.",
+      "thai": "อย่าอาย, ลองพูดดู.",
+      "transliteration": "Yaa ai, long poot doo.",
+      "category": "Confidence",
+      "generated_at": "2026-05-21T22:06:37.011066"
+    },
+    {
+      "english": "You can do, this Thai.",
+      "thai": "คุณทำได้, ภาษาไทยนี้.",
+      "transliteration": "Koon tum dai, paa-saa tai nee.",
+      "category": "Confidence",
+      "generated_at": "2026-05-21T22:06:37.011067"
+    },
+    {
+      "english": "Listen well, speak soon.",
+      "thai": "ฟังให้ดี, พูดเร็วๆ.",
+      "transliteration": "Fung hai dee, poot rew rew.",
+      "category": "Confidence",
+      "generated_at": "2026-05-21T22:06:37.011069"
     }
   ],
-  "last_updated": "2026-05-21T20:26:52.145347"
+  "last_updated": "2026-05-21T22:06:37.011070"
 }
