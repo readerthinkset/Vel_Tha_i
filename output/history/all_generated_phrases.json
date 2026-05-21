@@ -2099,7 +2099,42 @@
       "transliteration": "kwaam kaeng graeng, nai kwaam met dtaa",
       "category": "Strength",
       "generated_at": "2026-05-20T21:17:42.221049"
+    },
+    {
+      "english": "Thank you very much.",
+      "thai": "ขอบคุณมากครับ.",
+      "transliteration": "Khop khun mak krub.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-21T18:28:08.526221"
+    },
+    {
+      "english": "Where is the toilet?",
+      "thai": "ห้องน้ำอยู่ที่ไหนครับ?",
+      "transliteration": "Hong nam yoo tee nai krub?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-21T18:28:08.526231"
+    },
+    {
+      "english": "Delicious food, thank you.",
+      "thai": "อาหารอร่อยมาก, ขอบคุณครับ.",
+      "transliteration": "A han a roi mak, khop khun krub.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-21T18:28:08.526233"
+    },
+    {
+      "english": "Goodbye, see you later.",
+      "thai": "ลาก่อนครับ, แล้วเจอกัน.",
+      "transliteration": "La gon krub, laeo jer gan.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-21T18:28:08.526234"
+    },
+    {
+      "english": "Have a nice day.",
+      "thai": "ขอให้วันนี้เป็นวันที่ดีครับ.",
+      "transliteration": "Kho hai wan nee pen wan tee dee krub.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-21T18:28:08.526235"
     }
   ],
-  "last_updated": "2026-05-20T21:17:42.221051"
+  "last_updated": "2026-05-21T18:28:08.526237"
 }
