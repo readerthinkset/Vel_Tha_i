@@ -2274,7 +2274,42 @@
       "transliteration": "Pah chern nah kwahm glua, yahng gla haan.",
       "category": "Courage",
       "generated_at": "2026-05-22T10:37:22.157647"
+    },
+    {
+      "english": "Don't rush, take your time.",
+      "thai": "อย่ารีบ, ค่อยๆ ทำ.",
+      "transliteration": "yaa reep, khoi khoi tam",
+      "category": "Patience",
+      "generated_at": "2026-05-22T18:21:06.793731"
+    },
+    {
+      "english": "Just keep trying.",
+      "thai": "พยายามต่อไปนะ.",
+      "transliteration": "pa yaa yaam dtor bpai na",
+      "category": "Patience",
+      "generated_at": "2026-05-22T18:21:06.793740"
+    },
+    {
+      "english": "One step, at a time.",
+      "thai": "ทีละก้าว, ทีละก้าว.",
+      "transliteration": "tee la gaao, tee la gaao",
+      "category": "Patience",
+      "generated_at": "2026-05-22T18:21:06.793741"
+    },
+    {
+      "english": "Be patient, it's worth it.",
+      "thai": "อดทนนะ, มันคุ้มค่า.",
+      "transliteration": "ot ton na, man khum kaa",
+      "category": "Patience",
+      "generated_at": "2026-05-22T18:21:06.793743"
+    },
+    {
+      "english": "Let nature, take its course.",
+      "thai": "ปล่อยให้เป็นไป, ตามธรรมชาติ.",
+      "transliteration": "bploi hai bpen bpai, dtaam tam ma chaat",
+      "category": "Patience",
+      "generated_at": "2026-05-22T18:21:06.793744"
     }
   ],
-  "last_updated": "2026-05-22T10:37:22.157649"
+  "last_updated": "2026-05-22T18:21:06.793745"
 }
