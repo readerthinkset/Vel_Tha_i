@@ -2239,7 +2239,42 @@
       "transliteration": "Sip jet, sip paet, glai mak.",
       "category": "Numbers Thai",
       "generated_at": "2026-05-21T23:39:32.272647"
+    },
+    {
+      "english": "Be brave, little one.",
+      "thai": "กล้าหน่อยนะ, เด็กน้อย.",
+      "transliteration": "Gla noi na, dek noi.",
+      "category": "Courage",
+      "generated_at": "2026-05-22T10:37:22.157633"
+    },
+    {
+      "english": "Take a deep breath, then go.",
+      "thai": "หายใจลึกๆ, แล้วไปเลย.",
+      "transliteration": "Hai jai leuk leuk, laew pai loey.",
+      "category": "Courage",
+      "generated_at": "2026-05-22T10:37:22.157643"
+    },
+    {
+      "english": "Your strength is within you.",
+      "thai": "ความกล้าอยู่ในตัวคุณ.",
+      "transliteration": "Kwam gla yoo nai dtua koon.",
+      "category": "Courage",
+      "generated_at": "2026-05-22T10:37:22.157645"
+    },
+    {
+      "english": "Step forward, don't look back.",
+      "thai": "ก้าวไปข้างหน้า, อย่ามองหลัง.",
+      "transliteration": "Gao pai kang nah, ya mong lang.",
+      "category": "Courage",
+      "generated_at": "2026-05-22T10:37:22.157646"
+    },
+    {
+      "english": "Face your fears, bravely.",
+      "thai": "เผชิญหน้าความกลัว, อย่างกล้าหาญ.",
+      "transliteration": "Pah chern nah kwahm glua, yahng gla haan.",
+      "category": "Courage",
+      "generated_at": "2026-05-22T10:37:22.157647"
     }
   ],
-  "last_updated": "2026-05-21T23:39:32.272648"
+  "last_updated": "2026-05-22T10:37:22.157649"
 }
