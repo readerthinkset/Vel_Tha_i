@@ -2309,7 +2309,42 @@
       "transliteration": "bploi hai bpen bpai, dtaam tam ma chaat",
       "category": "Patience",
       "generated_at": "2026-05-22T18:21:06.793744"
+    },
+    {
+      "english": "Hello there, nice to meet you.",
+      "thai": "สวัสดีครับ, ยินดีที่ได้รู้จัก.",
+      "transliteration": "Sawatdee krub, Yindee tee dai roo jak.",
+      "category": "Greetings",
+      "generated_at": "2026-05-22T19:18:28.626917"
+    },
+    {
+      "english": "Good morning, hope you slept well.",
+      "thai": "อรุณสวัสดิ์ครับ, หวังว่าหลับสบายนะครับ.",
+      "transliteration": "Arun sawat krub, Wang wa lap sabai na krub.",
+      "category": "Greetings",
+      "generated_at": "2026-05-22T19:18:28.626926"
+    },
+    {
+      "english": "Hi, how are you doing today?",
+      "thai": "สวัสดีครับ, วันนี้เป็นอย่างไรบ้างครับ?",
+      "transliteration": "Sawatdee krub, Wan nee pen yang rai bang krub?",
+      "category": "Greetings",
+      "generated_at": "2026-05-22T19:18:28.626928"
+    },
+    {
+      "english": "Hey, long time no see!",
+      "thai": "เฮ้, ไม่เจอกันนานเลย!",
+      "transliteration": "Hey, Mai jur gun nan loey!",
+      "category": "Greetings",
+      "generated_at": "2026-05-22T19:18:28.626929"
+    },
+    {
+      "english": "Welcome, glad you could come.",
+      "thai": "ยินดีต้อนรับครับ, ดีใจที่คุณมา.",
+      "transliteration": "Yindee ton rub krub, Dee jai tee khoon ma.",
+      "category": "Greetings",
+      "generated_at": "2026-05-22T19:18:28.626930"
     }
   ],
-  "last_updated": "2026-05-22T18:21:06.793745"
+  "last_updated": "2026-05-22T19:18:28.626931"
 }
