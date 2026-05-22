@@ -2379,7 +2379,42 @@
       "transliteration": "Lok khong chan, mee khun yoo.",
       "category": "Love",
       "generated_at": "2026-05-22T21:40:46.023853"
+    },
+    {
+      "english": "Where is the bathroom, please?",
+      "thai": "ห้องน้ำอยู่ที่ไหนครับ",
+      "transliteration": "hong nam yoo tee nai krub",
+      "category": "Travel Thai",
+      "generated_at": "2026-05-22T23:48:58.105219"
+    },
+    {
+      "english": "Can you help me, please?",
+      "thai": "ช่วยฉันหน่อยได้ไหมครับ",
+      "transliteration": "chuay chan noi dai mai krub",
+      "category": "Travel Thai",
+      "generated_at": "2026-05-22T23:48:58.105227"
+    },
+    {
+      "english": "I would like to order this.",
+      "thai": "ฉันขอสั่งอันนี้ครับ",
+      "transliteration": "chan kor sang an nee krub",
+      "category": "Travel Thai",
+      "generated_at": "2026-05-22T23:48:58.105229"
+    },
+    {
+      "english": "Is it far from here?",
+      "thai": "มันไกลจากที่นี่ไหมครับ",
+      "transliteration": "man glai jahk tee nee mai krub",
+      "category": "Travel Thai",
+      "generated_at": "2026-05-22T23:48:58.105230"
+    },
+    {
+      "english": "What is this called?",
+      "thai": "อันนี้เรียกว่าอะไรครับ",
+      "transliteration": "an nee riahk wah ah rai krub",
+      "category": "Travel Thai",
+      "generated_at": "2026-05-22T23:48:58.105231"
     }
   ],
-  "last_updated": "2026-05-22T21:40:46.023855"
+  "last_updated": "2026-05-22T23:48:58.105233"
 }
