@@ -2449,7 +2449,42 @@
       "transliteration": "Ploi raeng bandan jai, tam hai doht den",
       "category": "Creativity",
       "generated_at": "2026-05-23T07:59:01.030832"
+    },
+    {
+      "english": "One water, please.",
+      "thai": "ขอน้ำเปล่า, หนึ่งขวดครับ/ค่ะ",
+      "transliteration": "Kor nam plao, neung kuad krub/ka",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-23T15:47:37.403273"
+    },
+    {
+      "english": "This is delicious, really.",
+      "thai": "อร่อยมากเลย, จริงๆ",
+      "transliteration": "Aroi mak loei, jing jing",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-23T15:47:37.403282"
+    },
+    {
+      "english": "Can I have the bill?",
+      "thai": "คิดเงินด้วยครับ/ค่ะ",
+      "transliteration": "Kit ngern duay krub/ka",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-23T15:47:37.403284"
+    },
+    {
+      "english": "Not too spicy, please.",
+      "thai": "ไม่เผ็ดมาก, นะครับ/คะ",
+      "transliteration": "Mai phet mak, na krub/ka",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-23T15:47:37.403285"
+    },
+    {
+      "english": "What do you recommend?",
+      "thai": "มีอะไรแนะนำบ้าง?",
+      "transliteration": "Mee arai naenam bang?",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-23T15:47:37.403286"
     }
   ],
-  "last_updated": "2026-05-23T07:59:01.030833"
+  "last_updated": "2026-05-23T15:47:37.403288"
 }
