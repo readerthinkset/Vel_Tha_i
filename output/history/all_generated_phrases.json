@@ -2589,7 +2589,42 @@
       "transliteration": "Yom rap gaan bplian bplaeng, ya glua",
       "category": "Self Improvement",
       "generated_at": "2026-05-23T22:40:32.156387"
+    },
+    {
+      "english": "Help me, please.",
+      "thai": "ช่วยด้วยครับ.",
+      "transliteration": "chuay duay krub",
+      "category": "Emergency Thai",
+      "generated_at": "2026-05-27T14:48:25.610146"
+    },
+    {
+      "english": "I need a doctor.",
+      "thai": "ต้องการหมอครับ.",
+      "transliteration": "tong karn mor krub",
+      "category": "Emergency Thai",
+      "generated_at": "2026-05-27T14:48:25.610157"
+    },
+    {
+      "english": "Call the police.",
+      "thai": "เรียกตำรวจครับ.",
+      "transliteration": "riak tam ruat krub",
+      "category": "Emergency Thai",
+      "generated_at": "2026-05-27T14:48:25.610159"
+    },
+    {
+      "english": "I am lost.",
+      "thai": "ผมหลงทางครับ.",
+      "transliteration": "pom long tahng krub",
+      "category": "Emergency Thai",
+      "generated_at": "2026-05-27T14:48:25.610160"
+    },
+    {
+      "english": "My bag is stolen.",
+      "thai": "กระเป๋าผมหายครับ.",
+      "transliteration": "gra pao pom hai krub",
+      "category": "Emergency Thai",
+      "generated_at": "2026-05-27T14:48:25.610161"
     }
   ],
-  "last_updated": "2026-05-23T22:40:32.156388"
+  "last_updated": "2026-05-27T14:48:25.610163"
 }
