@@ -2764,7 +2764,42 @@
       "transliteration": "kwam pit plad, keu kroo.",
       "category": "Wisdom",
       "generated_at": "2026-05-28T01:45:30.020922"
+    },
+    {
+      "english": "Can you please forget this?",
+      "thai": "ลืมเรื่องนี้ไปนะ, ได้ไหม?",
+      "transliteration": "Leum rueang nee pai na, dai mai?",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-28T14:59:18.663440"
+    },
+    {
+      "english": "I didn't mean to, I'm sorry.",
+      "thai": "ฉันไม่ได้ตั้งใจ, ขอโทษนะ.",
+      "transliteration": "Chan mai dai tang jai, kor toht na.",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-28T14:59:18.663449"
+    },
+    {
+      "english": "Let's move on, please forgive.",
+      "thai": "เราไปกันต่อเถอะ, กรุณายกโทษ.",
+      "transliteration": "Rao pai gan tor ter, garuna yok toht.",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-28T14:59:18.663451"
+    },
+    {
+      "english": "I regret what happened, sorry.",
+      "thai": "ฉันเสียใจกับสิ่งที่เกิดขึ้น, ขอโทษ.",
+      "transliteration": "Chan sia jai gab sing tee gert kuen, kor toht.",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-28T14:59:18.663452"
+    },
+    {
+      "english": "No hard feelings, okay?",
+      "thai": "ไม่มีอะไรคาใจนะ, ตกลงไหม?",
+      "transliteration": "Mai mee arai ka jai na, tok long mai?",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-28T14:59:18.663453"
     }
   ],
-  "last_updated": "2026-05-28T01:45:30.020924"
+  "last_updated": "2026-05-28T14:59:18.663454"
 }
