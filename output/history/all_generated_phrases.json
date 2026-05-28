@@ -2799,7 +2799,42 @@
       "transliteration": "Mai mee arai ka jai na, tok long mai?",
       "category": "Forgiveness",
       "generated_at": "2026-05-28T14:59:18.663453"
+    },
+    {
+      "english": "For learning Thai, practice daily.",
+      "thai": "เพื่อเรียนภาษาไทย, ฝึกฝนทุกวัน",
+      "transliteration": "Peua rian pasa tai, feuk fon took wan",
+      "category": "Purpose",
+      "generated_at": "2026-05-28T17:31:01.403783"
+    },
+    {
+      "english": "To understand, listen carefully.",
+      "thai": "เพื่อเข้าใจ, ตั้งใจฟัง",
+      "transliteration": "Peua kao jai, dtung jai fang",
+      "category": "Purpose",
+      "generated_at": "2026-05-28T17:31:01.403795"
+    },
+    {
+      "english": "For good health, eat well.",
+      "thai": "เพื่อสุขภาพดี, กินอาหารดี",
+      "transliteration": "Peua sukapaap dee, gin ahaan dee",
+      "category": "Purpose",
+      "generated_at": "2026-05-28T17:31:01.403797"
+    },
+    {
+      "english": "To travel, pack light.",
+      "thai": "เพื่อเดินทาง, แพ็คของน้อย",
+      "transliteration": "Peua dern taang, pack kong noi",
+      "category": "Purpose",
+      "generated_at": "2026-05-28T17:31:01.403798"
+    },
+    {
+      "english": "For success, work hard.",
+      "thai": "เพื่อความสำเร็จ, ทำงานหนัก",
+      "transliteration": "Peua kwaam samret, tam ngaan nak",
+      "category": "Purpose",
+      "generated_at": "2026-05-28T17:31:01.403799"
     }
   ],
-  "last_updated": "2026-05-28T14:59:18.663454"
+  "last_updated": "2026-05-28T17:31:01.403801"
 }
