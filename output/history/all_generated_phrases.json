@@ -2939,7 +2939,42 @@
       "transliteration": "dee jai tee kun maa, kob kun!",
       "category": "Joy",
       "generated_at": "2026-05-29T01:54:35.010055"
+    },
+    {
+      "english": "Hello again, see you soon.",
+      "thai": "สวัสดีอีกครั้งครับ, แล้วพบกันใหม่นะครับ.",
+      "transliteration": "Sawatdee eek krang krub, Laew pob gun mai na krub.",
+      "category": "Greetings",
+      "generated_at": "2026-05-29T19:32:10.483304"
+    },
+    {
+      "english": "Hi, what's new with you?",
+      "thai": "สวัสดีครับ, มีอะไรใหม่บ้างครับ?",
+      "transliteration": "Sawatdee krub, Mee a-rai mai bang krub?",
+      "category": "Greetings",
+      "generated_at": "2026-05-29T19:32:10.483311"
+    },
+    {
+      "english": "Good evening, hope your day was good.",
+      "thai": "สวัสดีตอนเย็นครับ, หวังว่าวันนี้จะดีนะครับ.",
+      "transliteration": "Sawatdee ton yen krub, Wang wa wan nee ja dee na krub.",
+      "category": "Greetings",
+      "generated_at": "2026-05-29T19:32:10.483312"
+    },
+    {
+      "english": "Hello, my name is [Your Name].",
+      "thai": "สวัสดีครับ, ผมชื่อ [ชื่อของคุณ] ครับ.",
+      "transliteration": "Sawatdee krub, Pom chue [Your Name] krub.",
+      "category": "Greetings",
+      "generated_at": "2026-05-29T19:32:10.483314"
+    },
+    {
+      "english": "Hi, it's a pleasure to meet you.",
+      "thai": "สวัสดีครับ, เป็นเกียรติที่ได้พบคุณครับ.",
+      "transliteration": "Sawatdee krub, Pen giat tee dai pob khoon krub.",
+      "category": "Greetings",
+      "generated_at": "2026-05-29T19:32:10.483315"
     }
   ],
-  "last_updated": "2026-05-29T01:54:35.010056"
+  "last_updated": "2026-05-29T19:32:10.483316"
 }
