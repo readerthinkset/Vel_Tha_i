@@ -3044,7 +3044,42 @@
       "transliteration": "som dun sam kan",
       "category": "Balance",
       "generated_at": "2026-05-30T12:56:40.650315"
+    },
+    {
+      "english": "No problem, really.",
+      "thai": "ไม่เป็นไร, จริงๆ.",
+      "transliteration": "Mai pen rai, jing jing.",
+      "category": "Common Expressions",
+      "generated_at": "2026-05-30T20:57:49.359130"
+    },
+    {
+      "english": "I'm not sure, yet.",
+      "thai": "ยังไม่แน่ใจ, เลย.",
+      "transliteration": "Yang mai nae jai, loei.",
+      "category": "Common Expressions",
+      "generated_at": "2026-05-30T20:57:49.359140"
+    },
+    {
+      "english": "Take your time, please.",
+      "thai": "ตามสบาย, ครับ/ค่ะ.",
+      "transliteration": "Tam sa-bai, krub/ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-05-30T20:57:49.359142"
+    },
+    {
+      "english": "What's this, then?",
+      "thai": "อันนี้คืออะไร, ครับ/ค่ะ.",
+      "transliteration": "An nee keu a-rai, krub/ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-05-30T20:57:49.359143"
+    },
+    {
+      "english": "It's very delicious.",
+      "thai": "อร่อยมาก, เลย.",
+      "transliteration": "A-roy mak, loei.",
+      "category": "Common Expressions",
+      "generated_at": "2026-05-30T20:57:49.359144"
     }
   ],
-  "last_updated": "2026-05-30T12:56:40.650316"
+  "last_updated": "2026-05-30T20:57:49.359145"
 }
