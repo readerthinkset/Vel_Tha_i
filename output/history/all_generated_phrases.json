@@ -2974,7 +2974,42 @@
       "transliteration": "Sawatdee krub, Pen giat tee dai pob khoon krub.",
       "category": "Greetings",
       "generated_at": "2026-05-29T19:32:10.483315"
+    },
+    {
+      "english": "Breathe in, breathe out, peace.",
+      "thai": "หายใจเข้า, หายใจออก, สบายใจ.",
+      "transliteration": "Hai jai kao, hai jai ok, sabai jai.",
+      "category": "Mindfulness",
+      "generated_at": "2026-05-30T01:50:22.556406"
+    },
+    {
+      "english": "Just be, right here, now.",
+      "thai": "อยู่ตรงนี้, ณ ตอนนี้, เลย.",
+      "transliteration": "Yoo trong nee, na dton nee, loei.",
+      "category": "Mindfulness",
+      "generated_at": "2026-05-30T01:50:22.556415"
+    },
+    {
+      "english": "Feel the ground, beneath you.",
+      "thai": "รู้สึกถึงพื้น, ข้างใต้คุณ.",
+      "transliteration": "Roo seuk teung peun, kang dtai koon.",
+      "category": "Mindfulness",
+      "generated_at": "2026-05-30T01:50:22.556417"
+    },
+    {
+      "english": "Listen closely, to silence.",
+      "thai": "ฟังให้ดี, ความเงียบ.",
+      "transliteration": "Fang hai dee, kwam ngiap.",
+      "category": "Mindfulness",
+      "generated_at": "2026-05-30T01:50:22.556418"
+    },
+    {
+      "english": "Gentle thoughts, drift away.",
+      "thai": "ความคิดเบาๆ, ลอยไป.",
+      "transliteration": "Kwam kit bao bao, loy bpai.",
+      "category": "Mindfulness",
+      "generated_at": "2026-05-30T01:50:22.556419"
     }
   ],
-  "last_updated": "2026-05-29T19:32:10.483316"
+  "last_updated": "2026-05-30T01:50:22.556421"
 }
