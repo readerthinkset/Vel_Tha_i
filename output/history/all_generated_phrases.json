@@ -3009,7 +3009,42 @@
       "transliteration": "Kwam kit bao bao, loy bpai.",
       "category": "Mindfulness",
       "generated_at": "2026-05-30T01:50:22.556419"
+    },
+    {
+      "english": "Find your center, breathe deep.",
+      "thai": "หาศูนย์กลาง, หายใจลึกๆ.",
+      "transliteration": "haa soon glaang, haai jai leuk leuk",
+      "category": "Balance",
+      "generated_at": "2026-05-30T12:56:40.650303"
+    },
+    {
+      "english": "Stay steady, move slowly.",
+      "thai": "อยู่นิ่งๆ, ค่อยๆ ไป.",
+      "transliteration": "yoo ning ning, koy koy bpai",
+      "category": "Balance",
+      "generated_at": "2026-05-30T12:56:40.650311"
+    },
+    {
+      "english": "Listen to your body.",
+      "thai": "ฟังเสียงร่างกาย.",
+      "transliteration": "fang siang raang gaai",
+      "category": "Balance",
+      "generated_at": "2026-05-30T12:56:40.650312"
+    },
+    {
+      "english": "Grounded and calm.",
+      "thai": "มั่นคง, และสงบ.",
+      "transliteration": "man kong, lae sa-ngop",
+      "category": "Balance",
+      "generated_at": "2026-05-30T12:56:40.650313"
+    },
+    {
+      "english": "Balance is key.",
+      "thai": "สมดุลสำคัญ.",
+      "transliteration": "som dun sam kan",
+      "category": "Balance",
+      "generated_at": "2026-05-30T12:56:40.650315"
     }
   ],
-  "last_updated": "2026-05-30T01:50:22.556421"
+  "last_updated": "2026-05-30T12:56:40.650316"
 }
