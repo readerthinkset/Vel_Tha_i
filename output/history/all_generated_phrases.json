@@ -3149,7 +3149,42 @@
       "transliteration": "Nong sao pom, naa rak krub",
       "category": "Family Terms",
       "generated_at": "2026-05-31T18:03:03.750556"
+    },
+    {
+      "english": "Just a moment, please.",
+      "thai": "รอสักครู่นะครับ/คะ",
+      "transliteration": "Ror sak kroo na krub/ka",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-31T21:00:11.502415"
+    },
+    {
+      "english": "Can I see the menu?",
+      "thai": "ขอดูเมนูหน่อย",
+      "transliteration": "Kor doo menu noi",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-31T21:00:11.502426"
+    },
+    {
+      "english": "We are ready, to order.",
+      "thai": "พร้อมแล้ว, สั่งได้เลย",
+      "transliteration": "Prom laew, sang dai loei",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-31T21:00:11.502427"
+    },
+    {
+      "english": "A little bit sweet.",
+      "thai": "หวานนิดหน่อย, ครับ/ค่ะ",
+      "transliteration": "Waan nit noi, krub/ka",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-31T21:00:11.502429"
+    },
+    {
+      "english": "Thank you, very good.",
+      "thai": "ขอบคุณครับ/ค่ะ, ดีมาก",
+      "transliteration": "Khop khun krub/ka, dee mak",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-05-31T21:00:11.502430"
     }
   ],
-  "last_updated": "2026-05-31T18:03:03.750558"
+  "last_updated": "2026-05-31T21:00:11.502431"
 }
