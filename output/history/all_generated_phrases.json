@@ -3079,7 +3079,42 @@
       "transliteration": "A-roy mak, loei.",
       "category": "Common Expressions",
       "generated_at": "2026-05-30T20:57:49.359144"
+    },
+    {
+      "english": "Thank you, so much.",
+      "thai": "ขอบคุณมากครับ.",
+      "transliteration": "Khop khun mak krub.",
+      "category": "Gratitude",
+      "generated_at": "2026-05-31T02:02:21.497657"
+    },
+    {
+      "english": "You are, very kind.",
+      "thai": "คุณใจดี, มาก.",
+      "transliteration": "Khun jai dee, mak.",
+      "category": "Gratitude",
+      "generated_at": "2026-05-31T02:02:21.497669"
+    },
+    {
+      "english": "Thanks, for your help.",
+      "thai": "ขอบคุณ, ที่ช่วย.",
+      "transliteration": "Khop khun, tee chuay.",
+      "category": "Gratitude",
+      "generated_at": "2026-05-31T02:02:21.497670"
+    },
+    {
+      "english": "What a, surprise!",
+      "thai": "น่าประหลาด, ใจ!",
+      "transliteration": "Na pra laat, jai!",
+      "category": "Gratitude",
+      "generated_at": "2026-05-31T02:02:21.497672"
+    },
+    {
+      "english": "You're the, best.",
+      "thai": "คุณยอด, เยี่ยม.",
+      "transliteration": "Khun yod, yiam.",
+      "category": "Gratitude",
+      "generated_at": "2026-05-31T02:02:21.497673"
     }
   ],
-  "last_updated": "2026-05-30T20:57:49.359145"
+  "last_updated": "2026-05-31T02:02:21.497674"
 }
