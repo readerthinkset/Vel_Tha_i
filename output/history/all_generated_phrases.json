@@ -3114,7 +3114,42 @@
       "transliteration": "Khun yod, yiam.",
       "category": "Gratitude",
       "generated_at": "2026-05-31T02:02:21.497673"
+    },
+    {
+      "english": "My mother, so kind.",
+      "thai": "แม่ผม, ใจดีมากครับ",
+      "transliteration": "Mae pom, jai dee maak krub",
+      "category": "Family Terms",
+      "generated_at": "2026-05-31T18:03:03.750542"
+    },
+    {
+      "english": "My father, strong.",
+      "thai": "พ่อผม, แข็งแรงครับ",
+      "transliteration": "Por pom, khaeng raeng krub",
+      "category": "Family Terms",
+      "generated_at": "2026-05-31T18:03:03.750552"
+    },
+    {
+      "english": "My older brother, helps me.",
+      "thai": "พี่ชายผม, ช่วยผมครับ",
+      "transliteration": "Pee chai pom, chuay pom krub",
+      "category": "Family Terms",
+      "generated_at": "2026-05-31T18:03:03.750553"
+    },
+    {
+      "english": "My younger brother, is small.",
+      "thai": "น้องชายผม, ตัวเล็กครับ",
+      "transliteration": "Nong chai pom, tua lek krub",
+      "category": "Family Terms",
+      "generated_at": "2026-05-31T18:03:03.750555"
+    },
+    {
+      "english": "My younger sister, is cute.",
+      "thai": "น้องสาวผม, น่ารักครับ",
+      "transliteration": "Nong sao pom, naa rak krub",
+      "category": "Family Terms",
+      "generated_at": "2026-05-31T18:03:03.750556"
     }
   ],
-  "last_updated": "2026-05-31T02:02:21.497674"
+  "last_updated": "2026-05-31T18:03:03.750558"
 }
