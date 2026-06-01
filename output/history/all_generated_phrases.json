@@ -3219,7 +3219,42 @@
       "transliteration": "Peua patana, long sing mai",
       "category": "Purpose",
       "generated_at": "2026-06-01T17:09:14.138898"
+    },
+    {
+      "english": "Keep trying, don't give up.",
+      "thai": "สู้ต่อไป, อย่าเพิ่งยอมแพ้",
+      "transliteration": "Soo tor pai, ya perng yom pae",
+      "category": "Perseverance",
+      "generated_at": "2026-06-01T22:33:53.406724"
+    },
+    {
+      "english": "Little by little, progress happens.",
+      "thai": "ทีละนิด, ความก้าวหน้าเกิดขึ้น",
+      "transliteration": "Tee la nit, kwarm gao na gerd kuen",
+      "category": "Perseverance",
+      "generated_at": "2026-06-01T22:33:53.406735"
+    },
+    {
+      "english": "Every step counts, forward.",
+      "thai": "ทุกก้าวสำคัญ, เดินหน้าต่อไป",
+      "transliteration": "Took gao sam-kun, dern na tor pai",
+      "category": "Perseverance",
+      "generated_at": "2026-06-01T22:33:53.406737"
+    },
+    {
+      "english": "Learn from mistakes, grow stronger.",
+      "thai": "เรียนรู้จากข้อผิดพลาด, แข็งแกร่งขึ้น",
+      "transliteration": "Rian roo jak kor pid plad, kaeng graeng kuen",
+      "category": "Perseverance",
+      "generated_at": "2026-06-01T22:33:53.406738"
+    },
+    {
+      "english": "Stay focused, reach your goal.",
+      "thai": "จดจ่อไว้, บรรลุเป้าหมาย",
+      "transliteration": "Jot jor wai, bun loo pao mai",
+      "category": "Perseverance",
+      "generated_at": "2026-06-01T22:33:53.406739"
     }
   ],
-  "last_updated": "2026-06-01T17:09:14.138900"
+  "last_updated": "2026-06-01T22:33:53.406741"
 }
