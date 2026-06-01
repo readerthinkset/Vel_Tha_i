@@ -3184,7 +3184,42 @@
       "transliteration": "Khop khun krub/ka, dee mak",
       "category": "Restaurant Thai",
       "generated_at": "2026-05-31T21:00:11.502430"
+    },
+    {
+      "english": "To communicate, speak clearly.",
+      "thai": "เพื่อสื่อสาร, พูดให้ชัด",
+      "transliteration": "Peua seu saarn, poot hai chat",
+      "category": "Purpose",
+      "generated_at": "2026-06-01T17:09:14.138875"
+    },
+    {
+      "english": "For happiness, be kind.",
+      "thai": "เพื่อความสุข, ใจดีเข้าไว้",
+      "transliteration": "Peua kwaam suk, jai dee kao wai",
+      "category": "Purpose",
+      "generated_at": "2026-06-01T17:09:14.138890"
+    },
+    {
+      "english": "To relax, take a break.",
+      "thai": "เพื่อผ่อนคลาย, พักสักครู่",
+      "transliteration": "Peua pon klaai, pak sak kroo",
+      "category": "Purpose",
+      "generated_at": "2026-06-01T17:09:14.138892"
+    },
+    {
+      "english": "For knowledge, read books.",
+      "thai": "เพื่อความรู้, อ่านหนังสือ",
+      "transliteration": "Peua kwaam roo, aan nang seu",
+      "category": "Purpose",
+      "generated_at": "2026-06-01T17:09:14.138894"
+    },
+    {
+      "english": "To improve, try new things.",
+      "thai": "เพื่อพัฒนา, ลองสิ่งใหม่",
+      "transliteration": "Peua patana, long sing mai",
+      "category": "Purpose",
+      "generated_at": "2026-06-01T17:09:14.138898"
     }
   ],
-  "last_updated": "2026-05-31T21:00:11.502431"
+  "last_updated": "2026-06-01T17:09:14.138900"
 }
