@@ -3324,7 +3324,42 @@
       "transliteration": "chee wit dee, dton nee loey!",
       "category": "Joy",
       "generated_at": "2026-06-02T20:07:41.143890"
+    },
+    {
+      "english": "Can I try it on, please?",
+      "thai": "ลองใส่ได้ไหมครับ/คะ?",
+      "transliteration": "Long sai dai mai krub/ka?",
+      "category": "Shopping Thai",
+      "generated_at": "2026-06-03T18:15:04.347129"
+    },
+    {
+      "english": "Do you have this, in blue?",
+      "thai": "มีอันนี้, สีฟ้าไหมครับ/คะ?",
+      "transliteration": "Mee an nee, see fah mai krub/ka?",
+      "category": "Shopping Thai",
+      "generated_at": "2026-06-03T18:15:04.347137"
+    },
+    {
+      "english": "It's too expensive, for me.",
+      "thai": "แพงไปหน่อย, สำหรับฉัน.",
+      "transliteration": "Pang pai noi, sum-rub chan.",
+      "category": "Shopping Thai",
+      "generated_at": "2026-06-03T18:15:04.347138"
+    },
+    {
+      "english": "Can you give me, a discount?",
+      "thai": "ลดราคาให้หน่อยได้ไหมครับ/คะ?",
+      "transliteration": "Lot ra-kah hai noi dai mai krub/ka?",
+      "category": "Shopping Thai",
+      "generated_at": "2026-06-03T18:15:04.347139"
+    },
+    {
+      "english": "I'll take this one, please.",
+      "thai": "เอาอันนี้ครับ/ค่ะ.",
+      "transliteration": "Ao an nee krub/ka.",
+      "category": "Shopping Thai",
+      "generated_at": "2026-06-03T18:15:04.347141"
     }
   ],
-  "last_updated": "2026-06-02T20:07:41.143892"
+  "last_updated": "2026-06-03T18:15:04.347142"
 }
