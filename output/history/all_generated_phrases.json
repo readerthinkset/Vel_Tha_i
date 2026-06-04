@@ -3359,7 +3359,42 @@
       "transliteration": "Ao an nee krub/ka.",
       "category": "Shopping Thai",
       "generated_at": "2026-06-03T18:15:04.347141"
+    },
+    {
+      "english": "You're my best friend, okay?",
+      "thai": "เธอคือเพื่อนสนิทของฉันนะ",
+      "transliteration": "Tur keu peuan sanit kong chan na",
+      "category": "Friendship",
+      "generated_at": "2026-06-04T16:42:18.931479"
+    },
+    {
+      "english": "Thanks for everything, friend.",
+      "thai": "ขอบคุณทุกอย่างเลยนะเพื่อน",
+      "transliteration": "Khop khun took yang loey na peuan",
+      "category": "Friendship",
+      "generated_at": "2026-06-04T16:42:18.931490"
+    },
+    {
+      "english": "Miss you, my dear friend.",
+      "thai": "คิดถึงนะ, เพื่อนรักของฉัน",
+      "transliteration": "Kit teung na, peuan rak kong chan",
+      "category": "Friendship",
+      "generated_at": "2026-06-04T16:42:18.931491"
+    },
+    {
+      "english": "We'll always be friends, right?",
+      "thai": "เราจะเป็นเพื่อนกันตลอดไปนะ",
+      "transliteration": "Rao ja pen peuan gun talot pai na",
+      "category": "Friendship",
+      "generated_at": "2026-06-04T16:42:18.931493"
+    },
+    {
+      "english": "Glad to have you, really.",
+      "thai": "ดีใจที่มีเธอจริงๆ",
+      "transliteration": "Dee jai tee mee tur jing jing",
+      "category": "Friendship",
+      "generated_at": "2026-06-04T16:42:18.931494"
     }
   ],
-  "last_updated": "2026-06-03T18:15:04.347142"
+  "last_updated": "2026-06-04T16:42:18.931495"
 }
