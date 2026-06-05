@@ -3394,7 +3394,42 @@
       "transliteration": "Dee jai tee mee tur jing jing",
       "category": "Friendship",
       "generated_at": "2026-06-04T16:42:18.931494"
+    },
+    {
+      "english": "See you, tomorrow.",
+      "thai": "เจอกัน, พรุ่งนี้.",
+      "transliteration": "jur gun, prung nee",
+      "category": "Time Thai",
+      "generated_at": "2026-06-05T16:23:55.375486"
+    },
+    {
+      "english": "A little, later.",
+      "thai": "อีกหน่อย, นะ.",
+      "transliteration": "eek noy, na",
+      "category": "Time Thai",
+      "generated_at": "2026-06-05T16:23:55.375499"
+    },
+    {
+      "english": "Wait, a moment.",
+      "thai": "รอแป๊บ, นึง.",
+      "transliteration": "ror paep, neung",
+      "category": "Time Thai",
+      "generated_at": "2026-06-05T16:23:55.375500"
+    },
+    {
+      "english": "This morning, is good.",
+      "thai": "เช้านี้, ดีนะ.",
+      "transliteration": "chao nee, dee na",
+      "category": "Time Thai",
+      "generated_at": "2026-06-05T16:23:55.375502"
+    },
+    {
+      "english": "This evening, let's go.",
+      "thai": "เย็นนี้, ไปกัน.",
+      "transliteration": "yen nee, pai gun",
+      "category": "Time Thai",
+      "generated_at": "2026-06-05T16:23:55.375503"
     }
   ],
-  "last_updated": "2026-06-04T16:42:18.931495"
+  "last_updated": "2026-06-05T16:23:55.375504"
 }
