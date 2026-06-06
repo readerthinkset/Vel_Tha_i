@@ -3429,7 +3429,42 @@
       "transliteration": "yen nee, pai gun",
       "category": "Time Thai",
       "generated_at": "2026-06-05T16:23:55.375503"
+    },
+    {
+      "english": "Stand tall, be proud.",
+      "thai": "ยืนตรง, ภูมิใจ.",
+      "transliteration": "Yeun dtrong, poom jai.",
+      "category": "Strength",
+      "generated_at": "2026-06-06T13:01:24.527733"
+    },
+    {
+      "english": "Inner fire, burns bright.",
+      "thai": "ไฟในใจ, ลุกโชน.",
+      "transliteration": "Fai nai jai, look chohn.",
+      "category": "Strength",
+      "generated_at": "2026-06-06T13:01:24.527742"
+    },
+    {
+      "english": "Strong mind, strong spirit.",
+      "thai": "ใจแข็งแกร่ง, จิตใจเข้มแข็ง.",
+      "transliteration": "Jai kaeng graeng, jit jai kem kaeng.",
+      "category": "Strength",
+      "generated_at": "2026-06-06T13:01:24.527744"
+    },
+    {
+      "english": "Keep pushing, forward.",
+      "thai": "ก้าวต่อไป, ข้างหน้า.",
+      "transliteration": "Gao dtor bpai, kang naa.",
+      "category": "Strength",
+      "generated_at": "2026-06-06T13:01:24.527746"
+    },
+    {
+      "english": "Never give up, hope.",
+      "thai": "อย่าท้อแท้, มีหวัง.",
+      "transliteration": "Yaa tor tae, mee wang.",
+      "category": "Strength",
+      "generated_at": "2026-06-06T13:01:24.527747"
     }
   ],
-  "last_updated": "2026-06-05T16:23:55.375504"
+  "last_updated": "2026-06-06T13:01:24.527748"
 }
