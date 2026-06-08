@@ -3464,7 +3464,42 @@
       "transliteration": "Yaa tor tae, mee wang.",
       "category": "Strength",
       "generated_at": "2026-06-06T13:01:24.527747"
+    },
+    {
+      "english": "Live happy, be kind.",
+      "thai": "มีความสุข, มีเมตตา",
+      "transliteration": "Mee kwam suk, mee metta",
+      "category": "Positive Life",
+      "generated_at": "2026-06-08T17:01:00.501711"
+    },
+    {
+      "english": "Today is a new day.",
+      "thai": "วันนี้, วันใหม่",
+      "transliteration": "Wan nee, wan mai",
+      "category": "Positive Life",
+      "generated_at": "2026-06-08T17:01:00.501720"
+    },
+    {
+      "english": "Follow your heart.",
+      "thai": "ทำตามใจ, ตัวเอง",
+      "transliteration": "Tam tam jai, tua eng",
+      "category": "Positive Life",
+      "generated_at": "2026-06-08T17:01:00.501722"
+    },
+    {
+      "english": "Believe in yourself.",
+      "thai": "เชื่อมั่น, ในตัวเอง",
+      "transliteration": "Cheua mun, nai tua eng",
+      "category": "Positive Life",
+      "generated_at": "2026-06-08T17:01:00.501723"
+    },
+    {
+      "english": "Keep moving forward.",
+      "thai": "เดินหน้า, ต่อไป",
+      "transliteration": "Dern nah, tor pai",
+      "category": "Positive Life",
+      "generated_at": "2026-06-08T17:01:00.501724"
     }
   ],
-  "last_updated": "2026-06-06T13:01:24.527748"
+  "last_updated": "2026-06-08T17:01:00.501726"
 }
