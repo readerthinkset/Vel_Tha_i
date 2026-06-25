@@ -3604,7 +3604,42 @@
       "transliteration": "Koon tam dai, sak wan neung",
       "category": "Perseverance",
       "generated_at": "2026-06-13T13:17:25.679645"
+    },
+    {
+      "english": "Face your fears, move forward.",
+      "thai": "สู้กับความกลัว, ก้าวไป.",
+      "transliteration": "Soo gup kwahm glua, gao bpai.",
+      "category": "Courage",
+      "generated_at": "2026-06-25T13:55:51.541828"
+    },
+    {
+      "english": "Believe in yourself, you can.",
+      "thai": "เชื่อมั่นในตัวเอง, ทำได้.",
+      "transliteration": "Cheua man nai dtua eng, tam dai.",
+      "category": "Courage",
+      "generated_at": "2026-06-25T13:55:51.541838"
+    },
+    {
+      "english": "Stand up tall, speak out.",
+      "thai": "ยืนตรง, พูดออกมา.",
+      "transliteration": "Yuen dtrong, poot ork mah.",
+      "category": "Courage",
+      "generated_at": "2026-06-25T13:55:51.541840"
+    },
+    {
+      "english": "Take a deep breath, go.",
+      "thai": "หายใจลึกๆ, ไปเลย.",
+      "transliteration": "Hai jai leuk leuk, bpai loey.",
+      "category": "Courage",
+      "generated_at": "2026-06-25T13:55:51.541841"
+    },
+    {
+      "english": "It's okay to fail, learn.",
+      "thai": "ล้มได้, เรียนรู้.",
+      "transliteration": "Lom dai, rian roo.",
+      "category": "Courage",
+      "generated_at": "2026-06-25T13:55:51.541842"
     }
   ],
-  "last_updated": "2026-06-13T13:17:25.679646"
+  "last_updated": "2026-06-25T13:55:51.541844"
 }
