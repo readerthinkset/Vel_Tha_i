@@ -3639,7 +3639,42 @@
       "transliteration": "Lom dai, rian roo.",
       "category": "Courage",
       "generated_at": "2026-06-25T13:55:51.541842"
+    },
+    {
+      "english": "Help, if you can.",
+      "thai": "ช่วย, ถ้าทำได้",
+      "transliteration": "chuay, taa tam dai",
+      "category": "Kindness",
+      "generated_at": "2026-06-30T13:50:36.752960"
+    },
+    {
+      "english": "Share, with others.",
+      "thai": "แบ่งปัน, ให้คนอื่น",
+      "transliteration": "baeng pan, hai kon eun",
+      "category": "Kindness",
+      "generated_at": "2026-06-30T13:50:36.752972"
+    },
+    {
+      "english": "Listen, with care.",
+      "thai": "ฟัง, ด้วยความใส่ใจ",
+      "transliteration": "fang, duay kwahm sai jai",
+      "category": "Kindness",
+      "generated_at": "2026-06-30T13:50:36.752973"
+    },
+    {
+      "english": "Forgive, easily.",
+      "thai": "ให้อภัย, ง่ายๆ",
+      "transliteration": "hai apai, ngai ngai",
+      "category": "Kindness",
+      "generated_at": "2026-06-30T13:50:36.752974"
+    },
+    {
+      "english": "Be patient, please.",
+      "thai": "ใจเย็น, นะครับ/คะ",
+      "transliteration": "jai yen, na krub/ka",
+      "category": "Kindness",
+      "generated_at": "2026-06-30T13:50:36.752976"
     }
   ],
-  "last_updated": "2026-06-25T13:55:51.541844"
+  "last_updated": "2026-06-30T13:50:36.752979"
 }
