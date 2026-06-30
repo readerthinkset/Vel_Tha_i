@@ -3674,7 +3674,42 @@
       "transliteration": "jai yen, na krub/ka",
       "category": "Kindness",
       "generated_at": "2026-06-30T13:50:36.752976"
+    },
+    {
+      "english": "Let's go, shall we?",
+      "thai": "ไปกัน, นะ?",
+      "transliteration": "Pai gan, na?",
+      "category": "Common Expressions",
+      "generated_at": "2026-06-30T18:56:37.492098"
+    },
+    {
+      "english": "It's okay, don't worry.",
+      "thai": "ไม่เป็นไร, ไม่ต้องห่วง.",
+      "transliteration": "Mai pen rai, mai tong huang.",
+      "category": "Common Expressions",
+      "generated_at": "2026-06-30T18:56:37.492109"
+    },
+    {
+      "english": "Just a little, thanks.",
+      "thai": "นิดหน่อย, ขอบคุณ.",
+      "transliteration": "Nit noi, khop khun.",
+      "category": "Common Expressions",
+      "generated_at": "2026-06-30T18:56:37.492111"
+    },
+    {
+      "english": "I understand, a bit.",
+      "thai": "เข้าใจ, นิดหน่อย.",
+      "transliteration": "Khao jai, nit noi.",
+      "category": "Common Expressions",
+      "generated_at": "2026-06-30T18:56:37.492112"
+    },
+    {
+      "english": "See you later, then.",
+      "thai": "เจอกัน, ทีหลัง.",
+      "transliteration": "Jer gan, tee lang.",
+      "category": "Common Expressions",
+      "generated_at": "2026-06-30T18:56:37.492113"
     }
   ],
-  "last_updated": "2026-06-30T13:50:36.752979"
+  "last_updated": "2026-06-30T18:56:37.492115"
 }
