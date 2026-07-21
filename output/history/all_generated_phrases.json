@@ -3744,7 +3744,42 @@
       "transliteration": "Feuk fon dtor bpai, koon ja bpleng bpra gaai.",
       "category": "Confidence",
       "generated_at": "2026-07-20T21:12:20.230590"
+    },
+    {
+      "english": "Find your center, stay calm.",
+      "thai": "หาจุดศูนย์กลาง, ใจเย็นๆ.",
+      "transliteration": "Hah joot soon glahng, jai yen yen.",
+      "category": "Balance",
+      "generated_at": "2026-07-21T21:08:52.969828"
+    },
+    {
+      "english": "Move slow, feel the ground.",
+      "thai": "เคลื่อนไหวช้าๆ, รู้สึกถึงพื้น.",
+      "transliteration": "Kluaan wai chah chah, roo seuk teung peun.",
+      "category": "Balance",
+      "generated_at": "2026-07-21T21:08:52.969838"
+    },
+    {
+      "english": "Steady now, don't sway.",
+      "thai": "มั่นคงนะ, อย่าแกว่ง.",
+      "transliteration": "Mun kong na, yah gwaeng.",
+      "category": "Balance",
+      "generated_at": "2026-07-21T21:08:52.969840"
+    },
+    {
+      "english": "Good posture, good mind.",
+      "thai": "ท่าดี, จิตใจดี.",
+      "transliteration": "Tah dee, jit jai dee.",
+      "category": "Balance",
+      "generated_at": "2026-07-21T21:08:52.969841"
+    },
+    {
+      "english": "Listen closely, adjust.",
+      "thai": "ฟังให้ดี, ปรับตัว.",
+      "transliteration": "Fang hai dee, prap dtua.",
+      "category": "Balance",
+      "generated_at": "2026-07-21T21:08:52.969842"
     }
   ],
-  "last_updated": "2026-07-20T21:12:20.230591"
+  "last_updated": "2026-07-21T21:08:52.969844"
 }
