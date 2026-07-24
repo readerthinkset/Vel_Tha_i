@@ -1,6 +1,6 @@
 """
-Velocity Thai - สคริปต์อัปโหลดไปยังโซเชียลมีเดียทุกแพลตฟอร์ม
-อัปโหลด reels ที่สร้างขึ้นไปยังทุกแพลตฟอร์มโซเชียลมีเดียที่เชื่อมต่อ
+VELOCITY VIETNAMESE - Unified Social Media Upload Script
+Uploads generated reels to all connected social media platforms
 """
 
 import os
@@ -19,142 +19,139 @@ if upload_dir.exists() and str(upload_dir) not in sys.path:
 upload_to_facebook = None
 upload_to_instagram = None
 upload_to_youtube = None
+upload_to_vk = None
+upload_to_telegram = None
+upload_to_twitter = None
+upload_to_threads = None
+upload_to_tiktok = None
 
 try:
     from upload_facebook import upload_to_facebook as fb_upload
     upload_to_facebook = fb_upload
 except ImportError as e:
-    print(f"[!] โมดูลอัปโหลด Facebook ไม่พร้อมใช้งาน: {e}")
+    print(f"[!] Facebook upload module not available: {e}")
 
 try:
     from upload_instagram import upload_to_instagram as ig_upload
     upload_to_instagram = ig_upload
 except ImportError as e:
-    print(f"[!] โมดูลอัปโหลด Instagram ไม่พร้อมใช้งาน: {e}")
+    print(f"[!] Instagram upload module not available: {e}")
 
 try:
     from upload_to_youtube import upload_to_youtube as yt_upload
     upload_to_youtube = yt_upload
 except ImportError as e:
-    print(f"[!] โมดูลอัปโหลด YouTube ไม่พร้อมใช้งาน: {e}")
+    print(f"[!] YouTube upload module not available: {e}")
+
+try:
+    from upload_vk import upload_to_vk as vk_upload
+    upload_to_vk = vk_upload
+except ImportError as e:
+    print(f"[!] VK upload module not available: {e}")
+
+try:
+    from upload_telegram import upload_to_telegram as tg_upload
+    upload_to_telegram = tg_upload
+except ImportError as e:
+    print(f"[!] Telegram upload module not available: {e}")
+
+try:
+    from upload_twitter import upload_to_twitter as tw_upload
+    upload_to_twitter = tw_upload
+except ImportError as e:
+    print(f"[!] Twitter upload module not available: {e}")
+
+try:
+    from upload_threads import upload_to_threads as th_upload
+    upload_to_threads = th_upload
+except ImportError as e:
+    print(f"[!] Threads upload module not available: {e}")
+
+try:
+    from upload_tiktok import upload_to_tiktok as tk_upload
+    upload_to_tiktok = tk_upload
+except ImportError as e:
+    print(f"[!] TikTok upload module not available: {e}")
 
 
 def get_latest_reel():
     video_dir = Path("output/video")
-
     if not video_dir.exists():
-        print("❌ ไม่พบโฟลเดอร์ output/video")
+        print("No output/video directory found")
         return None
-
     reels = list(video_dir.glob("*/final_reel.mp4"))
-
     if not reels:
-        print("❌ ไม่พบ reels ในโฟลเดอร์ output/video")
+        print("No reels found in output/video directory")
         return None
-
     latest = max(reels, key=lambda p: p.stat().st_mtime)
-
     metadata_file = latest.parent / "metadata.json"
     metadata = {}
     if metadata_file.exists():
         with open(metadata_file, "r", encoding="utf-8") as f:
             metadata = json.load(f)
-
     return {
         "video_path": str(latest),
         "metadata": metadata,
-        "category": metadata.get("category_english", "Thai Learning"),
+        "category": metadata.get("category_english", "Vietnamese Learning"),
         "phrases": metadata.get("phrases", [])
     }
 
 
 def generate_caption(phrases, category, platform="facebook"):
-
     if platform == "facebook":
         caption_lines = [
-            f"🇹🇭 เรียนภาษาไทยกับ Velocity Thai! 🇹🇭",
+            f"Learn Vietnamese with VELOCITY VIETNAMESE!",
             f"",
-            f"📚 หมวดหมู่: {category}",
+            f"Category: {category}",
             f"",
-            f"🎯 เรียนภาษาไทยทีละวลี! บทเรียน{category}วันนี้:",
+            f"Master Vietnamese one phrase at a time! Today's {category} lesson:",
             f""
         ]
-
-        emojis = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"]
+        emojis = ["1", "2", "3", "4", "5"]
         for i, phrase in enumerate(phrases[:5], 0):
             emoji = emojis[i] if i < len(emojis) else f"{i+1}."
-            caption_lines.append(f"{emoji} {phrase['english']}")
-            caption_lines.append(f"   📍 {phrase['thai']}")
-            transliteration = phrase.get('transliteration') or phrase.get('romaji', '')
-            caption_lines.append(f"   🔊 [{transliteration}]")
+            caption_lines.append(f"{emoji}. {phrase['english']}")
+            caption_lines.append(f"   {phrase.get('vietnamese', '')}")
+            caption_lines.append(f"   [{phrase.get('transliteration', '')}]")
             caption_lines.append("")
-
         caption_lines.extend([
-            f"💡 เคล็ดลับ: ท่องซ้ำแต่ละวลี 3 ครั้ง!",
-            f"👍 กดไลค์ถ้าคุณได้เรียนรู้สิ่งใหม่!",
-            f"💬 คอมเมนต์วลีที่คุณชอบด้านล่าง!",
-            f"🔔 ติดตามเพื่อเรียนภาษาไทยทุกวัน!",
-            f"",
-            f"📖 คู่มือการออกเสียง:",
-            f"   การสะกดแบบออกเสียงในวงเล็บช่วยให้คุณออกเสียงถูกต้อง!",
+            f"Tip: Repeat each phrase out loud 3 times!",
+            f"Like this video if you learned something new!",
+            f"Comment your favorite phrase below!",
+            f"Follow for daily Vietnamese lessons!",
             f"",
         ])
-
         hashtags = [
-            "#learnthai",
-            "#thailessons",
-            "#thaiforbeginners",
-            "#languagelearning",
-            "#thaivocabulary",
-            "#velocitythai",
-            "#dailythai",
-            "#thai",
-            "#learnlanguages",
-            "#thailanguage",
-            "#speakthai",
-            "#thaipractice",
-            "#bilingual",
-            "#thaiwords",
-            "#languagetips"
+            "#learnvietnamese", "#vietnameselessons", "#vietnameseforbeginners",
+            "#languagelearning", "#vietnamesevocabulary", "#velocityvietnamese",
+            "#dailyvietnamese", "#vietnamese", "#learnlanguages",
+            "#vietnameseteacher", "#speakvietnamese", "#vietnamesepractice",
+            "#bilingual", "#vietnamesewords", "#languagetips"
         ]
-
         caption_lines.extend(hashtags)
-
     else:
         caption_lines = [
-            f"🇹🇭 เรียนภาษาไทยกับ Velocity Thai! 🇹🇭",
+            f"Learn Vietnamese with VELOCITY VIETNAMESE!",
             f"",
-            f"หมวดหมู่: {category}",
+            f"Category: {category}",
             f"",
-            f"วลีวันนี้:",
+            f"Today's phrases:",
             f""
         ]
-
         for i, phrase in enumerate(phrases[:3], 1):
             caption_lines.append(f"{i}. {phrase['english']}")
-            caption_lines.append(f"   → {phrase['thai']}")
+            caption_lines.append(f"   -> {phrase.get('vietnamese', '')}")
             caption_lines.append("")
-
         hashtags = [
-            "#learnthai",
-            "#thailessons",
-            "#thaiforbeginners",
-            "#languagelearning",
-            "#thaivocabulary",
-            "#velocitythai",
-            "#dailythai",
-            "#thai",
-            "#learnlanguages",
-            "#thailanguage"
+            "#learnvietnamese", "#vietnameselessons", "#vietnameseforbeginners",
+            "#languagelearning", "#vietnamesevocabulary", "#velocityvietnamese",
+            "#dailyvietnamese", "#vietnamese", "#learnlanguages", "#vietnameseteacher"
         ]
-
         caption_lines.extend(hashtags)
-
     return "\n".join(caption_lines)
 
 
 def upload_to_all_platforms(video_path, caption, category, phrases=None):
-
     results = {
         "timestamp": datetime.now().isoformat(),
         "category": category,
@@ -166,61 +163,84 @@ def upload_to_all_platforms(video_path, caption, category, phrases=None):
         "platforms_failed": []
     }
 
-    print("\n" + "="*80)
-    print("🚀 VELOCITY THAI - อัปโหลดหลายแพลตฟอร์ม")
-    print("="*80)
-    print(f"วิดีโอ: {video_path}")
-    print(f"หมวดหมู่: {category}")
-    print(f"ความยาวแคปชัน: {len(caption)} ตัวอักษร")
-    print("="*80)
+    print("\n" + "=" * 80)
+    print("VELOCITY VIETNAMESE - MULTI-PLATFORM UPLOAD")
+    print("=" * 80)
+    print(f"Video: {video_path}")
+    print(f"Category: {category}")
+    print(f"Caption length: {len(caption)} characters")
+    print("=" * 80)
 
     if not Path(video_path).exists():
-        print(f"❌ ไม่พบไฟล์วิดีโอ: {video_path}")
-                    # ====== UPLOAD STATUS REPORT ======
+        print(f"[ERROR] Video file not found: {video_path}")
+        return results
+
+    platforms = [
+        ("facebook", upload_to_facebook, "Facebook"),
+        ("instagram", upload_to_instagram, "Instagram"),
+        ("youtube", upload_to_youtube, "YouTube"),
+        ("vk", upload_to_vk, "VK"),
+        ("telegram", upload_to_telegram, "Telegram"),
+        ("twitter", upload_to_twitter, "Twitter"),
+        ("threads", upload_to_threads, "Threads"),
+        ("tiktok", upload_to_tiktok, "TikTok"),
+    ]
+
+    for platform_name, upload_func, display_name in platforms:
+        print(f"\n{display_name} UPLOAD...")
+        results["platforms_attempted"].append(platform_name)
+
+        if upload_func:
+            try:
+                upload_result = None
+                if platform_name == "facebook":
+                    upload_result = upload_func(video_path=video_path, description=caption, title=f"Vietnamese: {category}")
+                elif platform_name == "instagram":
+                    upload_result = upload_func(video_path=video_path, caption=caption, is_story=False)
+                elif platform_name == "youtube":
+                    num_phrases = len(phrases) if phrases else 5
+                    from upload_to_youtube import generate_video_metadata
+                    yt_title, yt_description, yt_tags = generate_video_metadata(category, num_phrases, phrases)
+                    upload_result = upload_func(video_path=video_path, title=yt_title, description=yt_description, tags=yt_tags, category_id='22')
+                elif platform_name == "vk":
+                    upload_result = upload_func(video_path=video_path, description=caption, title=f"Vietnamese: {category}")
+                elif platform_name == "telegram":
+                    upload_result = upload_func(video_path=video_path, caption=caption)
+                elif platform_name == "twitter":
+                    upload_result = upload_func(video_path=video_path, caption=caption)
+                elif platform_name == "threads":
+                    upload_result = upload_func(video_path=video_path, text=caption)
+                elif platform_name == "tiktok":
+                    upload_result = upload_func(video_path=video_path, description=caption)
+
+                if upload_result:
+                    results["uploads"][platform_name] = upload_result
+                    results["platforms_successful"].append(platform_name)
+                else:
+                    results["uploads"][platform_name] = {"status": "failed", "error": "Upload function returned None"}
+                    results["platforms_failed"].append(platform_name)
+            except Exception as e:
+                error_msg = str(e)
+                results["uploads"][platform_name] = {"status": "failed", "error": error_msg}
+                results["platforms_failed"].append(platform_name)
+                print(f"  Error: {error_msg}")
+        else:
+            results["uploads"][platform_name] = {"status": "skipped", "reason": "Module not available"}
+            results["platforms_skipped"].append(platform_name)
+
     print("\n" + "=" * 60)
     print("UPLOAD STATUS REPORT")
     print("=" * 60)
-    uploads = results.get("uploads", {})
-    success_count = 0
-    fail_count = 0
-    skip_count = 0
     for pname, pkey in [("INSTAGRAM", "instagram"), ("FACEBOOK", "facebook"), ("YOUTUBE", "youtube"),
-                          ("THREADS", "threads"), ("TIKTOK", "tiktok"), ("TWITTER", "twitter"),
-                          ("VK", "vk"), ("TELEGRAM", "telegram")]:
-        pinfo = uploads.get(pkey, {})
-        if pinfo and pinfo.get("status") == "success":
-            pid = pinfo.get("id", "N/A")
-            print(f"  {pname}: SUCCESS (ID: {pid})")
-            success_count += 1
-        elif pinfo and pinfo.get("status") == "skipped":
-            reason = pinfo.get("reason", "unknown")
-            print(f"  {pname}: SKIPPED - {reason}")
-            skip_count += 1
-        elif pinfo:
-            err = str(pinfo.get("error", pinfo.get("reason", "unknown")))[:100]
-            print(f"  {pname}: FAILED - {err}")
-            fail_count += 1
-        else:
-            pl = pkey.lower()
-            failed = pl in [p.lower() for p in results.get("platforms_failed", [])]
-            skipped = pl in [p.lower() for p in results.get("platforms_skipped", [])]
-            if failed: print(f"  {pname}: FAILED"); fail_count += 1
-            elif skipped: print(f"  {pname}: SKIPPED"); skip_count += 1
-            else: print(f"  {pname}: -")
-    print("=" * 60)
-    print(f"  Results: {success_count} success, {fail_count} failed, {skip_count} skipped")
-    print("=" * 60)
-
-    uploads = results.get("uploads", {})
-    for pname, pkey in [("INSTAGRAM", "instagram"), ("FACEBOOK", "facebook"), ("YOUTUBE", "youtube"),
-                          ("THREADS", "threads"), ("TIKTOK", "tiktok"), ("TWITTER", "twitter"),
-                          ("VK", "vk"), ("TELEGRAM", "telegram")]:
-        pinfo = uploads.get(pkey, {})
+                          ("THREADS", "threads"), ("TIKTOK", "tiktok")]:
+        pinfo = results["uploads"].get(pkey, {})
         if pinfo and pinfo.get("status") == "success":
             pid = pinfo.get("id", "N/A")
             print(f"{pname}: SUCCESS (ID: {pid})")
+        elif pinfo and pinfo.get("status") == "skipped":
+            print(f"{pname}: SKIPPED")
         elif pinfo:
-            err = str(pinfo.get("error", pinfo.get("reason", "unknown")))[:80]
+            err = str(pinfo.get("error", ""))[:80]
             print(f"{pname}: FAILED - {err}")
         else:
             pl = pkey.lower()
@@ -229,163 +249,36 @@ def upload_to_all_platforms(video_path, caption, category, phrases=None):
             print(f"{pname}: {'FAILED' if failed else ('SKIPPED' if skipped else '-')}")
     print("=" * 60)
 
-    return results
-
-    platforms = [
-        ("facebook", upload_to_facebook, "📘 Facebook"),
-        ("instagram", upload_to_instagram, "📸 Instagram"),
-        ("youtube", upload_to_youtube, "📺 YouTube"),
-    ]
-
-    for platform_name, upload_func, display_name in platforms:
-        print(f"\n{display_name} กำลังอัปโหลด...")
-        results["platforms_attempted"].append(platform_name)
-
-        if upload_func:
-            try:
-                upload_result = None
-
-                if platform_name == "facebook":
-                    upload_result = upload_func(
-                        video_path=video_path,
-                        description=caption,
-                        title=f"Thai: {category}"
-                    )
-                elif platform_name == "instagram":
-                    upload_result = upload_func(
-                        video_path=video_path,
-                        caption=caption,
-                        is_story=False
-                    )
-                elif platform_name == "youtube":
-                    num_phrases = len(phrases) if phrases else 5
-                    from upload_to_youtube import generate_video_metadata
-                    yt_title, yt_description, yt_tags = generate_video_metadata(category, num_phrases, phrases)
-
-                    upload_result = upload_func(
-                        video_path=video_path,
-                        title=yt_title,
-                        description=yt_description,
-                        tags=yt_tags,
-                        category_id='22'
-                    )
-
-                if upload_result:
-                    results["uploads"][platform_name] = upload_result
-                    results["platforms_successful"].append(platform_name)
-                    print(f"✅ {display_name} อัปโหลดสำเร็จ")
-                else:
-                    results["uploads"][platform_name] = {"status": "failed", "error": "Upload function returned None"}
-                    results["platforms_failed"].append(platform_name)
-                    print(f"❌ {display_name} อัปโหลดล้มเหลว: ไม่มีผลลัพธ์")
-
-            except Exception as e:
-                error_msg = str(e)
-                results["uploads"][platform_name] = {"status": "failed", "error": error_msg}
-                results["platforms_failed"].append(platform_name)
-                print(f"❌ {display_name} อัปโหลดล้มเหลว: {error_msg}")
-        else:
-            print(f"⚠️  {display_name} อัปโหลดถูกข้าม (โมดูลไม่พร้อมใช้งาน)")
-            results["uploads"][platform_name] = {"status": "skipped", "reason": "Module not available"}
-            results["platforms_skipped"].append(platform_name)
-
-    # ===== สรุปผลการอัปโหลด =====
-    print("\n" + "="*80)
-    print("📊 สรุปผลการอัปโหลด")
-    print("="*80)
-
-    total_attempted = len(results["platforms_attempted"])
-    successful_count = len(results["platforms_successful"])
-    failed_count = len(results["platforms_failed"])
-    skipped_count = len(results["platforms_skipped"])
-
-    print(f"\n📈 สถานะโดยรวม:")
-    print(f"   ├─ แพลตฟอร์มทั้งหมด: {total_attempted}")
-    print(f"   ├─ ✅ สำเร็จ: {successful_count}")
-    print(f"   ├─ ❌ ล้มเหลว: {failed_count}")
-    print(f"   └─ ⚠️  ถูกข้าม: {skipped_count}")
-
-    if total_attempted > 0:
-        success_rate = (successful_count / total_attempted) * 100
-        print(f"\n🎯 อัตราความสำเร็จ: {success_rate:.0f}%")
-
-    if results["platforms_successful"]:
-        print(f"\n✅ อัปโหลดสำเร็จ ({len(results['platforms_successful'])}):")
-        for platform in results["platforms_successful"]:
-            platform_data = results["uploads"].get(platform, {})
-            video_id = platform_data.get("video_id", "N/A")
-            print(f"   ✅ {platform.upper()}: สำเร็จ (Video ID: {video_id})")
-
-    if results["platforms_failed"]:
-        print(f"\n❌ อัปโหลดล้มเหลว ({len(results['platforms_failed'])}):")
-        for platform in results["platforms_failed"]:
-            platform_data = results["uploads"].get(platform, {})
-            error = platform_data.get("error", "Unknown error")
-            print(f"   ❌ {platform.upper()}: ล้มเหลว - {error[:80]}...")
-
-    if results["platforms_skipped"]:
-        print(f"\n⚠️  แพลตฟอร์มที่ถูกข้าม ({len(results['platforms_skipped'])}):")
-        skipped_list = ", ".join([p.upper() for p in results["platforms_skipped"]])
-        print(f"   ⚠️  {skipped_list}")
-        print(f"   💡 เพิ่มข้อมูลรับรองเพื่อเปิดใช้งานแพลตฟอร์มเหล่านี้")
-
-    print("\n" + "="*80)
-
     results_file = Path("output") / f"upload_results_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
     results_file.parent.mkdir(exist_ok=True)
     with open(results_file, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
-    print(f"\n💾 บันทึกผลลัพธ์: {results_file}")
-    print("="*80)
-
-        # === UPLOAD STATUS REPORT ===
-    print("\n" + "=" * 60)
-    print("UPLOAD STATUS REPORT")
-    print("=" * 60)
-    success_list = [p.lower() for p in results.get("platforms_successful", [])]
-    failed_list = [p.lower() for p in results.get("platforms_failed", [])]
-    skipped_list = [p.lower() for p in results.get("platforms_skipped", [])]
-    for pname in ["INSTAGRAM", "FACEBOOK", "YOUTUBE", "THREADS", "TIKTOK", "TWITTER", "VK", "TELEGRAM"]:
-        pl = pname.lower()
-        if pl in success_list: status = "SUCCESS"
-        elif pl in failed_list: status = "FAILED"
-        elif pl in skipped_list: status = "SKIPPED"
-        else: status = "-"
-        print(f"{pname}: {status}")
-    print("=" * 60)
     return results
 
 
 def main():
-    print("\n" + "="*80)
-    print("🇹🇭 VELOCITY THAI - อัปโหลดอัตโนมัติ 🇹🇭")
-    print("="*80)
+    print("\n" + "=" * 80)
+    print("VELOCITY VIETNAMESE - AUTOMATED UPLOAD")
+    print("=" * 80)
 
     reel = get_latest_reel()
-
     if not reel:
-        print("\n❌ ไม่พบ reel! กรุณารัน facebook_reels_automation.py ก่อน")
+        print("\nNo reel found! Run facebook_reels_automation.py first.")
         sys.exit(1)
 
-    print(f"\n✅ พบ reel ล่าสุด:")
-    print(f"   หมวดหมู่: {reel['category']}")
-    print(f"   วิดีโอ: {reel['video_path']}")
-    print(f"   วลี: {len(reel['phrases'])}")
+    print(f"\nFound latest reel:")
+    print(f"   Category: {reel['category']}")
+    print(f"   Video: {reel['video_path']}")
+    print(f"   Phrases: {len(reel['phrases'])}")
 
     caption = generate_caption(reel['phrases'], reel['category'], platform="facebook")
-    print(f"\n📝 สร้างแคปชัน ({len(caption)} ตัวอักษร):")
-    print("-"*80)
+    print(f"\nGenerated caption ({len(caption)} chars):")
+    print("-" * 80)
     print(caption[:500] + "..." if len(caption) > 500 else caption)
-    print("-"*80)
+    print("-" * 80)
 
-    results = upload_to_all_platforms(
-        reel['video_path'],
-        caption,
-        reel['category'],
-        reel['phrases']
-    )
-
+    results = upload_to_all_platforms(reel['video_path'], caption, reel['category'], reel['phrases'])
     results["phrases"] = reel['phrases']
 
     successful = len(results.get("platforms_successful", []))
@@ -393,17 +286,17 @@ def main():
     skipped = len(results.get("platforms_skipped", []))
 
     if successful > 0:
-        print(f"\n✅ อัปโหลดเสร็จสมบูรณ์! {successful} แพลตฟอร์มสำเร็จ")
+        print(f"\nUpload complete! {successful} platform(s) successful.")
         if skipped > 0:
-            print(f"💡 {skipped} แพลตฟอร์มถูกข้าม - เพิ่มข้อมูลรับรองเพื่อเปิดใช้งาน")
+            print(f"{skipped} platform(s) skipped - add credentials to enable them")
         sys.exit(0)
     elif failed > 0:
-        print(f"\n⚠️  อัปโหลดทั้งหมดล้มเหลว ({failed} ล้มเหลว, {skipped} ถูกข้าม)")
-        print("💡 ตรวจสอบข้อความแสดงข้อผิดพลาดด้านบนและยืนยันข้อมูลรับรองของคุณ")
+        print(f"\nAll attempted uploads failed ({failed} failed, {skipped} skipped).")
+        print("Check the error messages above and verify your credentials")
         sys.exit(1)
     else:
-        print(f"\n⚠️  อัปโหลดทั้งหมดถูกข้าม ({skipped} ถูกข้าม)")
-        print("💡 เพิ่มข้อมูลรับรองใน GitHub Secrets เพื่อเปิดใช้งานการอัปโหลด")
+        print(f"\nAll uploads skipped ({skipped} skipped).")
+        print("Add credentials in GitHub Secrets to enable uploads")
         sys.exit(1)
 
 
