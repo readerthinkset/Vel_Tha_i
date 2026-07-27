@@ -86,8 +86,8 @@ jobs:
           echo "INSTAGRAM_ACCOUNT_ID=${{ secrets.INSTAGRAM_ACCOUNT_ID }}" >> .env
           echo "" >> .env
           echo "# Facebook" >> .env
-          echo "FACEBOOK_ACCESS_TOKEN=${{ secrets.FACEBOOK_ACCESS_TOKEN }}" >> .env
-          echo "FACEBOOK_PAGE_ID=${{ secrets.FACEBOOK_PAGE_ID }}" >> .env
+          printf '%s\n' "FACEBOOK_ACCESS_TOKEN=$FB_ACCESS_TOKEN" >> .env
+          echo "FACEBOOK_PAGE_ID=$FB_PAGE_ID" >> .env
           echo "" >> .env
           echo "# Twitter/X" >> .env
           echo "TWITTER_API_KEY=${{ secrets.TWITTER_API_KEY }}" >> .env
