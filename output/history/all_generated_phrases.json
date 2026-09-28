@@ -3814,7 +3814,42 @@
       "transliteration": "rao pai tor gan dai mai",
       "category": "Forgiveness",
       "generated_at": "2026-09-25T15:59:46.956145"
+    },
+    {
+      "english": "I can learn Thai, slowly but surely.",
+      "thai": "ฉันเรียนภาษาไทยได้, ทีละน้อยแต่แน่นอน.",
+      "transliteration": "Chan rian pasa tai dai, tee la noi tae nae non.",
+      "category": "Confidence",
+      "generated_at": "2026-09-28T02:08:25.626560"
+    },
+    {
+      "english": "Every word I learn, is a step forward.",
+      "thai": "ทุกคำที่ฉันเรียน, คือก้าวไปข้างหน้า.",
+      "transliteration": "Tuk kam tee chan rian, keu gao pai kang nah.",
+      "category": "Confidence",
+      "generated_at": "2026-09-28T02:08:25.626571"
+    },
+    {
+      "english": "My Thai is improving, I can feel it.",
+      "thai": "ภาษาไทยของฉันดีขึ้น, ฉันรู้สึกได้.",
+      "transliteration": "Pasa tai kong chan dee keun, chan roo seuk dai.",
+      "category": "Confidence",
+      "generated_at": "2026-09-28T02:08:25.626572"
+    },
+    {
+      "english": "Speaking Thai is fun, and I'm getting better.",
+      "thai": "การพูดภาษาไทยสนุก, และฉันก็เก่งขึ้น.",
+      "transliteration": "Garn poot pasa tai sanook, lae chan gor geng keun.",
+      "category": "Confidence",
+      "generated_at": "2026-09-28T02:08:25.626573"
+    },
+    {
+      "english": "Don't be afraid, just try to speak.",
+      "thai": "อย่ากลัว, แค่ลองพูดดู.",
+      "transliteration": "Yah glua, kae long poot doo.",
+      "category": "Confidence",
+      "generated_at": "2026-09-28T02:08:25.626574"
     }
   ],
-  "last_updated": "2026-09-25T15:59:46.956147"
+  "last_updated": "2026-09-28T02:08:25.626575"
 }
