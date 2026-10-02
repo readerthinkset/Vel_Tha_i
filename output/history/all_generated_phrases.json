@@ -3849,7 +3849,42 @@
       "transliteration": "Yah glua, kae long poot doo.",
       "category": "Confidence",
       "generated_at": "2026-09-28T02:08:25.626574"
+    },
+    {
+      "english": "Mistakes are okay, they help me grow.",
+      "thai": "ผิดพลาดไม่เป็นไร, ช่วยให้ฉันเติบโต.",
+      "transliteration": "Pidt plahd mai pen rai, chuay hai chan terp toh.",
+      "category": "Confidence",
+      "generated_at": "2026-10-02T18:45:52.641509"
+    },
+    {
+      "english": "I understand more, each day passes.",
+      "thai": "ฉันเข้าใจมากขึ้น, ทุกวันที่ผ่านไป.",
+      "transliteration": "Chan kao jai mahk keun, tuk wan tee paht pai.",
+      "category": "Confidence",
+      "generated_at": "2026-10-02T18:45:52.641523"
+    },
+    {
+      "english": "My confidence grows, with every conversation.",
+      "thai": "ความมั่นใจของฉันเพิ่มขึ้น, ทุกครั้งที่คุย.",
+      "transliteration": "Kwam mun jai kong chan perm keun, tuk krang tee kui.",
+      "category": "Confidence",
+      "generated_at": "2026-10-02T18:45:52.641524"
+    },
+    {
+      "english": "I can communicate, in Thai.",
+      "thai": "ฉันสื่อสารได้, เป็นภาษาไทย.",
+      "transliteration": "Chan seu sahn dai, pen pasa tai.",
+      "category": "Confidence",
+      "generated_at": "2026-10-02T18:45:52.641526"
+    },
+    {
+      "english": "Learning Thai is rewarding, I'm proud.",
+      "thai": "เรียนภาษาไทยคุ้มค่า, ฉันภูมิใจ.",
+      "transliteration": "Rian pasa tai koom kah, chan poom jai.",
+      "category": "Confidence",
+      "generated_at": "2026-10-02T18:45:52.641527"
     }
   ],
-  "last_updated": "2026-09-28T02:08:25.626575"
+  "last_updated": "2026-10-02T18:45:52.641528"
 }
