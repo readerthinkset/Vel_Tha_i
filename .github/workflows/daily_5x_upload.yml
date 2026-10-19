@@ -2,11 +2,11 @@ name: Velocity Thai - Daily 5x Upload
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # 7:00 AM EST
-    - cron: '0 14 * * *'  # 9:00 AM EST
-    - cron: '0 17 * * *'  # 12:00 PM EST
-    - cron: '0 20 * * *'  # 3:00 PM EST
-    - cron: '0 0 * * *'   # 7:00 PM EST
+    - cron: '48 12 * * *'  # 7:00 AM EST
+    - cron: '48 14 * * *'  # 9:00 AM EST
+    - cron: '48 17 * * *'  # 12:00 PM EST
+    - cron: '48 20 * * *'  # 3:00 PM EST
+    - cron: '48 0 * * *'   # 7:00 PM EST
 
   workflow_dispatch:
 
