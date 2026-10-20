@@ -3919,7 +3919,42 @@
       "transliteration": "An nee sip baht.",
       "category": "Numbers Thai",
       "generated_at": "2026-10-17T01:45:24.199431"
+    },
+    {
+      "english": "Breathe in, breathe out, slowly.",
+      "thai": "หายใจเข้า, หายใจออก, ช้าๆ",
+      "transliteration": "Hai jai kao, hai jai ok, cha cha",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-20T23:28:01.921647"
+    },
+    {
+      "english": "Feel your body, right now.",
+      "thai": "รู้สึกถึงร่างกาย, ตอนนี้",
+      "transliteration": "Roo seuk teung rang gai, dton nee",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-20T23:28:01.921657"
+    },
+    {
+      "english": "Observe your thoughts, gently.",
+      "thai": "สังเกตความคิด, อย่างอ่อนโยน",
+      "transliteration": "Sang get kwahm kit, yahng orn yohn",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-20T23:28:01.921658"
+    },
+    {
+      "english": "Be present, in this moment.",
+      "thai": "อยู่กับปัจจุบัน, ขณะนี้",
+      "transliteration": "Yoo gup path joo ban, ka na nee",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-20T23:28:01.921658"
+    },
+    {
+      "english": "Listen, to your inner voice.",
+      "thai": "ฟัง, เสียงข้างใน",
+      "transliteration": "Fung, siang kahng nai",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-20T23:28:01.921659"
     }
   ],
-  "last_updated": "2026-10-17T01:45:24.199432"
+  "last_updated": "2026-10-20T23:28:01.921660"
 }
