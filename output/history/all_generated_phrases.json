@@ -4024,7 +4024,42 @@
       "transliteration": "Ploi khwam glua, tham duay khwam kla sam mi sammo",
       "category": "Self Improvement",
       "generated_at": "2026-11-03T07:17:37.837052"
+    },
+    {
+      "english": "Hello, how are you today?",
+      "thai": "สวัสดี, วันนี้คุณสบายดีไหม",
+      "transliteration": "Sawatdee, wan ni khun sabai di mai",
+      "category": "Common Expressions",
+      "generated_at": "2026-11-03T19:50:33.576581"
+    },
+    {
+      "english": "Excuse me, where is the bathroom?",
+      "thai": "ขอโทษนะ, ห้องน้ำอยู่ไหน",
+      "transliteration": "Kho thod na, hong nam yu nai",
+      "category": "Common Expressions",
+      "generated_at": "2026-11-03T19:50:33.576593"
+    },
+    {
+      "english": "I don't understand, please speak slowly",
+      "thai": "ฉันไม่เข้าใจ, ช่วยพูดช้าๆหน่อย",
+      "transliteration": "Chan mai kao jai, chuai phut cha cha noi",
+      "category": "Common Expressions",
+      "generated_at": "2026-11-03T19:50:33.576595"
+    },
+    {
+      "english": "Can I have it to go, please?",
+      "thai": "เอาไปกินที่อื่นได้ไหม",
+      "transliteration": "Ao pai kin thi an dai mai",
+      "category": "Common Expressions",
+      "generated_at": "2026-11-03T19:50:33.576596"
+    },
+    {
+      "english": "Where is the nearest train station?",
+      "thai": "สถานีรถไฟที่ใกล้ที่สุดอยู่ไหน",
+      "transliteration": "Satha ni rot fai thi klai thi sut yu nai",
+      "category": "Common Expressions",
+      "generated_at": "2026-11-03T19:50:33.576596"
     }
   ],
-  "last_updated": "2026-11-03T07:17:37.837054"
+  "last_updated": "2026-11-03T19:50:33.576598"
 }
