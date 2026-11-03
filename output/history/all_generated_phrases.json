@@ -4059,7 +4059,42 @@
       "transliteration": "Satha ni rot fai thi klai thi sut yu nai",
       "category": "Common Expressions",
       "generated_at": "2026-11-03T19:50:33.576596"
+    },
+    {
+      "english": "Breathe in slowly, feel the air",
+      "thai": "หายใจเข้าเบาๆ, รับรู้ลมหายใจ",
+      "transliteration": "Hai jai khao bao bao, rap roo lom hai jai",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-03T20:41:49.262041"
+    },
+    {
+      "english": "Let thoughts pass, keep returning gently",
+      "thai": "ปล่อยความคิดผ่านไป, ค่อยๆ กลับมา",
+      "transliteration": "Ploi khwam khit phan pai, khoy khoy glap ma",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-03T20:41:49.262052"
+    },
+    {
+      "english": "Notice your body, relax one part",
+      "thai": "สังเกตกาย, คลายความตึงทีละนิด",
+      "transliteration": "Sangเกt kai, khai khwam tueng thi la na nit",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-03T20:41:49.262053"
+    },
+    {
+      "english": "Hear now, without judging",
+      "thai": "ฟังตอนนี้, ไม่ตัดสิน",
+      "transliteration": "Fang ton ni, mai tat sin",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-03T20:41:49.262054"
+    },
+    {
+      "english": "See thoughts fade, stay present",
+      "thai": "มองความคิดจางลง, อยู่กับปัจจุบัน",
+      "transliteration": "Mong khwam khit jang long, yu kap patchuban",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-03T20:41:49.262055"
     }
   ],
-  "last_updated": "2026-11-03T19:50:33.576598"
+  "last_updated": "2026-11-03T20:41:49.262057"
 }
