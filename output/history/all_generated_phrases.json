@@ -4234,7 +4234,42 @@
       "transliteration": "Khob khun ti rap fang chan na",
       "category": "Gratitude",
       "generated_at": "2026-11-04T20:03:01.561640"
+    },
+    {
+      "english": "Hi, do you have a menu, please?",
+      "thai": "สวัสดีค่ะ, ขอเมนูหน่อยได้ไหมคะ",
+      "transliteration": "Sawatdee kha, kho menu noy dai mai kha",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-11-04T20:57:37.269118"
+    },
+    {
+      "english": "Can I get water, no ice, please?",
+      "thai": "ขอน้ำเปล่า, ไม่ใส่น้ำแข็งได้ไหมคะ",
+      "transliteration": "Kho nam plao, mai sai nam khaeng dai mai kha",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-11-04T20:57:37.269127"
+    },
+    {
+      "english": "How spicy is this dish, roughly?",
+      "thai": "จานนี้เผ็ดแค่ไหน, ประมาณเท่าไรคะ",
+      "transliteration": "Chan ni phet kha-nai, praman thao rai kha",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-11-04T20:57:37.269129"
+    },
+    {
+      "english": "I would like chicken, please, not pork.",
+      "thai": "ขอไก่ค่ะ, ไม่เอาหมูนะคะ",
+      "transliteration": "Kho kai kha, mai ao mu na kha",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-11-04T20:57:37.269130"
+    },
+    {
+      "english": "Is this dish vegetarian, by any chance?",
+      "thai": "เมนูนี้เป็นมังสวิรัติไหมคะ",
+      "transliteration": "Menu ni pen mang sawi rat mai kha",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-11-04T20:57:37.269130"
     }
   ],
-  "last_updated": "2026-11-04T20:03:01.561642"
+  "last_updated": "2026-11-04T20:57:37.269132"
 }
