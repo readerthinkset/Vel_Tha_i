@@ -4199,7 +4199,42 @@
       "transliteration": "Tam ngan duai khwam at thon, pon lap jee ja maa",
       "category": "Purpose",
       "generated_at": "2026-11-04T07:00:30.847974"
+    },
+    {
+      "english": "Thank you, for helping me today",
+      "thai": "ขอบคุณนะคะ ที่ช่วยฉันวันนี้",
+      "transliteration": "Khob khun na kha, ti chuay chan wan nee",
+      "category": "Gratitude",
+      "generated_at": "2026-11-04T20:03:01.561624"
+    },
+    {
+      "english": "I’m grateful, for your kind words",
+      "thai": "ขอบคุณมากนะ ที่พูดดีๆ กับฉัน",
+      "transliteration": "Khob khun maak na, ti phut dee dee gap chan",
+      "category": "Gratitude",
+      "generated_at": "2026-11-04T20:03:01.561636"
+    },
+    {
+      "english": "Thanks, for your patience with me",
+      "thai": "ขอบคุณที่อดทนกับฉันนะ",
+      "transliteration": "Khob khun ti ot thon gap chan na",
+      "category": "Gratitude",
+      "generated_at": "2026-11-04T20:03:01.561638"
+    },
+    {
+      "english": "I appreciate you, for being here",
+      "thai": "ขอบคุณที่อยู่ตรงนี้กับฉัน",
+      "transliteration": "Khob khun ti yoo trong nee gap chan",
+      "category": "Gratitude",
+      "generated_at": "2026-11-04T20:03:01.561639"
+    },
+    {
+      "english": "Thank you, for listening to my worries",
+      "thai": "ขอบคุณที่รับฟังฉันนะ",
+      "transliteration": "Khob khun ti rap fang chan na",
+      "category": "Gratitude",
+      "generated_at": "2026-11-04T20:03:01.561640"
     }
   ],
-  "last_updated": "2026-11-04T07:00:30.847975"
+  "last_updated": "2026-11-04T20:03:01.561642"
 }
