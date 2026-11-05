@@ -4444,7 +4444,42 @@
       "transliteration": "lueak kwaam klaa, mae mueo san",
       "category": "Courage",
       "generated_at": "2026-11-05T21:15:13.629918"
+    },
+    {
+      "english": "Mom, please sit here, okay?",
+      "thai": "แม่, มานั่งตรงนี้นะ",
+      "transliteration": "Mae, maa nang trong nee na",
+      "category": "Family Terms",
+      "generated_at": "2026-11-05T22:56:42.090160"
+    },
+    {
+      "english": "Dad, I need help, please",
+      "thai": "พ่อ, ช่วยหน่อยได้ไหม",
+      "transliteration": "Pho, chuay noi dai mai",
+      "category": "Family Terms",
+      "generated_at": "2026-11-05T22:56:42.090169"
+    },
+    {
+      "english": "Grandma, tell me a story, please",
+      "thai": "ยาย, เล่าเรื่องให้ฟังหน่อยนะ",
+      "transliteration": "Yai, lao rueang hai fang noi na",
+      "category": "Family Terms",
+      "generated_at": "2026-11-05T22:56:42.090171"
+    },
+    {
+      "english": "Grandpa, I miss you, so much",
+      "thai": "ตา, หนูคิดถึงมากเลย",
+      "transliteration": "Dtaa, nuu khit thueng mak loei",
+      "category": "Family Terms",
+      "generated_at": "2026-11-05T22:56:42.090172"
+    },
+    {
+      "english": "Sister, wait for me, please",
+      "thai": "พี่สาว, รอฉันหน่อยนะ",
+      "transliteration": "Phi sao, roo chan noi na",
+      "category": "Family Terms",
+      "generated_at": "2026-11-05T22:56:42.090174"
     }
   ],
-  "last_updated": "2026-11-05T21:15:13.629919"
+  "last_updated": "2026-11-05T22:56:42.090176"
 }
