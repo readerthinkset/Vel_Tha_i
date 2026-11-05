@@ -4304,7 +4304,42 @@
       "transliteration": "ot thon wai, khwam kaaw naa ja ma",
       "category": "Perseverance",
       "generated_at": "2026-11-04T22:55:51.478455"
+    },
+    {
+      "english": "I would like water, please.",
+      "thai": "ขอน้ำเปล่าหน่อยครับ",
+      "transliteration": "Kho naam plao noi khrub",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-05T01:22:39.439241"
+    },
+    {
+      "english": "Please speak slowly, I’m learning.",
+      "thai": "ช่วยพูดช้าๆ นะครับ",
+      "transliteration": "Chuay phut cha cha na khrub",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-05T01:22:39.439253"
+    },
+    {
+      "english": "I don’t understand, sorry.",
+      "thai": "ผมไม่เข้าใจ ขอโทษครับ",
+      "transliteration": "Phom mai kao jai kho thot khrub",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-05T01:22:39.439255"
+    },
+    {
+      "english": "Do you have this in smaller size?",
+      "thai": "มีแบบเล็กกว่านี้ไหมครับ",
+      "transliteration": "Mee baep lek kwa ni mai khrub",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-05T01:22:39.439256"
+    },
+    {
+      "english": "I’ll pay by card, please.",
+      "thai": "ผมจ่ายด้วยบัตรครับ",
+      "transliteration": "Phom chai duay bat khrub",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-05T01:22:39.439257"
     }
   ],
-  "last_updated": "2026-11-04T22:55:51.478457"
+  "last_updated": "2026-11-05T01:22:39.439259"
 }
