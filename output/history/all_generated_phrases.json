@@ -4514,7 +4514,42 @@
       "transliteration": "Rao yang pen phuean kan, chan hai ai",
       "category": "Forgiveness",
       "generated_at": "2026-11-06T01:09:49.545901"
+    },
+    {
+      "english": "One cup, please, not too sweet.",
+      "thai": "ขอหนึ่งแก้ว, ไม่หวานมากค่ะ",
+      "transliteration": "Kho nueng gaew, mai waan mak kha",
+      "category": "Numbers Thai",
+      "generated_at": "2026-11-06T08:13:12.700678"
+    },
+    {
+      "english": "Two tickets, please, for tonight.",
+      "thai": "ขอสองใบ, สำหรับคืนนี้ค่ะ",
+      "transliteration": "Kho song bai, samrap khuen ni kha",
+      "category": "Numbers Thai",
+      "generated_at": "2026-11-06T08:13:12.700688"
+    },
+    {
+      "english": "Three photos, please, near the temple.",
+      "thai": "ขอสามรูป, ใกล้วัดหน่อยค่ะ",
+      "transliteration": "Kho sam roop, klai wat noy kha",
+      "category": "Numbers Thai",
+      "generated_at": "2026-11-06T08:13:12.700690"
+    },
+    {
+      "english": "Four bottles, please, cold water only.",
+      "thai": "ขอขวดสี่, น้ำเย็นเท่านั้นค่ะ",
+      "transliteration": "Kho khuat see, nam yen thaen nan kha",
+      "category": "Numbers Thai",
+      "generated_at": "2026-11-06T08:13:12.700691"
+    },
+    {
+      "english": "Five minutes, please, then start.",
+      "thai": "ขอห้านาที, แล้วเริ่มเลยค่ะ",
+      "transliteration": "Kho ha na thi, laeo roem loei kha",
+      "category": "Numbers Thai",
+      "generated_at": "2026-11-06T08:13:12.700692"
     }
   ],
-  "last_updated": "2026-11-06T01:09:49.545902"
+  "last_updated": "2026-11-06T08:13:12.700694"
 }
