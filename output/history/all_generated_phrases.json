@@ -4549,7 +4549,42 @@
       "transliteration": "Kho ha na thi, laeo roem loei kha",
       "category": "Numbers Thai",
       "generated_at": "2026-11-06T08:13:12.700692"
+    },
+    {
+      "english": "My friend, I'm here for you",
+      "thai": "เพื่อนของฉัน, ฉันอยู่ตรงนี้เสมอ",
+      "transliteration": "Phuean khong chan, chan yu trong ni se-mor",
+      "category": "Friendship",
+      "generated_at": "2026-11-06T19:42:17.108156"
+    },
+    {
+      "english": "We laugh together, that's friendship",
+      "thai": "เราหัวเราะด้วยกัน, นี่คือมิตรภาพ",
+      "transliteration": "Rao hua rao duay kan, ni khue mit-tra-phap",
+      "category": "Friendship",
+      "generated_at": "2026-11-06T19:42:17.108166"
+    },
+    {
+      "english": "Thank you, for always listening",
+      "thai": "ขอบคุณนะ, ที่รับฟังเสมอ",
+      "transliteration": "Khob khun na, thi rap fang se-mor",
+      "category": "Friendship",
+      "generated_at": "2026-11-06T19:42:17.108168"
+    },
+    {
+      "english": "Stay close, keep our promise",
+      "thai": "อยู่ใกล้ๆ นะ, รักษาสัญญาของเรา",
+      "transliteration": "Yu klai klai na, rak-sa sun-ya khong rao",
+      "category": "Friendship",
+      "generated_at": "2026-11-06T19:42:17.108169"
+    },
+    {
+      "english": "Call me, when you feel lonely",
+      "thai": "โทรหาฉันนะ, ตอนเธอเหงา",
+      "transliteration": "Tho rA khan na, ton thoe ngao",
+      "category": "Friendship",
+      "generated_at": "2026-11-06T19:42:17.108170"
     }
   ],
-  "last_updated": "2026-11-06T08:13:12.700694"
+  "last_updated": "2026-11-06T19:42:17.108171"
 }
