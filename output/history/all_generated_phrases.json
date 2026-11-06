@@ -4479,7 +4479,42 @@
       "transliteration": "Phi sao, roo chan noi na",
       "category": "Family Terms",
       "generated_at": "2026-11-05T22:56:42.090174"
+    },
+    {
+      "english": "I forgive you, we can move on.",
+      "thai": "ฉันให้อภัยนะ, เราไปต่อได้",
+      "transliteration": "Chan hai ai na, rao pai dtoi dai",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-06T01:09:49.545887"
+    },
+    {
+      "english": "It’s okay, I release the anger.",
+      "thai": "ไม่เป็นไรนะ, ฉันปล่อยความโกรธแล้ว",
+      "transliteration": "Mai pen rai na, chan ploy khwam krot laew",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-06T01:09:49.545899"
+    },
+    {
+      "english": "Let it go, I choose kindness.",
+      "thai": "ปล่อยเถอะ, ฉันเลือกความใจดี",
+      "transliteration": "Ploi thoe, chan lueak khwam jai di",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-06T01:09:49.545900"
+    },
+    {
+      "english": "I understand, so I forgive you.",
+      "thai": "ฉันเข้าใจ, เลยให้อภัยเธอ",
+      "transliteration": "Chan kao jai, loei hai ai thoe",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-06T01:09:49.545900"
+    },
+    {
+      "english": "We’re still friends, I forgive you.",
+      "thai": "เรายังเป็นเพื่อนกัน, ฉันให้อภัย",
+      "transliteration": "Rao yang pen phuean kan, chan hai ai",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-06T01:09:49.545901"
     }
   ],
-  "last_updated": "2026-11-05T22:56:42.090176"
+  "last_updated": "2026-11-06T01:09:49.545902"
 }
