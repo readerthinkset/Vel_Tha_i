@@ -4724,7 +4724,42 @@
       "transliteration": "Rian ru jak khwam phit phlat, rap tua, khaeng raeng khuen",
       "category": "Success",
       "generated_at": "2026-11-07T17:52:40.970638"
+    },
+    {
+      "english": "I’m thankful, for your support",
+      "thai": "ขอบคุณสำหรับกำลังใจของคุณ",
+      "transliteration": "Khob khun samrap kamlang jai khong khun",
+      "category": "Gratitude",
+      "generated_at": "2026-11-07T19:04:14.577719"
+    },
+    {
+      "english": "Thanks a lot, for the help you gave",
+      "thai": "ขอบคุณมากๆ สำหรับความช่วยเหลือ",
+      "transliteration": "Khob khun maak maak samrap khwam chuay luea",
+      "category": "Gratitude",
+      "generated_at": "2026-11-07T19:04:14.577730"
+    },
+    {
+      "english": "I feel grateful, for your understanding",
+      "thai": "ขอบคุณที่เข้าใจฉันเสมอ",
+      "transliteration": "Khob khun ti khao jai chan samuea",
+      "category": "Gratitude",
+      "generated_at": "2026-11-07T19:04:14.577731"
+    },
+    {
+      "english": "Thank you, for making time for me",
+      "thai": "ขอบคุณนะคะ ที่สละเวลาให้ฉัน",
+      "transliteration": "Khob khun na kha, ti sa la wee la hai chan",
+      "category": "Gratitude",
+      "generated_at": "2026-11-07T19:04:14.577731"
+    },
+    {
+      "english": "I’m grateful, for every small kindness",
+      "thai": "ขอบคุณสำหรับความใจดีเล็กๆ ทุกอย่าง",
+      "transliteration": "Khob khun samrap khwam jai dee lek lek thuk yang",
+      "category": "Gratitude",
+      "generated_at": "2026-11-07T19:04:14.577732"
     }
   ],
-  "last_updated": "2026-11-07T17:52:40.970639"
+  "last_updated": "2026-11-07T19:04:14.577733"
 }
