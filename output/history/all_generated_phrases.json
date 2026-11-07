@@ -4759,7 +4759,42 @@
       "transliteration": "Khob khun samrap khwam jai dee lek lek thuk yang",
       "category": "Gratitude",
       "generated_at": "2026-11-07T19:04:14.577732"
+    },
+    {
+      "english": "Call an ambulance, now, please",
+      "thai": "เรียกรถพยาบาลด่วน, ตอนนี้, ได้ไหมครับ",
+      "transliteration": "Ria kror rot pha ya baan duan, ton nee, dai mai khrap",
+      "category": "Emergency Thai",
+      "generated_at": "2026-11-07T21:06:54.972480"
+    },
+    {
+      "english": "I need a doctor, please help me",
+      "thai": "ฉันต้องการหมอ, ช่วยฉันด้วย",
+      "transliteration": "Chan tong gaan mo, chuai chan duai",
+      "category": "Emergency Thai",
+      "generated_at": "2026-11-07T21:06:54.972493"
+    },
+    {
+      "english": "I am hurt, please stop the bleeding",
+      "thai": "ฉันเจ็บ, ช่วยห้ามเลือดด้วย",
+      "transliteration": "Chan jeb, chuai haam lueat duai",
+      "category": "Emergency Thai",
+      "generated_at": "2026-11-07T21:06:54.972495"
+    },
+    {
+      "english": "Where is the nearest hospital, please",
+      "thai": "โรงพยาบาลใกล้ที่สุดอยู่ที่ไหนครับ",
+      "transliteration": "Rong pha ya baan glai tee sut yu tee nai khrap",
+      "category": "Emergency Thai",
+      "generated_at": "2026-11-07T21:06:54.972496"
+    },
+    {
+      "english": "Help me, I feel very sick",
+      "thai": "ช่วยด้วย, ฉันไม่ไหวแล้ว",
+      "transliteration": "Chuai duai, chan mai wai laeo",
+      "category": "Emergency Thai",
+      "generated_at": "2026-11-07T21:06:54.972497"
     }
   ],
-  "last_updated": "2026-11-07T19:04:14.577733"
+  "last_updated": "2026-11-07T21:06:54.972498"
 }
