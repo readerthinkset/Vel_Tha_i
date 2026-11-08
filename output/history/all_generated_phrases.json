@@ -4899,7 +4899,42 @@
       "transliteration": "Fan yang klaa, wang phaen ngaai ngaai, long muea wan ni",
       "category": "Positive Life",
       "generated_at": "2026-11-08T18:06:04.288988"
+    },
+    {
+      "english": "Hello, I am a visitor today",
+      "thai": "สวัสดีครับ, วันนี้ผมเป็นนักท่องเที่ยว",
+      "transliteration": "Sawatdee krub, Wan nee phom bpen nak thong thiao",
+      "category": "Travel Thai",
+      "generated_at": "2026-11-08T19:11:06.359463"
+    },
+    {
+      "english": "Where is the train station, please",
+      "thai": "สถานีรถไฟอยู่ที่ไหนครับ",
+      "transliteration": "Sathanee rot fai yoo tee nai krub",
+      "category": "Travel Thai",
+      "generated_at": "2026-11-08T19:11:06.359473"
+    },
+    {
+      "english": "How much is this, please tell me",
+      "thai": "อันนี้ราคาเท่าไหร่ครับ",
+      "transliteration": "An nee raa kaa thao rai krub",
+      "category": "Travel Thai",
+      "generated_at": "2026-11-08T19:11:06.359475"
+    },
+    {
+      "english": "I want water, not ice, please",
+      "thai": "ผมน้ำเปล่าได้ไหม, ไม่เอาน้ำแข็ง",
+      "transliteration": "Phom nam plao dai mai, mai ao nam khaeng",
+      "category": "Travel Thai",
+      "generated_at": "2026-11-08T19:11:06.359475"
+    },
+    {
+      "english": "Is this safe, for tourists",
+      "thai": "ที่นี่ปลอดภัยไหมครับ, สำหรับนักท่องเที่ยว",
+      "transliteration": "Tee nee bplod pai mai krub, samrap nak thong thiao",
+      "category": "Travel Thai",
+      "generated_at": "2026-11-08T19:11:06.359476"
     }
   ],
-  "last_updated": "2026-11-08T18:06:04.288989"
+  "last_updated": "2026-11-08T19:11:06.359477"
 }
