@@ -4794,7 +4794,42 @@
       "transliteration": "Chuai duai, chan mai wai laeo",
       "category": "Emergency Thai",
       "generated_at": "2026-11-07T21:06:54.972497"
+    },
+    {
+      "english": "Could we get it to go, please?",
+      "thai": "ขอใส่กล่องกลับบ้านได้ไหมคะ",
+      "transliteration": "Kho sai glong glap baan dai mai kha",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-11-08T00:01:06.596137"
+    },
+    {
+      "english": "What is the most popular dish here?",
+      "thai": "ที่นี่เมนูไหนอร่อยที่สุดคะ",
+      "transliteration": "Thi ni menu nai aroi thi sut kha",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-11-08T00:01:06.596150"
+    },
+    {
+      "english": "Can we have the bill, please?",
+      "thai": "ขอเช็คหน่อยได้ไหมคะ",
+      "transliteration": "Kho chek noy dai mai kha",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-11-08T00:01:06.596152"
+    },
+    {
+      "english": "Does this contain shrimp, or fish sauce?",
+      "thai": "มีกุ้งหรือซอสปลาไหมคะ",
+      "transliteration": "Mi kung rue saos pla mai kha",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-11-08T00:01:06.596153"
+    },
+    {
+      "english": "Sorry, can you repeat that, please?",
+      "thai": "ขอโทษค่ะ, ช่วยพูดอีกครั้งได้ไหมคะ",
+      "transliteration": "Kho thot kha, chuai phut ik khrang dai mai kha",
+      "category": "Restaurant Thai",
+      "generated_at": "2026-11-08T00:01:06.596154"
     }
   ],
-  "last_updated": "2026-11-07T21:06:54.972498"
+  "last_updated": "2026-11-08T00:01:06.596156"
 }
