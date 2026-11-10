@@ -5319,7 +5319,42 @@
       "transliteration": "sa-wat-dee, yin-dee thîi dâi phóp gan wan-níi",
       "category": "Greetings",
       "generated_at": "2026-11-10T20:48:05.722812"
+    },
+    {
+      "english": "Do you have this in my size?",
+      "thai": "มีไซส์นี้ไหมคะ",
+      "transliteration": "mii sai níi mái kha",
+      "category": "Shopping",
+      "generated_at": "2026-11-10T22:16:15.258159"
+    },
+    {
+      "english": "I’ll take it, thank you.",
+      "thai": "เอาอันนี้ค่ะ ขอบคุณค่ะ",
+      "transliteration": "ao an níi khâ, khǒr-b-khun khâ",
+      "category": "Shopping",
+      "generated_at": "2026-11-10T22:16:15.258171"
+    },
+    {
+      "english": "Do you accept cash, too?",
+      "thai": "รับเงินสดด้วยไหมคะ",
+      "transliteration": "ráp ngern-sòt duay mái kha",
+      "category": "Shopping",
+      "generated_at": "2026-11-10T22:16:15.258173"
+    },
+    {
+      "english": "Could you give me a discount?",
+      "thai": "ขอลดราคาได้ไหมคะ",
+      "transliteration": "kǒr-lôt raa-khaa dâi mái kha",
+      "category": "Shopping",
+      "generated_at": "2026-11-10T22:16:15.258175"
+    },
+    {
+      "english": "Is there a promotion today?",
+      "thai": "วันนี้มีโปรไหมคะ",
+      "transliteration": "wan-níi mii proo mái kha",
+      "category": "Shopping",
+      "generated_at": "2026-11-10T22:16:15.258176"
     }
   ],
-  "last_updated": "2026-11-10T20:48:05.722814"
+  "last_updated": "2026-11-10T22:16:15.258178"
 }
