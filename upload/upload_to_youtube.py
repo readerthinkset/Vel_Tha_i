@@ -1,7 +1,5 @@
 """
-สคริปต์อัปโหลด YouTube - อัปเดตสำหรับปี 2025
-
-ใช้ refresh token จาก GitHub Secrets เพื่ออัปโหลดวิดีโอ
+YouTube Shorts uploader (refresh token from GitHub Secrets).
 """
 
 import os
@@ -15,19 +13,19 @@ import datetime
 
 load_dotenv()
 
+
 def get_authenticated_service():
     client_id = (os.getenv('YOUTUBE_CLIENT_ID') or os.getenv('YT_CLIENT_ID', '')).strip()
     client_secret = (os.getenv('YOUTUBE_CLIENT_SECRET') or os.getenv('YT_CLIENT_SECRET', '')).strip()
     refresh_token = (os.getenv('YOUTUBE_REFRESH_TOKEN') or os.getenv('YT_REFRESH_TOKEN', '')).strip()
 
-    def mask(s): return f"{s[:4]}...{s[-4:]}" if s and len(s) > 8 else "MISSING"
-    print(f"[youtube] Client ID: {mask(client_id)}")
-    print(f"[youtube] Client Secret: {mask(client_secret)}")
-    print(f"[youtube] Refresh Token: {mask(refresh_token)}")
+    print(f"[youtube] Client ID: {'set' if client_id else 'MISSING'}")
+    print(f"[youtube] Client Secret: {'set' if client_secret else 'MISSING'}")
+    print(f"[youtube] Refresh Token: {'set' if refresh_token else 'MISSING'}")
 
     if not all([client_id, client_secret, refresh_token]):
         raise ValueError(
-            "ข้อมูลรับรองขาดหายไป! กรุณาตั้งค่าตัวแปรสภาพแวดล้อมเหล่านี้:\n"
+            "Missing credentials! Set these environment variables:\n"
             "  - YOUTUBE_CLIENT_ID\n"
             "  - YOUTUBE_CLIENT_SECRET\n"
             "  - YOUTUBE_REFRESH_TOKEN"
@@ -46,75 +44,77 @@ def get_authenticated_service():
         creds.refresh(Request())
     except Exception as e:
         if "invalid_grant" in str(e).lower():
-            print("\n❌ [youtube] ข้อผิดพลาดการยืนยันตัวตน: Refresh token หมดอายุหรือถูกเพิกถอน")
-            print("💡 วิธีแก้ไข: คุณต้องสร้าง refresh token ใหม่")
-            print("   1. ไปที่ Google Cloud Console")
-            print("   2. ตรวจสอบว่า 'OAuth Consent Screen' อยู่ใน 'Production' หรือเพิ่มตัวเองเป็นผู้ทดสอบ")
-            print("   3. รันสคริปต์ภายในเพื่อรับ refresh token ใหม่")
+            print("\n[youtube] AUTH ERROR: Refresh token has EXPIRED or been REVOKED.")
+            print("SOLUTION: Generate a NEW refresh token.")
+            print("   1. Go to Google Cloud Console.")
+            print("   2. Ensure OAuth Consent Screen is in 'Production' or add yourself as a test user.")
+            print("   3. Run a local script to get a new refresh token.")
         raise
 
     return build('youtube', 'v3', credentials=creds)
 
-def generate_video_metadata(category: str, num_phrases: int, phrases: list = None):
-    """สร้างชื่อ คำอธิบาย และแท็กภาษาไทยสำหรับวิดีโอ"""
 
-    title = f"Thai Learning: {num_phrases} Essential {category} Phrases 🇹🇭"
+def generate_video_metadata(category: str, num_phrases: int, phrases: list = None):
+    import config
+
+    lang = config.LANGUAGE["name"]
+    brand = config.BRAND
+    title = f"{lang} Learning: {num_phrases} Essential {category} Phrases"
 
     description_lines = [
-        f"🇹🇭 เรียนภาษาไทยกับ Velocity Thai! 🇹🇭",
+        f"Learn {lang} with {brand}!",
         f"",
-        f"📚 หมวดหมู่: {category}",
+        f"Category: {category}",
         f"",
-        f"🎯 เรียนภาษาไทยทีละวลี! บทเรียน{category}วันนี้:",
+        f"Master {lang} one phrase at a time! Today's {category} lesson:",
         f""
     ]
 
     if phrases:
-        emojis = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"]
-        for i, phrase in enumerate(phrases[:5], 0):
-            emoji = emojis[i] if i < len(emojis) else f"{i+1}."
-            description_lines.append(f"{emoji} {phrase['english']}")
-            description_lines.append(f"   📍 {phrase['thai']}")
-            transliteration = phrase.get('transliteration') or phrase.get('romaji', '')
-            description_lines.append(f"   🔊 [{transliteration}]")
+        for i, phrase in enumerate(phrases[:5], 1):
+            description_lines.append(f"{i}. {phrase['english']}")
+            description_lines.append(f"   {phrase.get('native', '')}")
+            transliteration = phrase.get('transliteration') or ''
+            if transliteration:
+                description_lines.append(f"   [{transliteration}]")
             description_lines.append("")
 
     description_lines.extend([
-        f"💡 เคล็ดลับ: ท่องซ้ำแต่ละวลี 3 ครั้ง!",
-        f"👍 กดไลค์ถ้าคุณได้เรียนรู้สิ่งใหม่!",
-        f"💬 คอมเมนต์วลีที่คุณชอบด้านล่าง!",
-        f"🔔 ติดตามเพื่อเรียนภาษาไทยทุกวัน!",
+        f"Tip: Repeat each phrase out loud 3 times!",
+        f"Like this video if you learned something new!",
+        f"Comment your favorite phrase below!",
+        f"Subscribe for daily {lang} lessons!",
         f"",
-        f"📖 คู่มือการออกเสียง:",
-        f"   การสะกดแบบออกเสียงในวงเล็บช่วยให้คุณออกเสียงถูกต้อง!",
+        f"Pronunciation Guide:",
+        f"   The phonetic spelling in brackets helps you say it correctly!",
         f"",
-        f"#LearnThai #ThaiLessons #ThaiForBeginners #LanguageLearning",
-        f"#Thai #Education #Tutorial #DailyThai #{category.replace(' ', '')}",
-        f"#VelocityThai #ThaiPhrases #SpeakThai"
+        " ".join(config.HASHTAGS[:6]),
+        f"#Education #Tutorial #{category.replace(' ', '')}",
     ])
 
     description = "\n".join(description_lines)
 
     tags = [
-        "learn thai",
-        "thai lessons",
-        "thai for beginners",
-        "thai phrases",
+        f"learn {lang.lower()}",
+        f"{lang.lower()} lessons",
+        f"{lang.lower()} for beginners",
+        f"{lang.lower()} phrases",
         "language learning",
-        "thai tutorial",
-        "speak thai",
+        f"{lang.lower()} tutorial",
+        f"speak {lang.lower()}",
         category.lower(),
         "education",
-        "daily thai",
-        "velocity thai",
-        "thai learning"
+        f"daily {lang.lower()}",
+        brand.lower(),
+        f"{lang.lower()} learning",
     ]
 
     return title, description, tags
 
+
 def upload_to_youtube(video_path, title, description, tags=None, category_id='22'):
     if tags is None:
-        tags = ['slapstick', 'animation', 'funny']
+        tags = ['education', 'language learning']
     youtube = get_authenticated_service()
 
     body = {
@@ -140,7 +140,7 @@ def upload_to_youtube(video_path, title, description, tags=None, category_id='22
         mimetype='video/mp4'
     )
 
-    print(f"[youtube] กำลังอัปโหลด: {title}")
+    print(f"[youtube] Uploading: {title}")
     request = youtube.videos().insert(
         part=','.join(body.keys()),
         body=body,
@@ -151,23 +151,24 @@ def upload_to_youtube(video_path, title, description, tags=None, category_id='22
     while response is None:
         status, response = request.next_chunk()
         if status:
-            print(f"[youtube] ความคืบหน้า: {int(status.progress() * 100)}%")
+            print(f"[youtube] Progress: {int(status.progress() * 100)}%")
 
-    print(f"[youtube] ✅ อัปโหลดสำเร็จ! Video ID: {response['id']}")
+    print(f"[youtube] Uploaded! Video ID: {response['id']}")
     print(f"[youtube] URL: https://youtube.com/shorts/{response['id']}")
 
     return response
 
+
 def main():
     video_file = Path('final_video.mp4')
-
     if not video_file.exists():
-        print("[youtube] ❌ ไม่พบวิดีโอที่ final_video.mp4")
+        print("[youtube] No video found at final_video.mp4")
         return
 
-    title = "Velocity Thai Daily"
-    description = "#shorts #thai #languagelearning"
-    tags = ['thai', 'language', 'learning']
+    import config
+    title = f"Learn {config.LANGUAGE['name']} Daily"
+    description = "#shorts #language #education"
+    tags = ['education', 'language learning']
 
     try:
         upload_to_youtube(
@@ -178,8 +179,9 @@ def main():
             category_id='22'
         )
     except Exception as e:
-        print(f"[youtube] ❌ อัปโหลดล้มเหลว: {e}")
+        print(f"[youtube] Upload failed: {e}")
         raise
+
 
 if __name__ == '__main__':
     main()
