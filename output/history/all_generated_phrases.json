@@ -5144,7 +5144,42 @@
       "transliteration": "Gep khwam suk wai klai klai, baeng khwam chai di, wan sot sai",
       "category": "Joy",
       "generated_at": "2026-11-10T00:53:37.143464"
+    },
+    {
+      "english": "How much is this, please",
+      "thai": "อันนี้ราคาเท่าไหร่คะ",
+      "transliteration": "An nii raa kaa thao rai kha",
+      "category": "Shopping Thai",
+      "generated_at": "2026-11-10T02:58:25.908517"
+    },
+    {
+      "english": "Do you have this in white, please",
+      "thai": "มีสีขาวไหมคะ",
+      "transliteration": "Mii sii khao mai kha",
+      "category": "Shopping Thai",
+      "generated_at": "2026-11-10T02:58:25.908527"
+    },
+    {
+      "english": "I want a size M, please",
+      "thai": "ขอไซส์ M ค่ะ",
+      "transliteration": "Kho sai M kha",
+      "category": "Shopping Thai",
+      "generated_at": "2026-11-10T02:58:25.908529"
+    },
+    {
+      "english": "Can I try this on, please",
+      "thai": "ขอลองได้ไหมคะ",
+      "transliteration": "Kho long dai mai kha",
+      "category": "Shopping Thai",
+      "generated_at": "2026-11-10T02:58:25.908530"
+    },
+    {
+      "english": "Where is the fitting room, please",
+      "thai": "ห้องลองอยู่ตรงไหนคะ",
+      "transliteration": "Hong long yoo trong nai kha",
+      "category": "Shopping Thai",
+      "generated_at": "2026-11-10T02:58:25.908531"
     }
   ],
-  "last_updated": "2026-11-10T00:53:37.143466"
+  "last_updated": "2026-11-10T02:58:25.908533"
 }
