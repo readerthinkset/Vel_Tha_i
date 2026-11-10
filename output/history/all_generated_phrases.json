@@ -5284,7 +5284,42 @@
       "transliteration": "chan rúu sɯ̀ek bplɔɔt pai mʉʉa khun yùu trong níi",
       "category": "Love",
       "generated_at": "2026-11-10T19:23:04.080586"
+    },
+    {
+      "english": "Hi, how’s your day going?",
+      "thai": "สวัสดี, วันนี้เป็นไงบ้าง",
+      "transliteration": "sa-wat-dee, wan-níi bpen ngai-bang",
+      "category": "Greetings",
+      "generated_at": "2026-11-10T20:48:05.722792"
+    },
+    {
+      "english": "Hello, are you doing okay?",
+      "thai": "สวัสดี, สบายดีไหม",
+      "transliteration": "sa-wat-dee, sa-bai-dii mai",
+      "category": "Greetings",
+      "generated_at": "2026-11-10T20:48:05.722807"
+    },
+    {
+      "english": "Morning! How was your night?",
+      "thai": "สวัสดีตอนเช้า, คืนนี้เป็นยังไงบ้าง",
+      "transliteration": "sa-wat-dee dton-cháo, khuue-níi bpen yang-ngai-bang",
+      "category": "Greetings",
+      "generated_at": "2026-11-10T20:48:05.722809"
+    },
+    {
+      "english": "Good morning, have a great day!",
+      "thai": "สวัสดีตอนเช้า, ขอให้วันนี้ดีนะ",
+      "transliteration": "sa-wat-dee dton-cháo, kho hâi wan-níi di na",
+      "category": "Greetings",
+      "generated_at": "2026-11-10T20:48:05.722811"
+    },
+    {
+      "english": "Hi, nice meeting you today.",
+      "thai": "สวัสดี, ยินดีที่ได้พบกันวันนี้",
+      "transliteration": "sa-wat-dee, yin-dee thîi dâi phóp gan wan-níi",
+      "category": "Greetings",
+      "generated_at": "2026-11-10T20:48:05.722812"
     }
   ],
-  "last_updated": "2026-11-10T19:23:04.080588"
+  "last_updated": "2026-11-10T20:48:05.722814"
 }
