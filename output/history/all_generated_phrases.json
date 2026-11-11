@@ -5354,7 +5354,42 @@
       "transliteration": "wan-níi mii proo mái kha",
       "category": "Shopping",
       "generated_at": "2026-11-10T22:16:15.258176"
+    },
+    {
+      "english": "Relax your shoulders, breathe slowly.",
+      "thai": "ผ่อนไหล่, หายใจช้าๆ",
+      "transliteration": "phòn sài, hāi chai cháa-cháa",
+      "category": "Balance",
+      "generated_at": "2026-11-11T00:26:49.651833"
+    },
+    {
+      "english": "Feel your feet, stay calm.",
+      "thai": "สัมผัสฝ่าเท้า, อยู่กับความสงบ",
+      "transliteration": "sạm-phat fâa-tháo, yùu gàp khwaam-sòngb",
+      "category": "Balance",
+      "generated_at": "2026-11-11T00:26:49.651844"
+    },
+    {
+      "english": "Let your breath guide you.",
+      "thai": "ปล่อยให้ลมหายใจพาคุณไป",
+      "transliteration": "plòi hâi lŏm hāi-jai phaa-khun bpai",
+      "category": "Balance",
+      "generated_at": "2026-11-11T00:26:49.651846"
+    },
+    {
+      "english": "Gently straighten your back, hold.",
+      "thai": "ค่อยๆยืดหลังให้ตรง, ค้างไว้",
+      "transliteration": "khɔ̂ɔy-kay yʉʉt lǎng hâi dtrong, khâang-wái",
+      "category": "Balance",
+      "generated_at": "2026-11-11T00:26:49.651847"
+    },
+    {
+      "english": "Unclench your jaw, soften your eyes.",
+      "thai": "คลายกราม, ทำตาให้อ่อนลง",
+      "transliteration": "khlaai graam, tham dtaa hâi òɔn-long",
+      "category": "Balance",
+      "generated_at": "2026-11-11T00:26:49.651849"
     }
   ],
-  "last_updated": "2026-11-10T22:16:15.258178"
+  "last_updated": "2026-11-11T00:26:49.651851"
 }
