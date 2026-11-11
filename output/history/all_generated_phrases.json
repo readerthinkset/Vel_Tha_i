@@ -5494,7 +5494,42 @@
       "transliteration": "wan-níi lʉ̂uak khwaam pha-yaa-yam mâi châi khâaw-áng",
       "category": "Strength",
       "generated_at": "2026-11-11T21:13:18.559221"
+    },
+    {
+      "english": "I didn’t intend to hurt you.",
+      "thai": "ฉันไม่ได้ตั้งใจทำให้คุณเจ็บ",
+      "transliteration": "chan mai dai tang jai thamh hai khun chep",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T23:24:37.745142"
+    },
+    {
+      "english": "Please forgive me for my words.",
+      "thai": "ขอโทษนะที่ฉันพูดแรงไป",
+      "transliteration": "kho thot na thi chan phut raeng pai",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T23:24:37.745156"
+    },
+    {
+      "english": "I want to make things right.",
+      "thai": "ฉันอยากแก้ไขให้ดีขึ้น",
+      "transliteration": "chan yak kae khai hai di khuen",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T23:24:37.745158"
+    },
+    {
+      "english": "I take responsibility for that.",
+      "thai": "ฉันรับผิดชอบเรื่องนั้นนะ",
+      "transliteration": "chan rap phit chop rueang nan na",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T23:24:37.745159"
+    },
+    {
+      "english": "I’m sorry, I got it wrong.",
+      "thai": "ขอโทษนะ ฉันคิดผิด",
+      "transliteration": "kho thot na chan khit phit",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-11T23:24:37.745161"
     }
   ],
-  "last_updated": "2026-11-11T21:13:18.559223"
+  "last_updated": "2026-11-11T23:24:37.745163"
 }
