@@ -5424,7 +5424,42 @@
       "transliteration": "bpai hai thueng thúk khráng, man samkhan ná",
       "category": "Perseverance",
       "generated_at": "2026-11-11T03:39:53.476226"
+    },
+    {
+      "english": "Relax your jaw, soften your face.",
+      "thai": "คลายกราม, ผ่อนใบหน้าให้สบาย",
+      "transliteration": "khlai gram, phǿn bai-nâa hâi sa-bai",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-11T19:18:23.731533"
+    },
+    {
+      "english": "Notice your shoulders, let them drop.",
+      "thai": "สังเกตไหล่, ปล่อยให้ตกลง",
+      "transliteration": "sǎng-gèt lài, plûai hâi tòk long",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-11T19:18:23.731544"
+    },
+    {
+      "english": "Inhale slowly, exhale with ease.",
+      "thai": "สูดลมหายใจช้าๆ, ผ่อนลมหายใจอย่างสบาย",
+      "transliteration": "sùut lom hǎai-jai cháa chaa, phòn lom hǎai-jai yàang sa-bai",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-11T19:18:23.731546"
+    },
+    {
+      "english": "Feel your feet, steady on the floor.",
+      "thai": "รู้สึกที่เท้า, มั่นคงบนพื้น",
+      "transliteration": "rúu-sʉuk thîi tháo, man-khong bon phʉ́en",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-11T19:18:23.731547"
+    },
+    {
+      "english": "Let the noise pass, quietly.",
+      "thai": "ปล่อยให้เสียงผ่านไป, อย่างเงียบ",
+      "transliteration": "plûai hâi sǐiang phàn pai, yàang ngîap",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-11T19:18:23.731549"
     }
   ],
-  "last_updated": "2026-11-11T03:39:53.476228"
+  "last_updated": "2026-11-11T19:18:23.731551"
 }
