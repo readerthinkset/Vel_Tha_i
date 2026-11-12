@@ -5599,7 +5599,42 @@
       "transliteration": "wan thîi yâak gôr phàan bpai dâi",
       "category": "Hope",
       "generated_at": "2026-11-12T04:47:42.445205"
+    },
+    {
+      "english": "Hi, what do you recommend here?",
+      "thai": "สวัสดีค่ะ, แนะนำเมนูไหนบ้างคะ",
+      "transliteration": "Sà-wàt-dee khâ, rae-nam me-nuu nǎi bâang khà",
+      "category": "Restaurant",
+      "generated_at": "2026-11-12T19:37:20.583032"
+    },
+    {
+      "english": "Do you have vegetarian options?",
+      "thai": "มีเมนูอาหารมังสวิรัติไหมคะ",
+      "transliteration": "Mii me-nuu aa-hǎan măng-sà-wí-ràt mái khà",
+      "category": "Restaurant",
+      "generated_at": "2026-11-12T19:37:20.583046"
+    },
+    {
+      "english": "Is this dish spicy, or mild?",
+      "thai": "จานนี้เผ็ดไหมคะ, เผ็ดน้อยไหม",
+      "transliteration": "Jaan-níi pèt mái khà, pèt nói mái",
+      "category": "Restaurant",
+      "generated_at": "2026-11-12T19:37:20.583048"
+    },
+    {
+      "english": "Can I get it without chili?",
+      "thai": "ขอไม่ใส่พริกได้ไหมคะ",
+      "transliteration": "Khǎaw mâi sài phrík dâai mái khà",
+      "category": "Restaurant",
+      "generated_at": "2026-11-12T19:37:20.583049"
+    },
+    {
+      "english": "May I see the menu, please?",
+      "thai": "ขอดูเมนูหน่อยได้ไหมคะ",
+      "transliteration": "Khǎaw-duu me-nuu nǒi dâai mái khà",
+      "category": "Restaurant",
+      "generated_at": "2026-11-12T19:37:20.583050"
     }
   ],
-  "last_updated": "2026-11-12T04:47:42.445207"
+  "last_updated": "2026-11-12T19:37:20.583052"
 }
