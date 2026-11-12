@@ -5669,7 +5669,42 @@
       "transliteration": "khwaam katà-nnǔu thâm hâi wan thamma-da mii khâa",
       "category": "Wisdom",
       "generated_at": "2026-11-12T21:24:37.926666"
+    },
+    {
+      "english": "Hello, where is the nearest station?",
+      "thai": "สวัสดีค่ะ, สถานีที่ใกล้ที่สุดอยู่ไหนคะ",
+      "transliteration": "Sa-wat-dee kha, sa-tha-nee tee glai tee-soot yuu nai kha",
+      "category": "Travel",
+      "generated_at": "2026-11-12T22:40:51.729126"
+    },
+    {
+      "english": "How much is this ticket, please?",
+      "thai": "ตั๋วนี้ราคาเท่าไหร่คะ",
+      "transliteration": "Tua nee raa-ka tao rai kha",
+      "category": "Travel",
+      "generated_at": "2026-11-12T22:40:51.729141"
+    },
+    {
+      "english": "Is there a bus to the airport?",
+      "thai": "มีรถบัสไปสนามบินไหมคะ",
+      "transliteration": "Mee rots bat bpai sa-nam-bin mai kha",
+      "category": "Travel",
+      "generated_at": "2026-11-12T22:40:51.729143"
+    },
+    {
+      "english": "Where can I buy a SIM card?",
+      "thai": "ฉันซื้อซิมการ์ดได้ที่ไหน",
+      "transliteration": "Chan seua sim gaan yai dai tee nai",
+      "category": "Travel",
+      "generated_at": "2026-11-12T22:40:51.729144"
+    },
+    {
+      "english": "Is this the right way to the hotel?",
+      "thai": "ทางนี้ไปโรงแรมใช่ไหม",
+      "transliteration": "Thang nee bpai rong-raem chai mai",
+      "category": "Travel",
+      "generated_at": "2026-11-12T22:40:51.729146"
     }
   ],
-  "last_updated": "2026-11-12T21:24:37.926668"
+  "last_updated": "2026-11-12T22:40:51.729148"
 }
