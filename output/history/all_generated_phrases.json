@@ -5529,7 +5529,42 @@
       "transliteration": "kho thot na chan khit phit",
       "category": "Forgiveness",
       "generated_at": "2026-11-11T23:24:37.745161"
+    },
+    {
+      "english": "Thank you very much, I appreciate it.",
+      "thai": "ขอบคุณมากนะ ฉันซาบซึ้งมาก",
+      "transliteration": "Khob khun mak na, chan sa-bsueng mak",
+      "category": "Common Expressions",
+      "generated_at": "2026-11-12T01:48:30.461989"
+    },
+    {
+      "english": "Sorry, I’m late, traffic was bad.",
+      "thai": "ขอโทษนะ ฉันมาสาย รถติดมาก",
+      "transliteration": "Khō thōt na, chan maa sai, rot tit mak",
+      "category": "Common Expressions",
+      "generated_at": "2026-11-12T01:48:30.462003"
+    },
+    {
+      "english": "I’m hungry, can we eat now?",
+      "thai": "ฉันหิวแล้ว เราไปกินตอนนี้ไหม",
+      "transliteration": "Chan hiu laeo, rao pai gin ton-ni mai",
+      "category": "Common Expressions",
+      "generated_at": "2026-11-12T01:48:30.462004"
+    },
+    {
+      "english": "I’ll pay by card, is that okay?",
+      "thai": "ฉันจ่ายด้วยบัตรได้ไหม",
+      "transliteration": "Chan jai dûai bat dâi mai",
+      "category": "Common Expressions",
+      "generated_at": "2026-11-12T01:48:30.462005"
+    },
+    {
+      "english": "Please help me with this form.",
+      "thai": "ช่วยฉันกรอกแบบฟอร์มหน่อยได้ไหม",
+      "transliteration": "Chûai chan krok baep-fɔrm nòi dâi mai",
+      "category": "Common Expressions",
+      "generated_at": "2026-11-12T01:48:30.462006"
     }
   ],
-  "last_updated": "2026-11-11T23:24:37.745163"
+  "last_updated": "2026-11-12T01:48:30.462007"
 }
