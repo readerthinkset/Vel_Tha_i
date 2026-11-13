@@ -5774,7 +5774,42 @@
       "transliteration": "khɔ̀p-khun ná cháe-wít sǎm-ràp chûuang-wé-laa níi",
       "category": "Happiness",
       "generated_at": "2026-11-13T03:58:56.102921"
+    },
+    {
+      "english": "Good morning, what a nice day.",
+      "thai": "สวัสดีตอนเช้า, วันนี้อากาศดีจังเลย",
+      "transliteration": "sa-wat-dee dton-chao, wan-nee aa-gat-dee jang-loey",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-13T19:15:53.634909"
+    },
+    {
+      "english": "I’m fine, thanks, and you?",
+      "thai": "ฉันสบายดี, ขอบคุณ แล้วคุณล่ะ",
+      "transliteration": "chan sa-baai-dee, khop-khun laeo khun-la",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-13T19:15:53.634920"
+    },
+    {
+      "english": "How do you say this in Thai?",
+      "thai": "คำนี้พูดว่าอะไรในภาษาไทย",
+      "transliteration": "kham-nee phuut waa a-rai nai paa-saa-thai",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-13T19:15:53.634922"
+    },
+    {
+      "english": "I’m hungry, is there food nearby?",
+      "thai": "ฉันหิว, มีร้านอาหารแถวนี้ไหม",
+      "transliteration": "chan hiu, mee raan aa-han thaa-wai-nee mai",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-13T19:15:53.634923"
+    },
+    {
+      "english": "Is it spicy, or not too much?",
+      "thai": "เผ็ดไหม, หรือไม่ค่อยเผ็ด",
+      "transliteration": "phet mai, reu mai khoi phet",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-13T19:15:53.634924"
     }
   ],
-  "last_updated": "2026-11-13T03:58:56.102923"
+  "last_updated": "2026-11-13T19:15:53.634927"
 }
