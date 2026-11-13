@@ -5809,7 +5809,42 @@
       "transliteration": "phet mai, reu mai khoi phet",
       "category": "Basic Phrases",
       "generated_at": "2026-11-13T19:15:53.634924"
+    },
+    {
+      "english": "I'm ready, I'll keep going.",
+      "thai": "ฉันพร้อมแล้ว ฉันจะไปต่อ",
+      "transliteration": "chan phrom laeo chan ja pai to",
+      "category": "Confidence",
+      "generated_at": "2026-11-13T20:52:20.847595"
+    },
+    {
+      "english": "I can handle small conversations.",
+      "thai": "ฉันคุยเรื่องเล็กๆ ได้",
+      "transliteration": "chan khui rueang lek lek dai",
+      "category": "Confidence",
+      "generated_at": "2026-11-13T20:52:20.847611"
+    },
+    {
+      "english": "Breathe in, then say it.",
+      "thai": "หายใจเข้า แล้วพูดเลย",
+      "transliteration": "hay chai khao laeo phut loei",
+      "category": "Confidence",
+      "generated_at": "2026-11-13T20:52:20.847613"
+    },
+    {
+      "english": "It's okay if I pause.",
+      "thai": "ไม่เป็นไร ถ้าฉันหยุดคิด",
+      "transliteration": "mai pen rai tha chan yut khit",
+      "category": "Confidence",
+      "generated_at": "2026-11-13T20:52:20.847614"
+    },
+    {
+      "english": "I’ll try again, same word.",
+      "thai": "เดี๋ยวฉันลองใหม่ คำเดิม",
+      "transliteration": "diaw chan long mai kham roem",
+      "category": "Confidence",
+      "generated_at": "2026-11-13T20:52:20.847615"
     }
   ],
-  "last_updated": "2026-11-13T19:15:53.634927"
+  "last_updated": "2026-11-13T20:52:20.847617"
 }
