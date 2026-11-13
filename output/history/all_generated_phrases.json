@@ -5704,7 +5704,42 @@
       "transliteration": "Thang nee bpai rong-raem chai mai",
       "category": "Travel",
       "generated_at": "2026-11-12T22:40:51.729146"
+    },
+    {
+      "english": "What time is it now?",
+      "thai": "ตอนนี้กี่โมงแล้วครับ",
+      "transliteration": "Tawn-ní kìe mong láew khráp",
+      "category": "Time",
+      "generated_at": "2026-11-13T00:55:22.308805"
+    },
+    {
+      "english": "It's five o'clock, right?",
+      "thai": "ห้าโมงใช่ไหมครับ",
+      "transliteration": "Hâa mong châi mái khráp",
+      "category": "Time",
+      "generated_at": "2026-11-13T00:55:22.308821"
+    },
+    {
+      "english": "I have time to spare.",
+      "thai": "ฉันมีเวลาพออยู่",
+      "transliteration": "Chăn mii we-laa phor yùu",
+      "category": "Time",
+      "generated_at": "2026-11-13T00:55:22.308822"
+    },
+    {
+      "english": "Please be ready by six.",
+      "thai": "เตรียมตัวให้พร้อมภายในหกโมงนะ",
+      "transliteration": "T-riiam tua hâi phórm phai-nai hòk mong ná",
+      "category": "Time",
+      "generated_at": "2026-11-13T00:55:22.308824"
+    },
+    {
+      "english": "We should leave at seven.",
+      "thai": "เราควรออกเวลาเจ็ดโมงนะ",
+      "transliteration": "Rao khuan òok we-laa jèt mong ná",
+      "category": "Time",
+      "generated_at": "2026-11-13T00:55:22.308825"
     }
   ],
-  "last_updated": "2026-11-12T22:40:51.729148"
+  "last_updated": "2026-11-13T00:55:22.308827"
 }
