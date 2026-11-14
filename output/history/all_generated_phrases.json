@@ -5949,7 +5949,42 @@
       "transliteration": "khop khun thi rap fang man mi khwam mai mak",
       "category": "Gratitude",
       "generated_at": "2026-11-14T03:57:28.199806"
+    },
+    {
+      "english": "Help me, please, I'm in trouble!",
+      "thai": "ช่วยด้วยครับ",
+      "transliteration": "Chûay dûay khráp/khâ Phǒm/chăn lam bàak lâew",
+      "category": "Emergency",
+      "generated_at": "2026-11-14T17:42:26.534203"
+    },
+    {
+      "english": "Stop, please, call the police now.",
+      "thai": "หยุดก่อนนะครับ",
+      "transliteration": "Yùt gòn ná khráp/khâ Rîiak tamruat dîeo níi",
+      "category": "Emergency",
+      "generated_at": "2026-11-14T17:42:26.534214"
+    },
+    {
+      "english": "Call an ambulance, please, quickly.",
+      "thai": "เรียกรถพยาบาลด่วนครับ",
+      "transliteration": "Rîiak rot phaya baan duan khráp/khâ tɔɔn níi",
+      "category": "Emergency",
+      "generated_at": "2026-11-14T17:42:26.534216"
+    },
+    {
+      "english": "Is there a hospital nearby?",
+      "thai": "มีโรงพยาบาลใกล้ๆ ไหมครับ",
+      "transliteration": "Mii roong phaya baan glâi glâi mái khráp/khá",
+      "category": "Emergency",
+      "generated_at": "2026-11-14T17:42:26.534217"
+    },
+    {
+      "english": "I need help, I can't breathe!",
+      "thai": "ช่วยด้วย หายใจไม่ออกแล้ว",
+      "transliteration": "Chûay dûay hǎay jai mâi òok lâew",
+      "category": "Emergency",
+      "generated_at": "2026-11-14T17:42:26.534218"
     }
   ],
-  "last_updated": "2026-11-14T03:57:28.199808"
+  "last_updated": "2026-11-14T17:42:26.534220"
 }
