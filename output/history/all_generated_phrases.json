@@ -5914,7 +5914,42 @@
       "transliteration": "Khun yai hua ror laeo chan yim",
       "category": "Family Terms",
       "generated_at": "2026-11-14T00:41:51.727710"
+    },
+    {
+      "english": "Thank you for being patient with me,",
+      "thai": "ขอบคุณที่คุณใจเย็นกับฉัน",
+      "transliteration": "khop khun thi khun jai yen kub chan",
+      "category": "Gratitude",
+      "generated_at": "2026-11-14T03:57:28.199791"
+    },
+    {
+      "english": "Thanks for your help, I really needed it.",
+      "thai": "ขอบคุณสำหรับความช่วยเหลือนะ ฉันต้องการมาก",
+      "transliteration": "khop khun samrap khwam chuai liua na chan tong karn mak",
+      "category": "Gratitude",
+      "generated_at": "2026-11-14T03:57:28.199801"
+    },
+    {
+      "english": "I really appreciate what you did for me.",
+      "thai": "ฉันซาบซึ้งในสิ่งที่คุณทำให้ฉัน",
+      "transliteration": "chan sab sueng nai sing thi khun tham hai chan",
+      "category": "Gratitude",
+      "generated_at": "2026-11-14T03:57:28.199803"
+    },
+    {
+      "english": "That was thoughtful, thank you again.",
+      "thai": "คุณคิดถึงฉันนะ ขอบคุณอีกครั้ง",
+      "transliteration": "khun khit thueng chan na khop khun ik khrang",
+      "category": "Gratitude",
+      "generated_at": "2026-11-14T03:57:28.199805"
+    },
+    {
+      "english": "Thanks for listening, it means a lot.",
+      "thai": "ขอบคุณที่รับฟัง มันมีความหมายมาก",
+      "transliteration": "khop khun thi rap fang man mi khwam mai mak",
+      "category": "Gratitude",
+      "generated_at": "2026-11-14T03:57:28.199806"
     }
   ],
-  "last_updated": "2026-11-14T00:41:51.727712"
+  "last_updated": "2026-11-14T03:57:28.199808"
 }
