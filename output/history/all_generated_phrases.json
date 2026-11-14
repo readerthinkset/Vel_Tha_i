@@ -5879,7 +5879,42 @@
       "transliteration": "tham sam-mae-soem, phon di ja maa",
       "category": "Success",
       "generated_at": "2026-11-13T22:29:38.013423"
+    },
+    {
+      "english": "My mom’s cooking tastes amazing.",
+      "thai": "แม่ของฉันทำอาหารอร่อยมาก",
+      "transliteration": "Mae khong chan tham ahaan aroi mak",
+      "category": "Family Terms",
+      "generated_at": "2026-11-14T00:41:51.727694"
+    },
+    {
+      "english": "Dad always wakes up early.",
+      "thai": "พ่อของฉันตื่นแต่เช้าเสมอ",
+      "transliteration": "Pho khong chan tuen tae chao samoe",
+      "category": "Family Terms",
+      "generated_at": "2026-11-14T00:41:51.727705"
+    },
+    {
+      "english": "My sister shares her snacks.",
+      "thai": "พี่สาวฉันแบ่งปันขนมให้ฉัน",
+      "transliteration": "Phi sao chan baeng pan khanom hai chan",
+      "category": "Family Terms",
+      "generated_at": "2026-11-14T00:41:51.727707"
+    },
+    {
+      "english": "My brother is really good at soccer.",
+      "thai": "น้องชายของฉันเล่นฟุตบอลเก่งมาก",
+      "transliteration": "Nong chai khong chan len futbon keeng mak",
+      "category": "Family Terms",
+      "generated_at": "2026-11-14T00:41:51.727709"
+    },
+    {
+      "english": "Grandma’s laugh makes me smile.",
+      "thai": "คุณยายหัวเราะแล้วฉันยิ้ม",
+      "transliteration": "Khun yai hua ror laeo chan yim",
+      "category": "Family Terms",
+      "generated_at": "2026-11-14T00:41:51.727710"
     }
   ],
-  "last_updated": "2026-11-13T22:29:38.013425"
+  "last_updated": "2026-11-14T00:41:51.727712"
 }
