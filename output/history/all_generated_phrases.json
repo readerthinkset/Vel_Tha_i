@@ -6334,7 +6334,42 @@
       "transliteration": "chǎn yàak rúu-sʉ̀uk sa-baai-jai dtaan phûut thai",
       "category": "Purpose",
       "generated_at": "2026-11-16T21:41:24.208319"
+    },
+    {
+      "english": "Good morning, and be gentle.",
+      "thai": "สวัสดีตอนเช้า, อ่อนโยนไว้นะ",
+      "transliteration": "sa-wat-dee dton-chee aa-non-yon wai na",
+      "category": "Kindness",
+      "generated_at": "2026-11-16T23:18:06.109331"
+    },
+    {
+      "english": "That sounds hard, I’m here.",
+      "thai": "ฟังดูยากนะ, ฉันอยู่ตรงนี้",
+      "transliteration": "fang-du yak na, chan yoo dtrong-nee",
+      "category": "Kindness",
+      "generated_at": "2026-11-16T23:18:06.109343"
+    },
+    {
+      "english": "No worries, I’ll help a bit.",
+      "thai": "ไม่เป็นไรนะ, เดี๋ยวฉันช่วยหน่อย",
+      "transliteration": "mai-bpen-rai na, diao chan chuai noi",
+      "category": "Kindness",
+      "generated_at": "2026-11-16T23:18:06.109345"
+    },
+    {
+      "english": "You’re doing your best, keep going.",
+      "thai": "เธอทำดีที่สุดแล้ว, สู้ต่อไปนะ",
+      "transliteration": "thoe tham dee-thisut laew, soo dtor pai na",
+      "category": "Kindness",
+      "generated_at": "2026-11-16T23:18:06.109347"
+    },
+    {
+      "english": "Thank you, I truly appreciate it.",
+      "thai": "ขอบคุณนะ, ฉันซาบซึ้งมาก",
+      "transliteration": "khawp-khun na, chan saab-seung mak",
+      "category": "Kindness",
+      "generated_at": "2026-11-16T23:18:06.109349"
     }
   ],
-  "last_updated": "2026-11-16T21:41:24.208321"
+  "last_updated": "2026-11-16T23:18:06.109351"
 }
