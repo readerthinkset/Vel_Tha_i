@@ -6369,7 +6369,42 @@
       "transliteration": "khawp-khun na, chan saab-seung mak",
       "category": "Kindness",
       "generated_at": "2026-11-16T23:18:06.109349"
+    },
+    {
+      "english": "Where can I try this on?",
+      "thai": "ลองได้ที่ไหนคะ",
+      "transliteration": "long dai tee nai ka",
+      "category": "Shopping",
+      "generated_at": "2026-11-17T00:46:33.556797"
+    },
+    {
+      "english": "How much is this item?",
+      "thai": "ชิ้นนี้ราคาเท่าไรคะ",
+      "transliteration": "chin nee raa-khaa thao rai ka",
+      "category": "Shopping",
+      "generated_at": "2026-11-17T00:46:33.556815"
+    },
+    {
+      "english": "Do you have this in black?",
+      "thai": "มีสีดำไหมคะ",
+      "transliteration": "mee see dam mai ka",
+      "category": "Shopping",
+      "generated_at": "2026-11-17T00:46:33.556816"
+    },
+    {
+      "english": "Is there a smaller size?",
+      "thai": "มีไซส์เล็กกว่านี้ไหมคะ",
+      "transliteration": "mee sai lek kwa nee mai ka",
+      "category": "Shopping",
+      "generated_at": "2026-11-17T00:46:33.556818"
+    },
+    {
+      "english": "What material is this made of?",
+      "thai": "ผ้านี้ทำจากอะไรคะ",
+      "transliteration": "phaa nee tham jaak a-rai ka",
+      "category": "Shopping",
+      "generated_at": "2026-11-17T00:46:33.556819"
     }
   ],
-  "last_updated": "2026-11-16T23:18:06.109351"
+  "last_updated": "2026-11-17T00:46:33.556821"
 }
