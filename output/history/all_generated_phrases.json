@@ -6439,7 +6439,42 @@
       "transliteration": "tam dâai, thii-lá wan",
       "category": "Strength",
       "generated_at": "2026-11-17T02:48:10.251113"
+    },
+    {
+      "english": "Inhale softly, relax your shoulders.",
+      "thai": "สูดหายใจเบาๆ, ผ่อนบ่าของคุณ",
+      "transliteration": "suuat haayjai bao bao, phon bâa khǒng khun",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-17T05:38:22.756702"
+    },
+    {
+      "english": "Exhale slowly, release tension in arms.",
+      "thai": "ค่อยๆ ผ่อนลมหายใจ, ปล่อยความตึงที่แขน",
+      "transliteration": "khɔ̂ɔi khɔ̂ɔ ph̀ɔn lom haayjai, pl̀̀ɔ̂oy khwaam teeng thîi khaen",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-17T05:38:22.756718"
+    },
+    {
+      "english": "Feel your breath, like it passes.",
+      "thai": "รู้สึกถึงลมหายใจ, มันผ่านไป",
+      "transliteration": "rúu sʉʉuk thɯ̌ng lom haayjai, man phàan bpai",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-17T05:38:22.756719"
+    },
+    {
+      "english": "Count breaths quietly, then return.",
+      "thai": "นับลมหายใจเบาๆ, แล้วค่อยกลับมา",
+      "transliteration": "nap lom haayjai bao bao, lɛ́ɛo khɔ̂ɔi glàap maa",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-17T05:38:22.756720"
+    },
+    {
+      "english": "Notice thoughts, like clouds moving.",
+      "thai": "สังเกตความคิด, เหมือนเมฆเคลื่อน",
+      "transliteration": "sǎng-gèet khwaam khít, mʉ̌ʉan mèkh khʉ̂an",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-17T05:38:22.756721"
     }
   ],
-  "last_updated": "2026-11-17T02:48:10.251115"
+  "last_updated": "2026-11-17T05:38:22.756723"
 }
