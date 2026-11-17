@@ -6544,7 +6544,42 @@
       "transliteration": "Khao ma si, khang nai un na",
       "category": "Common Expressions",
       "generated_at": "2026-11-17T22:10:15.756796"
+    },
+    {
+      "english": "Keep going when progress feels slow.",
+      "thai": "ไปต่อเมื่อความก้าวหน้าช้ามาก",
+      "transliteration": "pai toə meua khwaam klâao nâa châa mak",
+      "category": "Perseverance",
+      "generated_at": "2026-11-17T23:49:58.244831"
+    },
+    {
+      "english": "Breathe, then do the next task.",
+      "thai": "หายใจเข้า แล้วทำงานต่อไป",
+      "transliteration": "hǎai jai kâo, lɛ́o tham ngaan tò pai",
+      "category": "Perseverance",
+      "generated_at": "2026-11-17T23:49:58.244847"
+    },
+    {
+      "english": "Take your time, stay determined.",
+      "thai": "ค่อยเป็นค่อยไป แต่อย่าลดใจ",
+      "transliteration": "khɔ̂i bpen khɔ̂i pai, dtàe yàa lot jai",
+      "category": "Perseverance",
+      "generated_at": "2026-11-17T23:49:58.244849"
+    },
+    {
+      "english": "Even tired, keep moving forward.",
+      "thai": "เหนื่อยแค่ไหน ก็ยังไปต่อ",
+      "transliteration": "nʉ̀aik khâe nai kóe yang pai tò",
+      "category": "Perseverance",
+      "generated_at": "2026-11-17T23:49:58.244851"
+    },
+    {
+      "english": "Practice daily, let results appear.",
+      "thai": "ฝึกทุกวัน รอผลมาเอง",
+      "transliteration": "fʉ̀k thúk wan, rɔɔ phon maa eŋ",
+      "category": "Perseverance",
+      "generated_at": "2026-11-17T23:49:58.244852"
     }
   ],
-  "last_updated": "2026-11-17T22:10:15.756798"
+  "last_updated": "2026-11-17T23:49:58.244854"
 }
