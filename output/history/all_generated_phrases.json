@@ -6719,7 +6719,42 @@
       "transliteration": "rak-sa hua chai hai on-yoon samoe",
       "category": "Wisdom",
       "generated_at": "2026-11-18T21:49:30.813210"
+    },
+    {
+      "english": "I’m looking for this street, please.",
+      "thai": "ผมกำลังหาถนนนี้อยู่ ช่วยบอกหน่อยได้ไหม",
+      "transliteration": "phom kamlang ha thanon ni yu, chûay bok nɔ̂y dai mai",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-18T23:25:38.862964"
+    },
+    {
+      "english": "What time does it open?",
+      "thai": "ที่นี่เปิดกี่โมง",
+      "transliteration": "thîi nîi pìit gìi mōng",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-18T23:25:38.862976"
+    },
+    {
+      "english": "Is there a bus to town?",
+      "thai": "มีรถเมล์ไปตัวเมืองไหม",
+      "transliteration": "mii rot mèel pai tua mưang mai",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-18T23:25:38.862978"
+    },
+    {
+      "english": "I want one ticket, please.",
+      "thai": "ขอตั๋วหนึ่งใบได้ไหม",
+      "transliteration": "khɔ̌t tûa nùeng bai dai mai",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-18T23:25:38.862980"
+    },
+    {
+      "english": "Please write it down for me.",
+      "thai": "ช่วยเขียนให้ผมหน่อย",
+      "transliteration": "chûay khiiian hâi phǒm nòi",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-18T23:25:38.862981"
     }
   ],
-  "last_updated": "2026-11-18T21:49:30.813212"
+  "last_updated": "2026-11-18T23:25:38.862983"
 }
