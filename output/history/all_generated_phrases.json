@@ -6579,7 +6579,42 @@
       "transliteration": "fʉ̀k thúk wan, rɔɔ phon maa eŋ",
       "category": "Perseverance",
       "generated_at": "2026-11-17T23:49:58.244852"
+    },
+    {
+      "english": "I was wrong, can we talk?",
+      "thai": "ฉันผิดนะ, เราคุยกันได้ไหม",
+      "transliteration": "chan ผิด นะ, rao khui kan dai mai",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-18T02:21:45.804467"
+    },
+    {
+      "english": "Please forgive me for snapping.",
+      "thai": "ช่วยยกโทษให้ฉันหน่อย, ที่ฉันขึ้นเสียง",
+      "transliteration": "chuay yokthot hai chan noy, thi chan khuen siang",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-18T02:21:45.804482"
+    },
+    {
+      "english": "I want to fix this, really.",
+      "thai": "ฉันอยากแก้ให้ดีขึ้นจริงๆนะ",
+      "transliteration": "chan yak kae hai di khuen ching ching na",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-18T02:21:45.804483"
+    },
+    {
+      "english": "I didn’t mean that, please understand.",
+      "thai": "ฉันไม่ได้ตั้งใจแบบนั้น, ช่วยเข้าใจหน่อย",
+      "transliteration": "chan mai dai tang jai baep nan, chuay khao jai noy",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-18T02:21:45.804484"
+    },
+    {
+      "english": "Let’s start fresh, if you can.",
+      "thai": "เริ่มใหม่ได้ไหม, ถ้าคุณโอเค",
+      "transliteration": "roem mai dai mai, tha khun ok",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-18T02:21:45.804486"
     }
   ],
-  "last_updated": "2026-11-17T23:49:58.244854"
+  "last_updated": "2026-11-18T02:21:45.804488"
 }
