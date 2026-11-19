@@ -6754,7 +6754,42 @@
       "transliteration": "chûay khiiian hâi phǒm nòi",
       "category": "Basic Phrases",
       "generated_at": "2026-11-18T23:25:38.862981"
+    },
+    {
+      "english": "Do you know what time it is?",
+      "thai": "คุณรู้ไหมว่าตอนนี้กี่โมงแล้ว",
+      "transliteration": "khun ruu mai waa ton nii gîe mong lâeo",
+      "category": "Time",
+      "generated_at": "2026-11-19T01:45:10.795046"
+    },
+    {
+      "english": "What time does the train leave?",
+      "thai": "รถไฟออกกี่โมง",
+      "transliteration": "rot fai ok gîe mong",
+      "category": "Time",
+      "generated_at": "2026-11-19T01:45:10.795062"
+    },
+    {
+      "english": "Call me at eight, please.",
+      "thai": "โทรหาฉันตอนแปดโมงนะ",
+      "transliteration": "thoo-roh haa chan dton bpàet mong ná",
+      "category": "Time",
+      "generated_at": "2026-11-19T01:45:10.795064"
+    },
+    {
+      "english": "Let’s meet at nine tomorrow.",
+      "thai": "เจอกันพรุ่งนี้เก้าโมงนะ",
+      "transliteration": "jəə gan phrung nii gaó mong ná",
+      "category": "Time",
+      "generated_at": "2026-11-19T01:45:10.795065"
+    },
+    {
+      "english": "I’ll be there at ten sharp.",
+      "thai": "ฉันจะไปถึงตอนสิบเอ็ดโมงตรงเวลา",
+      "transliteration": "chan ja bpai tǔeng dton sìp-et mong dtrong welaa",
+      "category": "Time",
+      "generated_at": "2026-11-19T01:45:10.795067"
     }
   ],
-  "last_updated": "2026-11-18T23:25:38.862983"
+  "last_updated": "2026-11-19T01:45:10.795071"
 }
