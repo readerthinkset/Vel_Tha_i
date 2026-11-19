@@ -6789,7 +6789,42 @@
       "transliteration": "chan ja bpai tǔeng dton sìp-et mong dtrong welaa",
       "category": "Time",
       "generated_at": "2026-11-19T01:45:10.795067"
+    },
+    {
+      "english": "I can speak, step by step.",
+      "thai": "ฉันพูดได้ ทีละนิด",
+      "transliteration": "chan phut dai thi la na nit",
+      "category": "Confidence",
+      "generated_at": "2026-11-19T04:56:47.598702"
+    },
+    {
+      "english": "Today I’ll try something new.",
+      "thai": "วันนี้ฉันจะลองสิ่งใหม่",
+      "transliteration": "wan ni chan ja long siŋ mai",
+      "category": "Confidence",
+      "generated_at": "2026-11-19T04:56:47.598713"
+    },
+    {
+      "english": "My Thai will improve, little by little.",
+      "thai": "ภาษาไทยของฉันจะดีขึ้นทีละน้อย",
+      "transliteration": "phaasaa thai khong chan ja di khuen thi la noy",
+      "category": "Confidence",
+      "generated_at": "2026-11-19T04:56:47.598715"
+    },
+    {
+      "english": "I’m brave enough to ask.",
+      "thai": "ฉันกล้าพอที่จะถาม",
+      "transliteration": "chan klaa phɔɔ thi ja tham",
+      "category": "Confidence",
+      "generated_at": "2026-11-19T04:56:47.598717"
+    },
+    {
+      "english": "I’ll speak slowly, then continue.",
+      "thai": "ฉันจะพูดช้าๆ แล้วต่อ",
+      "transliteration": "chan ja phut chaa chaa lae thɔɔ",
+      "category": "Confidence",
+      "generated_at": "2026-11-19T04:56:47.598718"
     }
   ],
-  "last_updated": "2026-11-19T01:45:10.795071"
+  "last_updated": "2026-11-19T04:56:47.598720"
 }
