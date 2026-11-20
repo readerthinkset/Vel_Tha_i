@@ -6929,7 +6929,42 @@
       "transliteration": "tháo dtìt phʉ̌n, hǎay-jai lɛ́w phà̀on khlaai",
       "category": "Balance",
       "generated_at": "2026-11-19T23:32:05.019277"
+    },
+    {
+      "english": "Fire! Please help me, right now.",
+      "thai": "ไฟไหม้ ช่วยฉันด้วย เดี๋ยวนี้",
+      "transliteration": "Fai mai, chûay chăn dûay, dêuaw níi",
+      "category": "Emergency",
+      "generated_at": "2026-11-20T01:41:04.477601"
+    },
+    {
+      "english": "Someone call 191 now, please.",
+      "thai": "ช่วยโทร 191 ตอนนี้ด้วยนะ",
+      "transliteration": "chûay tʰâo 191 tʰxn níi dûay ná",
+      "category": "Emergency",
+      "generated_at": "2026-11-20T01:41:04.477617"
+    },
+    {
+      "english": "Do you know where the exits are?",
+      "thai": "ทางออกอยู่ตรงไหน คุณรู้ไหม",
+      "transliteration": "thang ɔ̀k yùu trong nǎi, khun rúu mái",
+      "category": "Emergency",
+      "generated_at": "2026-11-20T01:41:04.477620"
+    },
+    {
+      "english": "Please help, my bag is stolen.",
+      "thai": "ช่วยหน่อย กระเป๋าฉันหายไปแล้ว",
+      "transliteration": "chûay nòi, grap-bpàa chăn hǎay bpai láew",
+      "category": "Emergency",
+      "generated_at": "2026-11-20T01:41:04.477621"
+    },
+    {
+      "english": "I think I've been robbed, please.",
+      "thai": "ฉันคิดว่าถูกปล้น ช่วยด้วย",
+      "transliteration": "chăn khít wâa thùuk bplôn, chûay dûay",
+      "category": "Emergency",
+      "generated_at": "2026-11-20T01:41:04.477623"
     }
   ],
-  "last_updated": "2026-11-19T23:32:05.019279"
+  "last_updated": "2026-11-20T01:41:04.477625"
 }
