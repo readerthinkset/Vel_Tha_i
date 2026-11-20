@@ -6964,7 +6964,42 @@
       "transliteration": "chăn khít wâa thùuk bplôn, chûay dûay",
       "category": "Emergency",
       "generated_at": "2026-11-20T01:41:04.477623"
+    },
+    {
+      "english": "Hi! How’s it going today?",
+      "thai": "สวัสดี! วันนี้เป็นไงบ้าง",
+      "transliteration": "sa-wat-dee! wan-níi bpen ngai-bang",
+      "category": "Greetings",
+      "generated_at": "2026-11-20T04:46:44.534814"
+    },
+    {
+      "english": "Hello, hope you’re doing well.",
+      "thai": "สวัสดี, หวังว่าคุณสบายดี",
+      "transliteration": "sa-wat-dee, wang-wâa khun sa-bai-dii",
+      "category": "Greetings",
+      "generated_at": "2026-11-20T04:46:44.534825"
+    },
+    {
+      "english": "Good morning, how’s your morning?",
+      "thai": "อรุณสวัสดิ์, ตอนเช้าสบายไหม",
+      "transliteration": "a-run-sa-wat, dton chao sa-bai mái",
+      "category": "Greetings",
+      "generated_at": "2026-11-20T04:46:44.534835"
+    },
+    {
+      "english": "Good afternoon! Nice to see you.",
+      "thai": "สวัสดีตอนบ่าย, ดีใจที่ได้เจอ",
+      "transliteration": "sa-wat-dee dton-bai, dii-jai thîi dâi jəər",
+      "category": "Greetings",
+      "generated_at": "2026-11-20T04:46:44.534837"
+    },
+    {
+      "english": "Good evening, have a restful night.",
+      "thai": "สวัสดีตอนเย็น, ขอให้พักผ่อนนะ",
+      "transliteration": "sa-wat-dee dton-yen, khǎaw hâi phák-ph̀òn ná",
+      "category": "Greetings",
+      "generated_at": "2026-11-20T04:46:44.534838"
     }
   ],
-  "last_updated": "2026-11-20T01:41:04.477625"
+  "last_updated": "2026-11-20T04:46:44.534839"
 }
