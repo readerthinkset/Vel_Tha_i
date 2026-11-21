@@ -7174,7 +7174,42 @@
       "transliteration": "phûut dtòk-long gàp khwaam gâao-nâa, mày châi khwaam pʰœ́ːr-fèek",
       "category": "Self Improvement",
       "generated_at": "2026-11-21T04:41:24.160981"
+    },
+    {
+      "english": "I’ll have the chicken rice, please.",
+      "thai": "ขอข้าวไก่ด้วยนะคะ",
+      "transliteration": "kɔ khâao kài dûay ná khá",
+      "category": "Restaurant",
+      "generated_at": "2026-11-21T18:44:41.378409"
+    },
+    {
+      "english": "Do you have fresh coconut water?",
+      "thai": "มีน้ำมะพร้าวสดไหมคะ",
+      "transliteration": "mii nám má phrao sòt mái khá",
+      "category": "Restaurant",
+      "generated_at": "2026-11-21T18:44:41.378420"
+    },
+    {
+      "english": "What comes with this set meal?",
+      "thai": "ชุดนี้มีอะไรบ้างคะ",
+      "transliteration": "chût níi mii à-rai bâang khá",
+      "category": "Restaurant",
+      "generated_at": "2026-11-21T18:44:41.378422"
+    },
+    {
+      "english": "One bowl, please, not too much sauce.",
+      "thai": "ขอหนึ่งชามนะคะ, ไม่ต้องราดเยอะ",
+      "transliteration": "kɔ nʉ̀ung chǎam ná khá, mâi tông râat yùa",
+      "category": "Restaurant",
+      "generated_at": "2026-11-21T18:44:41.378423"
+    },
+    {
+      "english": "I’m allergic to peanuts.",
+      "thai": "ฉันแพ้ถั่วลิสงค่ะ",
+      "transliteration": "chǎn phɛ̂ɛ thûa lísong khâ",
+      "category": "Restaurant",
+      "generated_at": "2026-11-21T18:44:41.378424"
     }
   ],
-  "last_updated": "2026-11-21T04:41:24.160983"
+  "last_updated": "2026-11-21T18:44:41.378425"
 }
