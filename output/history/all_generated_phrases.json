@@ -7209,7 +7209,42 @@
       "transliteration": "chǎn phɛ̂ɛ thûa lísong khâ",
       "category": "Restaurant",
       "generated_at": "2026-11-21T18:44:41.378424"
+    },
+    {
+      "english": "Thank you, I’m looking for this place.",
+      "thai": "ขอบคุณค่ะ ฉันกำลังหาที่นี่ค่ะ",
+      "transliteration": "khop khun kha, chan kamlang ha thi ni kha",
+      "category": "Travel",
+      "generated_at": "2026-11-21T20:28:13.297046"
+    },
+    {
+      "english": "Excuse me, do you speak English?",
+      "thai": "ขอโทษค่ะ คุณพูดภาษาอังกฤษได้ไหมคะ",
+      "transliteration": "kho thot kha, khun phuut phasa angkrit dai mai kha",
+      "category": "Travel",
+      "generated_at": "2026-11-21T20:28:13.297060"
+    },
+    {
+      "english": "What time does this open, please?",
+      "thai": "ร้านนี้เปิดกี่โมงคะ",
+      "transliteration": "ran ni bpoe k'i mong kha",
+      "category": "Travel",
+      "generated_at": "2026-11-21T20:28:13.297061"
+    },
+    {
+      "english": "Can you help me with directions?",
+      "thai": "ช่วยบอกทางให้หน่อยได้ไหมคะ",
+      "transliteration": "chuai bok thang hai noi dai mai kha",
+      "category": "Travel",
+      "generated_at": "2026-11-21T20:28:13.297063"
+    },
+    {
+      "english": "I’d like to go to the pier.",
+      "thai": "ฉันอยากไปท่าเรือ",
+      "transliteration": "chan yak pai tha ruea",
+      "category": "Travel",
+      "generated_at": "2026-11-21T20:28:13.297064"
     }
   ],
-  "last_updated": "2026-11-21T18:44:41.378425"
+  "last_updated": "2026-11-21T20:28:13.297065"
 }
