@@ -7279,7 +7279,42 @@
       "transliteration": "hây wan-níi bao bao lae jai dii",
       "category": "Positive Life",
       "generated_at": "2026-11-21T22:07:53.174231"
+    },
+    {
+      "english": "I want two beers, please.",
+      "thai": "ฉันขอเบียร์สองแก้วค่ะ",
+      "transliteration": "chan kho bia song kaeo kha",
+      "category": "Numbers",
+      "generated_at": "2026-11-22T00:07:19.019183"
+    },
+    {
+      "english": "Give me one more cup, please.",
+      "thai": "ขออีกหนึ่งถ้วยได้ไหมคะ",
+      "transliteration": "kho ik neung thui dai mai kha",
+      "category": "Numbers",
+      "generated_at": "2026-11-22T00:07:19.019195"
+    },
+    {
+      "english": "How much is it for three?",
+      "thai": "อันนี้สามอันเท่าไหร่คะ",
+      "transliteration": "an ni sam an thao rai kha",
+      "category": "Numbers",
+      "generated_at": "2026-11-22T00:07:19.019197"
+    },
+    {
+      "english": "We need four people for this.",
+      "thai": "เราต้องการสี่คนสำหรับเรื่องนี้",
+      "transliteration": "rao tongkaan si khon samrap rueang ni",
+      "category": "Numbers",
+      "generated_at": "2026-11-22T00:07:19.019199"
+    },
+    {
+      "english": "Please count from one to ten.",
+      "thai": "ช่วยนับจากหนึ่งถึงสิบหน่อยนะ",
+      "transliteration": "chuai nap chak neung thueng sip noi na",
+      "category": "Numbers",
+      "generated_at": "2026-11-22T00:07:19.019200"
     }
   ],
-  "last_updated": "2026-11-21T22:07:53.174233"
+  "last_updated": "2026-11-22T00:07:19.019202"
 }
