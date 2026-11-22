@@ -7314,7 +7314,42 @@
       "transliteration": "chuai nap chak neung thueng sip noi na",
       "category": "Numbers",
       "generated_at": "2026-11-22T00:07:19.019200"
+    },
+    {
+      "english": "Say it slowly, then speed up.",
+      "thai": "พูดช้าๆ ก่อน, แล้วค่อยเร็วขึ้น",
+      "transliteration": "phûut cháa-haa gòn, lôe khai rêew kheun",
+      "category": "Growth",
+      "generated_at": "2026-11-22T03:55:58.199815"
+    },
+    {
+      "english": "Use short sentences, keep going.",
+      "thai": "ใช้ประโยคสั้นๆ แล้วไปต่อ",
+      "transliteration": "chai prà-yók sàn-sàn lɛ́ew pai dtòr",
+      "category": "Growth",
+      "generated_at": "2026-11-22T03:55:58.199827"
+    },
+    {
+      "english": "Try speaking first, think later.",
+      "thai": "เริ่มพูดก่อน, ค่อยคิดทีหลัง",
+      "transliteration": "rêm phûut gòn, khôi khít thii lang",
+      "category": "Growth",
+      "generated_at": "2026-11-22T03:55:58.199828"
+    },
+    {
+      "english": "When you forget, just continue.",
+      "thai": "ถ้าลืมแล้ว, ก็พูดต่อเลย",
+      "transliteration": "thâa lʉ̌əm lɛ́o, gôr phûut dtòr loei",
+      "category": "Growth",
+      "generated_at": "2026-11-22T03:55:58.199829"
+    },
+    {
+      "english": "Ask for help, no shame.",
+      "thai": "ขอความช่วยเหลือได้เลย, ไม่ต้องอาย",
+      "transliteration": "khɔ̌ɔ khwaam chûai-lʉ̌ua dai loei, mâi dtông aai",
+      "category": "Growth",
+      "generated_at": "2026-11-22T03:55:58.199830"
     }
   ],
-  "last_updated": "2026-11-22T00:07:19.019202"
+  "last_updated": "2026-11-22T03:55:58.199832"
 }
