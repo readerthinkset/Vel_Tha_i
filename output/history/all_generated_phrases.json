@@ -7384,7 +7384,42 @@
       "transliteration": "ma baeng ban chuang wela ni duai gan na",
       "category": "Love",
       "generated_at": "2026-11-22T19:06:45.743628"
+    },
+    {
+      "english": "Inhale gently, release your shoulders.",
+      "thai": "สูดหายใจเบาๆ ปล่อยไหล่ลง",
+      "transliteration": "suut hai jai bao bao, plòi lài lông",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-22T20:41:01.706389"
+    },
+    {
+      "english": "Exhale slowly, soften your chest.",
+      "thai": "ผ่อนลมหายใจช้าๆ ให้หน้าอกผ่อนคลาย",
+      "transliteration": "phòn lôm haai jai cháa cháa, hâi nâa òk phòn khlaai",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-22T20:41:01.706403"
+    },
+    {
+      "english": "Feel your hands, notice their warmth.",
+      "thai": "รู้สึกที่มือ มองเห็นความอุ่น",
+      "transliteration": "rúu sùek thîi meu, mɔ̌ng hěn khwaam ùn",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-22T20:41:01.706404"
+    },
+    {
+      "english": "Relax your face, let it rest.",
+      "thai": "ผ่อนคลายใบหน้า ให้มันพักได้",
+      "transliteration": "phòn khlaai bai nâa, hâi man phák dâi",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-22T20:41:01.706405"
+    },
+    {
+      "english": "Let your mind return to breath.",
+      "thai": "ให้ใจกลับไปที่ลมหายใจ",
+      "transliteration": "hâi jai glàp bpai thîi lom haai jai",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-22T20:41:01.706406"
     }
   ],
-  "last_updated": "2026-11-22T19:06:45.743630"
+  "last_updated": "2026-11-22T20:41:01.706408"
 }
