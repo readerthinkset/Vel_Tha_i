@@ -7454,7 +7454,42 @@
       "transliteration": "hai khit jamkat khong khun bpen nǎew thaang, mai chai gaan yut",
       "category": "Strength",
       "generated_at": "2026-11-22T22:24:33.193386"
+    },
+    {
+      "english": "I’m ready to start again, today.",
+      "thai": "ฉันพร้อมเริ่มใหม่ วันนี้",
+      "transliteration": "chan phrom roem rèrm mai wan-ní",
+      "category": "Purpose",
+      "generated_at": "2026-11-23T00:36:47.141161"
+    },
+    {
+      "english": "Please speak slowly, I’m learning Thai.",
+      "thai": "ช่วยพูดช้าๆ นะ ฉันกำลังเรียนภาษาไทย",
+      "transliteration": "chuai phuut cháa cháa ná chan gam-lang rian phaa-săa thai",
+      "category": "Purpose",
+      "generated_at": "2026-11-23T00:36:47.141172"
+    },
+    {
+      "english": "I’ll make mistakes, then try again.",
+      "thai": "ฉันจะพลาดบ้าง แล้วลองใหม่",
+      "transliteration": "chan ja phlâat báang láew láawng mai",
+      "category": "Purpose",
+      "generated_at": "2026-11-23T00:36:47.141173"
+    },
+    {
+      "english": "I want to listen, not rush.",
+      "thai": "ฉันอยากฟัง ก่อนจะรีบ",
+      "transliteration": "chan yàak fang gàawn jàe rìap",
+      "category": "Purpose",
+      "generated_at": "2026-11-23T00:36:47.141174"
+    },
+    {
+      "english": "Today, I’ll be more patient.",
+      "thai": "วันนี้ ฉันจะใจเย็นขึ้น",
+      "transliteration": "wan-ní chan ja jai-yen kheun",
+      "category": "Purpose",
+      "generated_at": "2026-11-23T00:36:47.141177"
     }
   ],
-  "last_updated": "2026-11-22T22:24:33.193388"
+  "last_updated": "2026-11-23T00:36:47.141178"
 }
