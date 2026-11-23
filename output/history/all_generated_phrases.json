@@ -7524,7 +7524,42 @@
       "transliteration": "jit chai khong chan phak dai laeo",
       "category": "Inner Peace",
       "generated_at": "2026-11-23T04:37:31.138306"
+    },
+    {
+      "english": "Do you have any sale items today?",
+      "thai": "วันนี้มีสินค้าลดราคาไหมคะ",
+      "transliteration": "wan nii mi sinkha lot raa khimai kha",
+      "category": "Shopping",
+      "generated_at": "2026-11-23T23:26:48.971819"
+    },
+    {
+      "english": "I’m just browsing, thanks.",
+      "thai": "ฉันแค่มาเดินดูค่ะ ขอบคุณค่ะ",
+      "transliteration": "chan khaem maa doo kha khop khun kha",
+      "category": "Shopping",
+      "generated_at": "2026-11-23T23:26:48.971828"
+    },
+    {
+      "english": "Can I pay by card here?",
+      "thai": "ที่นี่รูดบัตรได้ไหมคะ",
+      "transliteration": "thii nii ruut bat dai mai kha",
+      "category": "Shopping",
+      "generated_at": "2026-11-23T23:26:48.971830"
+    },
+    {
+      "english": "This color looks perfect on me.",
+      "thai": "สีนี้เหมาะกับฉันมากเลย",
+      "transliteration": "sii nii maah gap chan mak loei",
+      "category": "Shopping",
+      "generated_at": "2026-11-23T23:26:48.971830"
+    },
+    {
+      "english": "What’s the return policy, please?",
+      "thai": "นโยบายคืนสินค้าคืออะไรคะ",
+      "transliteration": "nayoabaai khuen sinkhaa khue arai kha",
+      "category": "Shopping",
+      "generated_at": "2026-11-23T23:26:48.971831"
     }
   ],
-  "last_updated": "2026-11-23T04:37:31.138308"
+  "last_updated": "2026-11-23T23:26:48.971832"
 }
