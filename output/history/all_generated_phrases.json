@@ -7664,7 +7664,42 @@
       "transliteration": "yàa phə̂ng yùut, dtaan-níi gam-lang sâang raeng sòng",
       "category": "Success",
       "generated_at": "2026-11-24T04:51:12.009838"
+    },
+    {
+      "english": "Please speak a little louder, sorry.",
+      "thai": "ช่วยพูดดังขึ้นหน่อยได้ไหม",
+      "transliteration": "chûay phûut dang kheun nɔ́i dâi mái",
+      "category": "Common Expressions",
+      "generated_at": "2026-11-24T07:52:10.211143"
+    },
+    {
+      "english": "Do you have this in blue?",
+      "thai": "อันนี้มีสีฟ้าไหม",
+      "transliteration": "an-níi mii sǐi fáa mái",
+      "category": "Common Expressions",
+      "generated_at": "2026-11-24T07:52:10.211159"
+    },
+    {
+      "english": "I like this style very much.",
+      "thai": "ฉันชอบสไตล์นี้มากเลย",
+      "transliteration": "chăn chɔ̂ɔp sǎi-tài níi mâak loei",
+      "category": "Common Expressions",
+      "generated_at": "2026-11-24T07:52:10.211161"
+    },
+    {
+      "english": "Is it spicy or not?",
+      "thai": "เผ็ดไหม",
+      "transliteration": "phèt mái",
+      "category": "Common Expressions",
+      "generated_at": "2026-11-24T07:52:10.211163"
+    },
+    {
+      "english": "I’ll have noodles, not rice.",
+      "thai": "ขอ ก๋วยเตี๋ยว ไม่เอาข้าว",
+      "transliteration": "khɔ̌ɔ guay-dtìao mâi ao khâao",
+      "category": "Common Expressions",
+      "generated_at": "2026-11-24T07:52:10.211164"
     }
   ],
-  "last_updated": "2026-11-24T04:51:12.009840"
+  "last_updated": "2026-11-24T07:52:10.211166"
 }
