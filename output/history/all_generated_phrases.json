@@ -7699,7 +7699,42 @@
       "transliteration": "khɔ̌ɔ guay-dtìao mâi ao khâao",
       "category": "Common Expressions",
       "generated_at": "2026-11-24T07:52:10.211164"
+    },
+    {
+      "english": "It's almost noon, hurry up.",
+      "thai": "ใกล้เที่ยงแล้ว รีบหน่อยนะ",
+      "transliteration": "glai thîang láeo rîp nǒi ná",
+      "category": "Time",
+      "generated_at": "2026-11-24T21:57:43.791282"
+    },
+    {
+      "english": "We’re meeting at three today.",
+      "thai": "พวกเรานัดกันบ่ายสามวันนี้",
+      "transliteration": "phûak rao nát gan bài sǎam wan-níi",
+      "category": "Time",
+      "generated_at": "2026-11-24T21:57:43.791295"
+    },
+    {
+      "english": "What time do you usually go?",
+      "thai": "คุณไปตอนกี่โมงเป็นประจำ",
+      "transliteration": "khun pai tawn gìimong bpen bprà-jam",
+      "category": "Time",
+      "generated_at": "2026-11-24T21:57:43.791299"
+    },
+    {
+      "english": "I’ll call you after lunch.",
+      "thai": "ฉันจะโทรหาหลังอาหารกลางวัน",
+      "transliteration": "chǎn jà thoo rɔ̌ɔ hǎlang aa-hǎan glaang wan",
+      "category": "Time",
+      "generated_at": "2026-11-24T21:57:43.791301"
+    },
+    {
+      "english": "I can make it by six.",
+      "thai": "ฉันไปทันหกโมงได้",
+      "transliteration": "chǎn pai thản hòk moong dâi",
+      "category": "Time",
+      "generated_at": "2026-11-24T21:57:43.791302"
     }
   ],
-  "last_updated": "2026-11-24T07:52:10.211166"
+  "last_updated": "2026-11-24T21:57:43.791304"
 }
