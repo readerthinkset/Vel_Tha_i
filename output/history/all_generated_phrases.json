@@ -7769,7 +7769,42 @@
       "transliteration": "kham thǎam dii dii bpèrt bpratuu nai jai",
       "category": "Wisdom",
       "generated_at": "2026-11-24T23:28:06.884120"
+    },
+    {
+      "english": "I’m ready, I’ll say it anyway.",
+      "thai": "ฉันพร้อมแล้ว ฉันจะพูดเลย",
+      "transliteration": "chan phrom laeo chan ja phut loei",
+      "category": "Confidence",
+      "generated_at": "2026-11-25T01:21:32.277847"
+    },
+    {
+      "english": "I can do this, one sentence.",
+      "thai": "ฉันทำได้ แค่ประโยคเดียว",
+      "transliteration": "chan tham dai khae prayok diao",
+      "category": "Confidence",
+      "generated_at": "2026-11-25T01:21:32.277887"
+    },
+    {
+      "english": "My Thai is improving, trust me.",
+      "thai": "ภาษาไทยฉันดีขึ้น เชื่อฉันนะ",
+      "transliteration": "phasa thai chan di khuen chuea chan na",
+      "category": "Confidence",
+      "generated_at": "2026-11-25T01:21:32.277890"
+    },
+    {
+      "english": "I’ll take a breath, then speak.",
+      "thai": "หายใจเข้า แล้วค่อยพูด",
+      "transliteration": "hai chai khao laeo khoi phut",
+      "category": "Confidence",
+      "generated_at": "2026-11-25T01:21:32.277892"
+    },
+    {
+      "english": "It’s okay, I’ll keep going.",
+      "thai": "ไม่เป็นไร ฉันจะไปต่อ",
+      "transliteration": "mai pen rai chan ja pai tor",
+      "category": "Confidence",
+      "generated_at": "2026-11-25T01:21:32.277895"
     }
   ],
-  "last_updated": "2026-11-24T23:28:06.884122"
+  "last_updated": "2026-11-25T01:21:32.277898"
 }
