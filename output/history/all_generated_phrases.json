@@ -7909,7 +7909,42 @@
       "transliteration": "pai tor rueai rueai, til a nit",
       "category": "Courage",
       "generated_at": "2026-11-25T21:07:26.305840"
+    },
+    {
+      "english": "Keep going, even when it's unclear.",
+      "thai": "ไปต่อเถอะ แม้ยังไม่ชัด",
+      "transliteration": "bpai dtɔ̀ tʰə́ʔ mâe yang mâi chát",
+      "category": "Perseverance",
+      "generated_at": "2026-11-25T23:01:21.593497"
+    },
+    {
+      "english": "Stay calm, then continue your work.",
+      "thai": "ใจเย็นก่อน แล้วค่อยทำต่อ",
+      "transliteration": "jai yen gòn lɛ́o kɔ̀i tham tɔ̀",
+      "category": "Perseverance",
+      "generated_at": "2026-11-25T23:01:21.593508"
+    },
+    {
+      "english": "Do it step by step, don’t rush.",
+      "thai": "ทำทีละขั้น อย่ารีบ",
+      "transliteration": "tham tʰi lá tʰân yàa ríp",
+      "category": "Perseverance",
+      "generated_at": "2026-11-25T23:01:21.593510"
+    },
+    {
+      "english": "When you fall, stand up again.",
+      "thai": "ล้มแล้วลุกขึ้นใหม่",
+      "transliteration": "lôm lɛ́o lúk khʉ̂n mài",
+      "category": "Perseverance",
+      "generated_at": "2026-11-25T23:01:21.593511"
+    },
+    {
+      "english": "Your effort builds strength over time.",
+      "thai": "ความพยายามสะสมพลังไปเรื่อยๆ",
+      "transliteration": "khwaam phàyayaam sà-sǒm pha-lang bpai rʉ̀ay rʉ̀ay",
+      "category": "Perseverance",
+      "generated_at": "2026-11-25T23:01:21.593512"
     }
   ],
-  "last_updated": "2026-11-25T21:07:26.305841"
+  "last_updated": "2026-11-25T23:01:21.593514"
 }
