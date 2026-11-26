@@ -8014,7 +8014,42 @@
       "transliteration": "chan saap saung nai tua thoe maak kwa thi thoe ruu",
       "category": "Friendship",
       "generated_at": "2026-11-26T02:40:41.138856"
+    },
+    {
+      "english": "Hello, are you ready to go?",
+      "thai": "สวัสดี, พร้อมไปหรือยัง",
+      "transliteration": "sà-wàt-dii, phráom bpai rʉ̌ang",
+      "category": "Greetings",
+      "generated_at": "2026-11-26T05:51:35.783674"
+    },
+    {
+      "english": "Hey, did you eat yet?",
+      "thai": "สวัสดี, กินข้าวหรือยัง",
+      "transliteration": "sà-wàt-dii, gin-kâao rʉ̌ang",
+      "category": "Greetings",
+      "generated_at": "2026-11-26T05:51:35.783686"
+    },
+    {
+      "english": "Hello, welcome back, how’s it going?",
+      "thai": "สวัสดี, ยินดีต้อนรับกลับมา",
+      "transliteration": "sà-wàt-dii, yin-dii dtôn-ráp glàp-maa",
+      "category": "Greetings",
+      "generated_at": "2026-11-26T05:51:35.783687"
+    },
+    {
+      "english": "Good morning, have a smooth day!",
+      "thai": "อรุณสวัสดิ์, ขอให้วันนี้ราบรื่น",
+      "transliteration": "à-run-sa-wàt, khǎaw hâi wan-níi raap-rʉ̀ʉn",
+      "category": "Greetings",
+      "generated_at": "2026-11-26T05:51:35.783688"
+    },
+    {
+      "english": "Hi, what are you up to today?",
+      "thai": "สวัสดี, วันนี้ทำอะไรอยู่",
+      "transliteration": "sà-wàt-dii, wan-níi tham à-rai yùu",
+      "category": "Greetings",
+      "generated_at": "2026-11-26T05:51:35.783689"
     }
   ],
-  "last_updated": "2026-11-26T02:40:41.138858"
+  "last_updated": "2026-11-26T05:51:35.783691"
 }
