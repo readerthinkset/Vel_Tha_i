@@ -7944,7 +7944,42 @@
       "transliteration": "khwaam phàyayaam sà-sǒm pha-lang bpai rʉ̀ay rʉ̀ay",
       "category": "Perseverance",
       "generated_at": "2026-11-25T23:01:21.593512"
+    },
+    {
+      "english": "Help me find my child, please.",
+      "thai": "ช่วยหาลูกของฉันหน่อยได้ไหม",
+      "transliteration": "chûay hǎa lûuk khǒng chăn nòi dâi măi",
+      "category": "Emergency",
+      "generated_at": "2026-11-26T00:57:12.166077"
+    },
+    {
+      "english": "I got hurt, call someone, please.",
+      "thai": "ฉันเจ็บแล้ว ช่วยเรียกคนมาหน่อยได้ไหม",
+      "transliteration": "chǎn jèp lɛ́o chûay rîiak khon maa nòi dâi măi",
+      "category": "Emergency",
+      "generated_at": "2026-11-26T00:57:12.166090"
+    },
+    {
+      "english": "Please, stay with me right now.",
+      "thai": "กรุณาอยู่กับฉันตอนนี้นะ",
+      "transliteration": "karunaa yùu gàp chăn tɔɔn níi ná",
+      "category": "Emergency",
+      "generated_at": "2026-11-26T00:57:12.166093"
+    },
+    {
+      "english": "I fell down, I can't stand.",
+      "thai": "ฉันล้มแล้ว ลุกไม่ไหว",
+      "transliteration": "chǎn lôm lɛ́o lùuk mâi waī",
+      "category": "Emergency",
+      "generated_at": "2026-11-26T00:57:12.166094"
+    },
+    {
+      "english": "I was attacked, please help.",
+      "thai": "ฉันโดนทำร้าย ช่วยด้วย",
+      "transliteration": "chǎn dòoen tamraai chûay dûay",
+      "category": "Emergency",
+      "generated_at": "2026-11-26T00:57:12.166096"
     }
   ],
-  "last_updated": "2026-11-25T23:01:21.593514"
+  "last_updated": "2026-11-26T00:57:12.166098"
 }
