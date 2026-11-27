@@ -8140,7 +8140,28 @@
       "transliteration": "Choerd naa khuen na, wan nii yang plian dai",
       "category": "Hope",
       "generated_at": "2026-11-27T11:53:47.471191"
+    },
+    {
+      "english": "Stand still, soften your knees, breathe.",
+      "thai": "ยืนให้ตรง, ผ่อนเข่า, หายใจลึก",
+      "transliteration": "Yuen hai trong, phon khao, hai chai luek",
+      "category": "Balance",
+      "generated_at": "2026-11-27T19:22:26.728245"
+    },
+    {
+      "english": "Feel your weight, relax your belly.",
+      "thai": "รับน้ำหนักไว้, ผ่อนท้องให้สบาย",
+      "transliteration": "Rap namnak wai, phon thong hai sabai",
+      "category": "Balance",
+      "generated_at": "2026-11-27T19:22:26.728259"
+    },
+    {
+      "english": "Shoulders down, breathe out slowly, stay.",
+      "thai": "ไหล่ลง, หายใจออกช้าๆ, อยู่กับที่",
+      "transliteration": "Sai long, hai chai ok cha-cha, yu kub thi",
+      "category": "Balance",
+      "generated_at": "2026-11-27T19:22:26.728261"
     }
   ],
-  "last_updated": "2026-11-27T11:53:47.471192"
+  "last_updated": "2026-11-27T19:22:26.728263"
 }
