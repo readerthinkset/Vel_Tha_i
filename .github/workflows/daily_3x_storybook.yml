@@ -2,9 +2,9 @@ name: Velocity Thai - Storybook Publish
 
 on:
   schedule:
-    - cron: '00:18 * * *'
-    - cron: '08:18 * * *'
-    - cron: '16:18 * * *'
+    - cron: '18 0 * * *'
+    - cron: '18 8 * * *'
+    - cron: '18 16 * * *'
   workflow_dispatch:
     inputs:
       category:
