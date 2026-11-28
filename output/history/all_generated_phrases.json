@@ -8161,7 +8161,28 @@
       "transliteration": "Sai long, hai chai ok cha-cha, yu kub thi",
       "category": "Balance",
       "generated_at": "2026-11-27T19:22:26.728261"
+    },
+    {
+      "english": "Can I get one more, please?",
+      "thai": "ขออีกหนึ่งแก้วได้ไหมครับ",
+      "transliteration": "Kho oi nueng gaew dai mai khrap",
+      "category": "Numbers",
+      "generated_at": "2026-11-28T07:51:50.821722"
+    },
+    {
+      "english": "I’ll take two, thanks.",
+      "thai": "เอาสองอันนะ ขอบคุณ",
+      "transliteration": "Ao song an na khop khun",
+      "category": "Numbers",
+      "generated_at": "2026-11-28T07:51:50.821734"
+    },
+    {
+      "english": "How much for just one?",
+      "thai": "อันเดียวเท่าไหร่ครับ",
+      "transliteration": "An diao thao rai khrap",
+      "category": "Numbers",
+      "generated_at": "2026-11-28T07:51:50.821736"
     }
   ],
-  "last_updated": "2026-11-27T19:22:26.728263"
+  "last_updated": "2026-11-28T07:51:50.821738"
 }

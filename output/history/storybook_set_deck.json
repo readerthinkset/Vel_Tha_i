@@ -1,6 +1,5 @@
 {
   "deck": [
-    "bamboo",
     "snow",
     "market",
     "autumn",
@@ -13,7 +12,8 @@
   ],
   "recent": [
     "savanna",
-    "desert"
+    "desert",
+    "bamboo"
   ],
-  "updated": "2026-11-27T19:22:15.586208"
+  "updated": "2026-11-28T07:51:42.850607"
 }
